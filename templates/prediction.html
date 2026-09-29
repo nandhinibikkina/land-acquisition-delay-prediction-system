@@ -1,0 +1,203 @@
+{% extends "base.html" %}
+
+{% block title %}What-If Scenario Analysis - LADIS Portal{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-12 col-xl-11">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <div>
+                <h3 class="fw-bold text-navy-900 m-0"><i class="bi bi-sliders me-2 text-primary"></i>What-If Scenario Analysis Simulator</h3>
+                <p class="text-slate-500 small m-0">Simulate hypothetical workflow improvements to compare predicted timeline reductions and risk score changes</p>
+            </div>
+        </div>
+
+        <div class="row g-4">
+            <!-- Left Column: Scenario Inputs -->
+            <div class="col-12 col-lg-7">
+                <div class="card border-0 shadow-sm rounded-3">
+                    <div class="card-header bg-white py-3">
+                        <h6 class="m-0 fw-bold text-navy-900"><i class="bi bi-gear-fill me-2 text-primary"></i>1. Baseline Case Parameters</h6>
+                    </div>
+                    <div class="card-body p-4">
+                        <form id="predictionForm" action="{{ url_for('prediction_simulator') }}" method="POST">
+                            <div class="row g-3">
+                                <div class="col-12 col-md-6">
+                                    <label class="form-label extra-small fw-bold text-uppercase text-slate-500">District</label>
+                                    <select name="district" class="form-select form-select-sm">
+                                        {% for d in ['East Godavari', 'West Godavari', 'Visakhapatnam', 'Krishna', 'Guntur', 'Kurnool', 'Chittoor', 'Nellore'] %}
+                                        <option value="{{ d }}" {% if input_data and input_data.district == d %}selected{% endif %}>{{ d }}</option>
+                                        {% endfor %}
+                                    </select>
+                                </div>
+
+                                <div class="col-12 col-md-6">
+                                    <label class="form-label extra-small fw-bold text-uppercase text-slate-500">Land Category</label>
+                                    <select name="land_type" class="form-select form-select-sm">
+                                        {% for t in ['Agricultural', 'Commercial', 'Residential', 'Barren'] %}
+                                        <option value="{{ t }}" {% if input_data and input_data.land_type == t %}selected{% endif %}>{{ t }}</option>
+                                        {% endfor %}
+                                    </select>
+                                </div>
+
+                                <div class="col-12 col-md-6">
+                                    <label class="form-label extra-small fw-bold text-uppercase text-slate-500">Acquisition Purpose</label>
+                                    <select name="acquisition_purpose" class="form-select form-select-sm">
+                                        {% for p in ['Highway Expansion', 'Railway Corridor', 'Industrial Park', 'Irrigation Project', 'Urban Infrastructure', 'Solar Power Plant'] %}
+                                        <option value="{{ p }}" {% if input_data and input_data.acquisition_purpose == p %}selected{% endif %}>{{ p }}</option>
+                                        {% endfor %}
+                                    </select>
+                                </div>
+
+                                <div class="col-12 col-md-6">
+                                    <label class="form-label extra-small fw-bold text-uppercase text-slate-500">Current Acquisition Stage</label>
+                                    <select name="current_stage" class="form-select form-select-sm">
+                                        {% for s in ['Land Identification', 'Owner Verification', 'Document Verification', 'Land Valuation', 'Compensation', 'Legal/Approval', 'Acquisition Completion'] %}
+                                        <option value="{{ s }}" {% if input_data and input_data.current_stage == s %}selected{% endif %}>{{ s }}</option>
+                                        {% endfor %}
+                                    </select>
+                                </div>
+
+                                <div class="col-12 col-md-6">
+                                    <label class="form-label extra-small fw-bold text-uppercase text-slate-500">Land Area (Acres)</label>
+                                    <input type="number" step="0.1" name="land_area" class="form-control form-control-sm" value="{{ input_data.land_area if input_data else 10.0 }}" required>
+                                </div>
+
+                                <div class="col-12 col-md-6">
+                                    <label class="form-label extra-small fw-bold text-uppercase text-slate-500">Days Pending</label>
+                                    <input type="number" name="days_pending" class="form-control form-control-sm" value="{{ input_data.days_pending if input_data else 45 }}" required>
+                                </div>
+
+                                <div class="col-12"><hr class="my-2 text-muted"></div>
+                                <div class="col-12">
+                                    <h6 class="m-0 fw-bold text-navy-900 small"><i class="bi bi-sliders2 me-2 text-primary"></i>2. Simulated Interventions (What-If Switches)</h6>
+                                </div>
+
+                                <div class="col-12 col-md-6">
+                                    <label class="form-label extra-small fw-bold text-uppercase text-slate-500">Current Documents Status</label>
+                                    <select name="documents_complete" class="form-select form-select-sm">
+                                        <option value="Yes" {% if input_data and input_data.documents_complete == 'Yes' %}selected{% endif %}>Yes - Documents Complete</option>
+                                        <option value="No" {% if not input_data or input_data.documents_complete == 'No' %}selected{% endif %}>No - Missing Documents</option>
+                                    </select>
+                                </div>
+
+                                <div class="col-12 col-md-6">
+                                    <label class="form-label extra-small fw-bold text-uppercase text-slate-500">Simulated Documents Status</label>
+                                    <select name="sim_documents_complete" class="form-select form-select-sm border-primary">
+                                        <option value="Yes" selected>Yes - Complete (Simulated Improvement)</option>
+                                        <option value="No">No - Still Missing</option>
+                                    </select>
+                                </div>
+
+                                <div class="col-12 col-md-6">
+                                    <label class="form-label extra-small fw-bold text-uppercase text-slate-500">Current Compensation Status</label>
+                                    <select name="compensation_status" class="form-select form-select-sm">
+                                        <option value="Completed" {% if input_data and input_data.compensation_status == 'Completed' %}selected{% endif %}>Completed</option>
+                                        <option value="Pending" {% if not input_data or input_data.compensation_status == 'Pending' %}selected{% endif %}>Pending</option>
+                                        <option value="Disputed" {% if input_data and input_data.compensation_status == 'Disputed' %}selected{% endif %}>Disputed</option>
+                                    </select>
+                                </div>
+
+                                <div class="col-12 col-md-6">
+                                    <label class="form-label extra-small fw-bold text-uppercase text-slate-500">Simulated Compensation Status</label>
+                                    <select name="sim_compensation_status" class="form-select form-select-sm border-primary">
+                                        <option value="Completed" selected>Completed (Simulated Disbursal)</option>
+                                        <option value="Pending">Pending</option>
+                                        <option value="Disputed">Disputed</option>
+                                    </select>
+                                </div>
+
+                                <div class="col-12 col-md-6">
+                                    <label class="form-label extra-small fw-bold text-uppercase text-slate-500">Current Legal Dispute</label>
+                                    <select name="legal_dispute" class="form-select form-select-sm">
+                                        <option value="No" {% if not input_data or input_data.legal_dispute == 'No' %}selected{% endif %}>No Litigation</option>
+                                        <option value="Yes" {% if input_data and input_data.legal_dispute == 'Yes' %}selected{% endif %}>Yes - Active Court Case</option>
+                                    </select>
+                                </div>
+
+                                <div class="col-12 col-md-6">
+                                    <label class="form-label extra-small fw-bold text-uppercase text-slate-500">Simulated Legal Dispute</label>
+                                    <select name="sim_legal_dispute" class="form-select form-select-sm border-primary">
+                                        <option value="No" selected>No Litigation (Stay Vacated)</option>
+                                        <option value="Yes">Yes - Active Court Case</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="mt-4 pt-2 text-end border-top">
+                                <button type="submit" class="btn btn-primary font-medium rounded-2 px-4 shadow-sm">
+                                    <i class="bi bi-play-circle me-1"></i> Run Scenario Simulation
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Column: Comparative Results Cards -->
+            <div class="col-12 col-lg-5">
+                {% if scenario_comparison %}
+                <div class="card border-0 shadow-sm rounded-3 mb-4">
+                    <div class="card-header bg-navy-900 text-white py-3 d-flex justify-content-between align-items-center">
+                        <h6 class="m-0 fw-bold"><i class="bi bi-bar-chart-steps me-2"></i>Comparative ML Inferences</h6>
+                        <span class="badge bg-primary">Real ML Models</span>
+                    </div>
+                    <div class="card-body p-4">
+                        <!-- Current vs Simulated Cards -->
+                        <div class="mb-3 p-3 bg-light rounded-3 border">
+                            <div class="extra-small fw-bold text-slate-500 text-uppercase mb-1">BASELINE CURRENT STATE</div>
+                            <div class="d-flex justify-content-between align-items-center mb-1">
+                                <span class="small font-medium">Est. Remaining:</span>
+                                <strong class="fs-5 text-primary">{{ scenario_comparison.current.predicted_remaining_days }} Days</strong>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="small font-medium">Risk Level:</span>
+                                <span class="badge badge-risk-{% if scenario_comparison.current.risk_level == 'HIGH' %}high{% else %}medium{% endif %}">
+                                    {{ scenario_comparison.current.risk_level }} ({{ scenario_comparison.current.risk_probability }}%)
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="mb-4 p-3 bg-primary-subtle rounded-3 border border-primary-subtle">
+                            <div class="extra-small fw-bold text-primary text-uppercase mb-1">SIMULATED IMPROVED SCENARIO</div>
+                            <div class="d-flex justify-content-between align-items-center mb-1">
+                                <span class="small font-medium">Est. Remaining:</span>
+                                <strong class="fs-5 text-primary">{{ scenario_comparison.simulated.predicted_remaining_days }} Days</strong>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="small font-medium">Simulated Risk:</span>
+                                <span class="badge badge-risk-{% if scenario_comparison.simulated.risk_level == 'HIGH' %}high{% elif scenario_comparison.simulated.risk_level == 'MEDIUM' %}medium{% else %}low{% endif %}">
+                                    {{ scenario_comparison.simulated.risk_level }} ({{ scenario_comparison.simulated.risk_probability }}%)
+                                </span>
+                            </div>
+                        </div>
+
+                        <!-- Impact Summary -->
+                        <div class="alert alert-success border-0 bg-success-subtle text-success-emphasis p-3 rounded-2 small mb-3">
+                            <i class="bi bi-lightning-charge-fill me-1"></i>
+                            <strong>Simulation Impact:</strong><br>
+                            Timeline Reduction: <strong>{{ scenario_comparison.days_saved }} Days Saved</strong><br>
+                            Risk Reduction: <strong>{{ scenario_comparison.risk_prob_reduction }}% Drop</strong>
+                        </div>
+
+                        <div class="p-3 bg-light rounded-2 border extra-small text-slate-600">
+                            <i class="bi bi-shield-exclamation text-warning me-1"></i>
+                            <strong>Disclaimer:</strong> {{ scenario_comparison.disclaimer }}
+                        </div>
+                    </div>
+                </div>
+                {% else %}
+                <div class="card border-0 shadow-sm rounded-3 py-5 text-center h-100 d-flex align-items-center justify-content-center">
+                    <div class="card-body">
+                        <i class="bi bi-sliders display-3 text-slate-400 mb-3 d-block"></i>
+                        <h5 class="fw-bold text-navy-900">Ready for Scenario Simulation</h5>
+                        <p class="text-slate-500 small max-w-xs mx-auto">Adjust scenario parameters on the left and click <strong>"Run Scenario Simulation"</strong> to visualize live ML comparative outputs.</p>
+                    </div>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+
+    </div>
+</div>
+{% endblock %}

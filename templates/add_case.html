@@ -1,0 +1,207 @@
+{% extends "base.html" %}
+
+{% block title %}Register Case - LADIS Portal{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-12 col-lg-10 col-xl-9">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <div>
+                <h3 class="fw-bold text-navy-900 m-0">Register New Acquisition Case</h3>
+                <p class="text-slate-500 small m-0">Input project parameters across statutory categories to run AI delay risk analysis</p>
+            </div>
+            <a href="{{ url_for('view_cases') }}" class="btn btn-outline-secondary btn-sm rounded-2">
+                <i class="bi bi-arrow-left me-1"></i> Back to Cases
+            </a>
+        </div>
+
+        <form action="{{ url_for('add_case_page') }}" method="POST">
+            
+            <!-- 1. Case Information -->
+            <div class="card border-0 shadow-sm rounded-3 mb-4">
+                <div class="card-header bg-white py-3">
+                    <h6 class="m-0 fw-bold text-navy-900"><i class="bi bi-card-heading me-2 text-primary"></i>1. Case Identification</h6>
+                </div>
+                <div class="card-body p-4">
+                    <div class="row g-3">
+                        <div class="col-12 col-md-6">
+                            <label class="form-label small fw-semibold text-dark">Case ID <span class="text-danger">*</span></label>
+                            <input type="text" name="case_id" class="form-control" placeholder="e.g. LA-2026" required value="LA-{{ range(2000, 9999) | random }}">
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <label class="form-label small fw-semibold text-dark">Application Date <span class="text-danger">*</span></label>
+                            <input type="date" name="application_date" class="form-control" required value="2024-03-15">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2. Land Information -->
+            <div class="card border-0 shadow-sm rounded-3 mb-4">
+                <div class="card-header bg-white py-3">
+                    <h6 class="m-0 fw-bold text-navy-900"><i class="bi bi-geo-alt me-2 text-primary"></i>2. Land & Location Parameters</h6>
+                </div>
+                <div class="card-body p-4">
+                    <div class="row g-3">
+                        <div class="col-12 col-md-4">
+                            <label class="form-label small fw-semibold text-dark">District <span class="text-danger">*</span></label>
+                            <select name="district" class="form-select" required>
+                                <option value="East Godavari">East Godavari</option>
+                                <option value="West Godavari">West Godavari</option>
+                                <option value="Visakhapatnam">Visakhapatnam</option>
+                                <option value="Krishna">Krishna</option>
+                                <option value="Guntur">Guntur</option>
+                                <option value="Kurnool">Kurnool</option>
+                                <option value="Chittoor">Chittoor</option>
+                                <option value="Nellore">Nellore</option>
+                            </select>
+                        </div>
+
+                        <div class="col-12 col-md-4">
+                            <label class="form-label small fw-semibold text-dark">Village / Revenue Unit <span class="text-danger">*</span></label>
+                            <input type="text" name="village" class="form-control" placeholder="e.g. Kakinada Rural" required value="Kakinada Rural">
+                        </div>
+
+                        <div class="col-12 col-md-4">
+                            <label class="form-label small fw-semibold text-dark">Land Area (Acres) <span class="text-danger">*</span></label>
+                            <input type="number" step="0.01" name="land_area" class="form-control" placeholder="e.g. 15.5" required value="12.5">
+                        </div>
+
+                        <div class="col-12 col-md-6">
+                            <label class="form-label small fw-semibold text-dark">Land Category <span class="text-danger">*</span></label>
+                            <select name="land_type" class="form-select" required>
+                                <option value="Agricultural">Agricultural</option>
+                                <option value="Commercial">Commercial</option>
+                                <option value="Residential">Residential</option>
+                                <option value="Barren">Barren / Industrial</option>
+                            </select>
+                        </div>
+
+                        <div class="col-12 col-md-6">
+                            <label class="form-label small fw-semibold text-dark">Acquisition Purpose <span class="text-danger">*</span></label>
+                            <select name="acquisition_purpose" class="form-select" required>
+                                <option value="Highway Expansion">Highway Expansion</option>
+                                <option value="Railway Corridor">Railway Corridor</option>
+                                <option value="Industrial Park">Industrial Park</option>
+                                <option value="Irrigation Project">Irrigation Project</option>
+                                <option value="Urban Infrastructure">Urban Infrastructure</option>
+                                <option value="Solar Power Plant">Solar Power Plant</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 3. Acquisition Progress -->
+            <div class="card border-0 shadow-sm rounded-3 mb-4">
+                <div class="card-header bg-white py-3">
+                    <h6 class="m-0 fw-bold text-navy-900"><i class="bi bi-diagram-3 me-2 text-primary"></i>3. Workflow Progress</h6>
+                </div>
+                <div class="card-body p-4">
+                    <div class="row g-3">
+                        <div class="col-12 col-md-6">
+                            <label class="form-label small fw-semibold text-dark">Current Stage <span class="text-danger">*</span></label>
+                            <select name="current_stage" class="form-select" required>
+                                <option value="Land Identification">Land Identification</option>
+                                <option value="Owner Verification">Owner Verification</option>
+                                <option value="Document Verification">Document Verification</option>
+                                <option value="Land Valuation">Land Valuation</option>
+                                <option value="Compensation" selected>Compensation</option>
+                                <option value="Legal/Approval">Legal/Approval</option>
+                                <option value="Acquisition Completion">Acquisition Completion</option>
+                            </select>
+                        </div>
+
+                        <div class="col-12 col-md-6">
+                            <label class="form-label small fw-semibold text-dark">Days Pending in System <span class="text-danger">*</span></label>
+                            <input type="number" name="days_pending" class="form-control" placeholder="e.g. 45" required value="45">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 4. Verification -->
+            <div class="card border-0 shadow-sm rounded-3 mb-4">
+                <div class="card-header bg-white py-3">
+                    <h6 class="m-0 fw-bold text-navy-900"><i class="bi bi-file-earmark-check me-2 text-primary"></i>4. Verification Checklist</h6>
+                </div>
+                <div class="card-body p-4">
+                    <div class="row g-3">
+                        <div class="col-12 col-md-6">
+                            <label class="form-label small fw-semibold text-dark">Documents Complete? <span class="text-danger">*</span></label>
+                            <select name="documents_complete" class="form-select" required>
+                                <option value="Yes">Yes - Complete</option>
+                                <option value="No" selected>No - Missing Documents</option>
+                            </select>
+                        </div>
+
+                        <div class="col-12 col-md-6">
+                            <label class="form-label small fw-semibold text-dark">Owner Identity Verified? <span class="text-danger">*</span></label>
+                            <select name="owner_verified" class="form-select" required>
+                                <option value="Yes" selected>Yes - Verified</option>
+                                <option value="No">No - Audit Pending</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 5. Compensation -->
+            <div class="card border-0 shadow-sm rounded-3 mb-4">
+                <div class="card-header bg-white py-3">
+                    <h6 class="m-0 fw-bold text-navy-900"><i class="bi bi-currency-rupee me-2 text-primary"></i>5. Compensation Award</h6>
+                </div>
+                <div class="card-body p-4">
+                    <div class="row g-3">
+                        <div class="col-12">
+                            <label class="form-label small fw-semibold text-dark">Compensation Award Status <span class="text-danger">*</span></label>
+                            <select name="compensation_status" class="form-select" required>
+                                <option value="Completed">Completed</option>
+                                <option value="Pending" selected>Pending</option>
+                                <option value="In Progress">In Progress</option>
+                                <option value="Disputed">Disputed</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 6. Legal / Approval -->
+            <div class="card border-0 shadow-sm rounded-3 mb-4">
+                <div class="card-header bg-white py-3">
+                    <h6 class="m-0 fw-bold text-navy-900"><i class="bi bi-gavel me-2 text-primary"></i>6. Statutory Approvals & Litigation</h6>
+                </div>
+                <div class="card-body p-4">
+                    <div class="row g-3">
+                        <div class="col-12 col-md-6">
+                            <label class="form-label small fw-semibold text-dark">Legal Dispute / Active Litigation <span class="text-danger">*</span></label>
+                            <select name="legal_dispute" class="form-select" required>
+                                <option value="No" selected>No Court Cases</option>
+                                <option value="Yes">Yes - Active Writ / Stay Order</option>
+                            </select>
+                        </div>
+
+                        <div class="col-12 col-md-6">
+                            <label class="form-label small fw-semibold text-dark">Statutory Clearance Status <span class="text-danger">*</span></label>
+                            <select name="approval_status" class="form-select" required>
+                                <option value="Approved">Approved</option>
+                                <option value="Pending" selected>Pending Sanction</option>
+                                <option value="Under Review">Under Administrative Review</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Submit Action -->
+            <div class="d-flex justify-content-end gap-2 mb-5">
+                <a href="{{ url_for('view_cases') }}" class="btn btn-light border px-4">Cancel</a>
+                <button type="submit" class="btn btn-primary px-4 fw-bold shadow-sm rounded-2">
+                    <i class="bi bi-cpu me-2"></i> Analyze Delay Risk
+                </button>
+            </div>
+
+        </form>
+    </div>
+</div>
+{% endblock %}

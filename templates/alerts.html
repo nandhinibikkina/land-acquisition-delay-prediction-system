@@ -1,0 +1,137 @@
+{% extends "base.html" %}
+
+{% block title %}Predictive Delay Alerts - LADIS Portal{% endblock %}
+
+{% block content %}
+<div class="d-flex flex-column flex-md-row justify-content-between align-items-md-center mb-4 gap-2">
+    <div>
+        <div class="d-flex align-items-center gap-2 mb-1">
+            <h3 class="fw-bold text-navy-900 m-0"><i class="bi bi-bell-fill text-danger me-2"></i>Predictive Delay Alerts</h3>
+            <span class="badge bg-danger text-white rounded-pill px-3 py-1">{{ alert_cases|length }} Flagged Alerts</span>
+        </div>
+        <p class="text-slate-500 small m-0">Automated warning feed prioritizing acquisition projects at risk of statutory deadline overruns</p>
+    </div>
+    <a href="{{ url_for('view_cases') }}" class="btn btn-outline-secondary btn-sm font-medium rounded-2">
+        <i class="bi bi-folder2-open me-1"></i> View All Cases
+    </a>
+</div>
+
+<!-- Filters & Search Bar -->
+<div class="card border-0 shadow-sm rounded-3 mb-4">
+    <div class="card-body p-3">
+        <form action="{{ url_for('alerts') }}" method="GET" class="row g-2 align-items-center">
+            <div class="col-12 col-md-4">
+                <div class="input-group input-group-sm">
+                    <span class="input-group-text bg-light border-end-0 text-muted"><i class="bi bi-search"></i></span>
+                    <input type="text" name="q" class="form-control border-start-0" placeholder="Search case ID, district..." value="{{ query }}">
+                </div>
+            </div>
+
+            <div class="col-12 col-md-5">
+                <div class="btn-group btn-group-sm w-100" role="group">
+                    <a href="{{ url_for('alerts', risk='All', q=query) }}" class="btn btn-outline-secondary {% if selected_risk == 'All' %}active{% endif %}">All Warnings</a>
+                    <a href="{{ url_for('alerts', risk='HIGH', q=query) }}" class="btn btn-outline-danger {% if selected_risk == 'HIGH' %}active{% endif %}">High Risk</a>
+                    <a href="{{ url_for('alerts', risk='MEDIUM', q=query) }}" class="btn btn-outline-warning {% if selected_risk == 'MEDIUM' %}active{% endif %}">Medium Risk</a>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-3 text-end">
+                <button type="submit" class="btn btn-primary btn-sm px-3 w-100">Filter Alerts</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+{% if alert_cases %}
+<div class="row g-4">
+    {% for case in alert_cases %}
+    <div class="col-12 col-md-6 col-xl-4">
+        <div class="card border-0 shadow-sm rounded-3 h-100 border-top border-4 border-{% if case.risk_level == 'HIGH' %}danger{% else %}warning{% endif %}">
+            <div class="card-header bg-white py-3 d-flex justify-content-between align-items-center">
+                <div>
+                    {% if case.risk_level == 'HIGH' %}
+                        <span class="badge badge-risk-high me-1">HIGH RISK</span>
+                    {% else %}
+                        <span class="badge badge-risk-medium me-1">MEDIUM RISK</span>
+                    {% endif %}
+                    <strong class="text-navy-900 fs-6">{{ case.case_id }}</strong>
+                </div>
+                <span class="small fw-bold text-{% if case.risk_level == 'HIGH' %}danger{% else %}warning-emphasis{% endif %}">{{ case.risk_probability }}% Risk</span>
+            </div>
+
+            <div class="card-body p-4 d-flex flex-column">
+                <!-- Location & Stage Header -->
+                <div class="mb-3">
+                    <div class="d-flex justify-content-between align-items-start mb-1">
+                        <span class="fw-bold text-dark fs-6">{{ case.district }}</span>
+                        <span class="badge bg-light text-dark border">{{ case.current_stage }}</span>
+                    </div>
+                    <div class="extra-small text-slate-500"><i class="bi bi-geo-alt me-1"></i> {{ case.village }} ({{ case.land_area }} Acres)</div>
+                </div>
+
+                <!-- Metrics Box -->
+                <div class="row g-2 mb-3 text-center">
+                    <div class="col-6">
+                        <div class="p-2.5 bg-light rounded-2 border">
+                            <div class="extra-small text-slate-500">Days Pending</div>
+                            <div class="fw-bold text-danger fs-6">{{ case.days_pending }} Days</div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="p-2.5 bg-light rounded-2 border">
+                            <div class="extra-small text-slate-500">Est. Remaining</div>
+                            <div class="fw-bold text-primary fs-6">{{ case.predicted_remaining_days }} Days</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contributing Risk Indicators -->
+                <div class="mb-3">
+                    <div class="extra-small fw-bold text-uppercase text-slate-500 mb-1">
+                        <i class="bi bi-exclamation-triangle text-warning me-1"></i> Potential Risk Indicators:
+                    </div>
+                    <ul class="list-unstyled mb-0 extra-small ps-1">
+                        {% if case.risk_factors_list %}
+                            {% for factor in case.risk_factors_list %}
+                            <li class="text-danger py-0.5">
+                                <i class="bi bi-caret-right-fill me-1 text-slate-400"></i> {{ factor }}
+                            </li>
+                            {% endfor %}
+                        {% else %}
+                            <li class="text-muted"><i class="bi bi-dash me-1"></i> Long pending duration</li>
+                        {% endif %}
+                    </ul>
+                </div>
+
+                <!-- Suggested Action -->
+                <div class="mb-4 mt-auto">
+                    <div class="extra-small fw-bold text-uppercase text-slate-500 mb-1">
+                        <i class="bi bi-person-gear text-primary me-1"></i> Recommended Action:
+                    </div>
+                    <div class="extra-small text-dark p-2.5 rounded-2 bg-warning-subtle border border-warning-subtle">
+                        {{ case.suggested_actions[0] if case.suggested_actions else 'Review pending status and expedite officer sanction.' }}
+                    </div>
+                </div>
+
+                <!-- Action Button -->
+                <div class="pt-2">
+                    <a href="{{ url_for('case_details', case_id=case.case_id) }}" class="btn btn-outline-primary w-100 btn-sm font-medium rounded-2">
+                        View Case Details & Review
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% else %}
+<div class="card border-0 shadow-sm rounded-3 py-5 text-center">
+    <div class="card-body">
+        <i class="bi bi-shield-check text-success display-4 mb-3 d-block"></i>
+        <h5 class="fw-bold text-navy-900">No Active Delay Alerts</h5>
+        <p class="text-slate-500 small max-w-md mx-auto">All acquisition cases are currently operating within standard statutory timelines.</p>
+        <a href="{{ url_for('view_cases') }}" class="btn btn-primary btn-sm rounded-2">Explore Cases Directory</a>
+    </div>
+</div>
+{% endif %}
+{% endblock %}

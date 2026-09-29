@@ -1,0 +1,108 @@
+{% extends "base.html" %}
+
+{% block title %}Advanced Analytics - LADIS Portal{% endblock %}
+
+{% block content %}
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <div>
+        <h3 class="fw-bold text-navy-900 m-0"><i class="bi bi-bar-chart-line-fill me-2 text-primary"></i>Advanced Analytics & District Risk Comparison</h3>
+        <p class="text-slate-500 small m-0">Comprehensive data breakdown across revenue districts and statutory workflow stages</p>
+    </div>
+</div>
+
+<!-- District Risk Analytics (Feature 6) -->
+<div class="card border-0 shadow-sm rounded-3 mb-4">
+    <div class="card-header bg-white py-3">
+        <h6 class="m-0 fw-bold text-navy-900"><i class="bi bi-geo-alt-fill me-2 text-primary"></i>District Risk Analytics & Case Load Comparison</h6>
+    </div>
+    <div class="card-body p-3">
+        <div class="table-responsive mb-4">
+            <table class="table table-hover align-middle mb-0">
+                <thead class="bg-light">
+                    <tr>
+                        <th class="ps-3">District</th>
+                        <th>Total Cases</th>
+                        <th>High Risk</th>
+                        <th>Medium Risk</th>
+                        <th>Low Risk</th>
+                        <th>Avg Days Pending</th>
+                        <th>Avg Est. Remaining</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for d in district_analytics %}
+                    <tr>
+                        <td class="ps-3 fw-bold text-navy-900">{{ d.district }}</td>
+                        <td><span class="badge bg-light text-dark border">{{ d.total_cases }}</span></td>
+                        <td><span class="fw-bold text-danger">{{ d.high_risk }}</span></td>
+                        <td><span class="fw-bold text-warning-emphasis">{{ d.medium_risk }}</span></td>
+                        <td><span class="fw-bold text-success">{{ d.low_risk }}</span></td>
+                        <td>{{ d.avg_pending }} Days</td>
+                        <td><strong>{{ d.avg_est_remaining }} Days</strong></td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+
+        <div style="height: 280px;">
+            <canvas id="districtRiskChart"></canvas>
+        </div>
+    </div>
+</div>
+
+<!-- Stage Bottleneck Analysis (Feature 7) -->
+<div class="card border-0 shadow-sm rounded-3">
+    <div class="card-header bg-white py-3">
+        <h6 class="m-0 fw-bold text-navy-900"><i class="bi bi-funnel-fill me-2 text-warning"></i>Stage Bottleneck Analysis</h6>
+    </div>
+    <div class="card-body p-3">
+        <div class="table-responsive mb-4">
+            <table class="table table-hover align-middle mb-0">
+                <thead class="bg-light">
+                    <tr>
+                        <th class="ps-3">Acquisition Stage</th>
+                        <th>Total Cases in Stage</th>
+                        <th>Avg Days Pending</th>
+                        <th>Avg Est. Remaining</th>
+                        <th>High Risk Count</th>
+                        <th>Observed Bottleneck Severity</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for b in bottlenecks %}
+                    <tr>
+                        <td class="ps-3 fw-bold text-dark">{{ b.stage }}</td>
+                        <td>{{ b.total_cases }}</td>
+                        <td><span class="fw-bold text-navy-900">{{ b.avg_pending }} Days</span></td>
+                        <td>{{ b.avg_est_remaining }} Days</td>
+                        <td><span class="badge bg-danger-subtle text-danger border">{{ b.high_risk_count }} Cases</span></td>
+                        <td>
+                            {% if b.severity == 'High Bottleneck' %}
+                                <span class="badge bg-danger text-white">High Bottleneck</span>
+                            {% elif b.severity == 'Moderate Delay' %}
+                                <span class="badge bg-warning text-dark">Moderate Delay</span>
+                            {% else %}
+                                <span class="badge bg-success-subtle text-success border">Normal Pace</span>
+                            {% endif %}
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+
+        <div style="height: 260px;">
+            <canvas id="avgPendingChart"></canvas>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+    window.dashboardStats = {{ stats | tojson }};
+    window.districtAnalytics = {{ district_analytics | tojson }};
+</script>
+<script src="{{ url_for('static', filename='js/dashboard.js') }}"></script>
+{% endblock %}

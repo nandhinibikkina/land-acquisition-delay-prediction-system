@@ -1,0 +1,1201 @@
+case_id,district,village,land_area,land_type,acquisition_purpose,current_stage,application_date,days_pending,documents_complete,owner_verified,compensation_status,legal_dispute,approval_status,actual_remaining_days,delayed
+LA-1001,Chittoor,Vijayawada North,114.11,Residential,Urban Infrastructure,Compensation,2023-09-11,112,Yes,Yes,In Progress,No,Approved,39,0
+LA-1002,Nellore,Nandyal,0.59,Barren,Highway Expansion,Land Valuation,2023-10-26,67,Yes,Yes,In Progress,No,Approved,67,0
+LA-1003,Krishna,Anakapalle,46.2,Barren,Highway Expansion,Document Verification,2023-11-02,60,Yes,Yes,Completed,No,Under Review,117,0
+LA-1004,Krishna,Gudur,4.61,Barren,Irrigation Project,Owner Verification,2023-09-10,113,No,Yes,In Progress,No,Approved,134,1
+LA-1005,West Godavari,Rajahmundry,47.72,Barren,Solar Power Plant,Acquisition Completion,2023-06-16,199,Yes,Yes,Completed,No,Approved,18,1
+LA-1006,Guntur,Kakinada Rural,2.37,Agricultural,Highway Expansion,Land Valuation,2023-08-09,145,Yes,No,Pending,No,Under Review,182,1
+LA-1007,East Godavari,Tirupati Rural,102.08,Agricultural,Highway Expansion,Acquisition Completion,2023-07-25,160,Yes,Yes,In Progress,No,Approved,31,0
+LA-1008,East Godavari,Tenali,67.57,Residential,Industrial Park,Land Identification,2023-05-30,216,Yes,Yes,In Progress,Yes,Under Review,284,1
+LA-1009,Guntur,Tirupati Rural,72.73,Agricultural,Urban Infrastructure,Land Valuation,2023-12-10,22,Yes,Yes,In Progress,No,Pending,67,0
+LA-1010,Krishna,Eluru,15.09,Agricultural,Solar Power Plant,Land Identification,2023-08-16,138,Yes,Yes,Pending,No,Approved,189,1
+LA-1011,East Godavari,Tenali,83.25,Agricultural,Industrial Park,Legal/Approval,2023-07-16,169,Yes,Yes,Completed,No,Pending,63,1
+LA-1012,Visakhapatnam,Kakinada Rural,117.21,Agricultural,Urban Infrastructure,Land Identification,2023-08-16,138,Yes,Yes,In Progress,No,Approved,153,0
+LA-1013,Nellore,Kakinada Rural,87.52,Agricultural,Irrigation Project,Owner Verification,2023-06-08,207,Yes,No,Pending,Yes,Under Review,299,1
+LA-1014,Krishna,Tirupati Rural,21.34,Commercial,Railway Corridor,Land Identification,2023-12-12,20,Yes,Yes,Disputed,No,Approved,194,1
+LA-1015,Nellore,Eluru,117.87,Agricultural,Highway Expansion,Owner Verification,2023-08-16,138,Yes,No,Disputed,No,Approved,189,1
+LA-1016,East Godavari,Gudur,102.19,Barren,Irrigation Project,Legal/Approval,2023-09-10,113,Yes,Yes,Completed,No,Approved,48,0
+LA-1017,Nellore,Rajahmundry,58.53,Agricultural,Urban Infrastructure,Land Identification,2023-07-15,170,Yes,Yes,In Progress,No,Under Review,167,1
+LA-1018,Kurnool,Tirupati Rural,30.43,Commercial,Solar Power Plant,Compensation,2023-11-02,60,No,Yes,In Progress,No,Under Review,66,0
+LA-1019,Krishna,Anakapalle,68.85,Residential,Highway Expansion,Land Valuation,2023-07-18,167,No,No,In Progress,Yes,Pending,294,1
+LA-1020,Guntur,Tirupati Rural,32.58,Agricultural,Railway Corridor,Land Identification,2023-10-30,63,Yes,Yes,Completed,No,Pending,155,1
+LA-1021,West Godavari,Rajahmundry,39.04,Residential,Highway Expansion,Document Verification,2023-06-30,185,Yes,Yes,In Progress,No,Under Review,115,0
+LA-1022,Kurnool,Anakapalle,40.89,Agricultural,Railway Corridor,Acquisition Completion,2023-06-15,200,Yes,Yes,In Progress,No,Approved,36,1
+LA-1023,West Godavari,Nandyal,36.74,Agricultural,Urban Infrastructure,Land Identification,2023-12-15,17,No,Yes,Pending,Yes,Approved,335,1
+LA-1024,Nellore,Rajahmundry,62.2,Agricultural,Highway Expansion,Acquisition Completion,2023-12-04,28,Yes,Yes,Completed,No,Under Review,38,0
+LA-1025,Krishna,Tenali,7.45,Barren,Railway Corridor,Legal/Approval,2023-08-27,127,No,Yes,Completed,No,Under Review,93,1
+LA-1026,Kurnool,Bhimavaram,41.35,Agricultural,Highway Expansion,Legal/Approval,2023-06-16,199,No,Yes,Completed,No,Under Review,103,1
+LA-1027,West Godavari,Eluru,113.92,Barren,Irrigation Project,Acquisition Completion,2023-08-07,147,Yes,Yes,Pending,No,Approved,98,1
+LA-1028,Krishna,Rajahmundry,69.02,Agricultural,Urban Infrastructure,Document Verification,2023-07-05,180,No,Yes,Disputed,No,Approved,198,1
+LA-1029,Kurnool,Rajahmundry,5.16,Commercial,Highway Expansion,Owner Verification,2023-12-15,17,Yes,Yes,In Progress,No,Under Review,148,0
+LA-1030,Krishna,Bhimavaram,96.52,Agricultural,Railway Corridor,Compensation,2023-06-05,210,Yes,Yes,In Progress,Yes,Approved,167,1
+LA-1031,Chittoor,Tenali,29.01,Commercial,Highway Expansion,Document Verification,2023-09-09,114,Yes,Yes,In Progress,No,Approved,90,1
+LA-1032,Krishna,Anakapalle,59.42,Agricultural,Urban Infrastructure,Document Verification,2023-08-05,149,Yes,Yes,Pending,No,Under Review,174,1
+LA-1033,Chittoor,Eluru,53.26,Barren,Industrial Park,Document Verification,2023-07-30,155,No,Yes,Pending,No,Pending,222,1
+LA-1034,West Godavari,Tenali,61.84,Agricultural,Urban Infrastructure,Land Identification,2023-09-28,95,No,No,Disputed,No,Approved,243,1
+LA-1035,Kurnool,Tirupati Rural,51.19,Barren,Solar Power Plant,Document Verification,2023-07-03,182,Yes,Yes,Completed,Yes,Approved,217,1
+LA-1036,Kurnool,Bhimavaram,45.3,Agricultural,Highway Expansion,Legal/Approval,2023-08-28,126,No,Yes,Disputed,Yes,Pending,281,1
+LA-1037,Visakhapatnam,Vijayawada North,9.51,Agricultural,Highway Expansion,Legal/Approval,2023-08-02,152,Yes,Yes,In Progress,No,Approved,50,1
+LA-1038,West Godavari,Vijayawada North,55.91,Agricultural,Railway Corridor,Land Valuation,2023-09-13,110,No,No,Pending,No,Approved,195,1
+LA-1039,Nellore,Anakapalle,98.79,Barren,Urban Infrastructure,Acquisition Completion,2023-07-23,162,Yes,No,Pending,Yes,Approved,141,1
+LA-1040,Kurnool,Kakinada Rural,100.68,Agricultural,Industrial Park,Acquisition Completion,2023-08-16,138,Yes,Yes,In Progress,No,Approved,43,0
+LA-1041,Guntur,Tirupati Rural,92.39,Barren,Railway Corridor,Document Verification,2023-07-31,154,Yes,Yes,In Progress,No,Approved,113,1
+LA-1042,Nellore,Tirupati Rural,80.75,Agricultural,Solar Power Plant,Document Verification,2023-08-22,132,Yes,No,Disputed,Yes,Under Review,327,1
+LA-1043,Guntur,Rajahmundry,96.7,Barren,Irrigation Project,Owner Verification,2023-11-15,47,Yes,Yes,Pending,Yes,Under Review,270,1
+LA-1044,Chittoor,Eluru,103.55,Barren,Irrigation Project,Owner Verification,2023-06-22,193,No,No,Completed,Yes,Under Review,336,1
+LA-1045,Visakhapatnam,Bhimavaram,55.48,Commercial,Industrial Park,Legal/Approval,2023-08-01,153,Yes,Yes,Completed,No,Under Review,88,1
+LA-1046,Guntur,Nandyal,14.92,Agricultural,Railway Corridor,Legal/Approval,2023-11-19,43,Yes,Yes,Completed,Yes,Under Review,140,1
+LA-1047,Nellore,Kakinada Rural,33.59,Residential,Highway Expansion,Document Verification,2023-06-26,189,Yes,Yes,In Progress,No,Approved,104,0
+LA-1048,Visakhapatnam,Tirupati Rural,82.62,Residential,Industrial Park,Acquisition Completion,2023-12-05,27,Yes,Yes,Completed,No,Approved,12,0
+LA-1049,West Godavari,Tirupati Rural,38.99,Agricultural,Railway Corridor,Legal/Approval,2023-11-09,53,Yes,Yes,In Progress,No,Under Review,68,0
+LA-1050,West Godavari,Gudur,70.59,Commercial,Railway Corridor,Land Identification,2023-09-13,110,Yes,Yes,Pending,No,Pending,169,1
+LA-1051,Guntur,Nandyal,27.43,Agricultural,Irrigation Project,Legal/Approval,2023-10-09,84,Yes,No,Completed,No,Approved,72,0
+LA-1052,Chittoor,Nandyal,48.04,Barren,Irrigation Project,Acquisition Completion,2023-08-11,143,No,Yes,In Progress,No,Approved,66,1
+LA-1053,Guntur,Tenali,22.85,Agricultural,Industrial Park,Land Valuation,2023-12-03,29,Yes,Yes,Pending,No,Under Review,134,1
+LA-1054,Kurnool,Rajahmundry,54.79,Agricultural,Railway Corridor,Land Valuation,2023-08-15,139,Yes,No,In Progress,No,Under Review,126,1
+LA-1055,Visakhapatnam,Kakinada Rural,102.16,Residential,Railway Corridor,Legal/Approval,2023-08-28,126,No,No,Completed,Yes,Under Review,255,1
+LA-1056,Guntur,Tenali,28.67,Commercial,Solar Power Plant,Land Valuation,2023-09-25,98,No,Yes,Pending,No,Approved,172,1
+LA-1057,Kurnool,Kakinada Rural,89.84,Agricultural,Highway Expansion,Land Identification,2023-06-12,203,Yes,No,Pending,Yes,Pending,324,1
+LA-1058,Krishna,Tirupati Rural,68.99,Barren,Highway Expansion,Land Identification,2023-07-21,164,No,Yes,Pending,No,Pending,268,1
+LA-1059,Chittoor,Vijayawada North,55.11,Commercial,Urban Infrastructure,Compensation,2023-07-19,166,Yes,Yes,In Progress,No,Under Review,78,1
+LA-1060,West Godavari,Gudur,70.22,Agricultural,Railway Corridor,Legal/Approval,2023-09-07,116,Yes,Yes,In Progress,No,Approved,20,0
+LA-1061,Krishna,Vijayawada North,110.29,Residential,Urban Infrastructure,Acquisition Completion,2023-09-08,115,No,Yes,Completed,Yes,Approved,121,1
+LA-1062,Krishna,Nandyal,100.58,Agricultural,Solar Power Plant,Acquisition Completion,2023-08-30,124,Yes,Yes,Completed,No,Under Review,44,0
+LA-1063,Chittoor,Vijayawada North,64.72,Barren,Railway Corridor,Acquisition Completion,2023-05-27,219,Yes,No,In Progress,Yes,Under Review,172,1
+LA-1064,East Godavari,Nandyal,26.8,Agricultural,Highway Expansion,Acquisition Completion,2023-10-03,90,No,Yes,Completed,Yes,Pending,135,1
+LA-1065,Nellore,Tirupati Rural,51.5,Residential,Solar Power Plant,Legal/Approval,2023-11-24,38,Yes,Yes,Pending,No,Approved,100,1
+LA-1066,Krishna,Kakinada Rural,48.39,Commercial,Irrigation Project,Land Identification,2023-12-15,17,No,No,In Progress,No,Under Review,181,1
+LA-1067,Chittoor,Gudur,3.74,Agricultural,Industrial Park,Acquisition Completion,2023-10-12,81,Yes,No,Completed,No,Approved,46,0
+LA-1068,Nellore,Vijayawada North,113.36,Agricultural,Solar Power Plant,Acquisition Completion,2023-10-29,64,No,Yes,Completed,No,Approved,58,0
+LA-1069,Krishna,Rajahmundry,107.17,Residential,Irrigation Project,Document Verification,2023-08-15,139,Yes,Yes,Pending,No,Under Review,161,1
+LA-1070,Kurnool,Gudur,14.15,Commercial,Industrial Park,Legal/Approval,2023-08-17,137,Yes,Yes,In Progress,No,Under Review,78,0
+LA-1071,Visakhapatnam,Vijayawada North,16.31,Barren,Railway Corridor,Acquisition Completion,2023-11-16,46,Yes,No,Completed,No,Approved,29,0
+LA-1072,Krishna,Tirupati Rural,13.24,Agricultural,Industrial Park,Land Identification,2023-11-22,40,No,Yes,Pending,No,Approved,182,1
+LA-1073,West Godavari,Tenali,46.29,Agricultural,Railway Corridor,Land Valuation,2023-10-30,63,No,Yes,Pending,No,Approved,153,1
+LA-1074,Chittoor,Gudur,68.19,Agricultural,Solar Power Plant,Legal/Approval,2023-10-15,78,Yes,Yes,In Progress,Yes,Pending,132,1
+LA-1075,Visakhapatnam,Rajahmundry,74.99,Agricultural,Highway Expansion,Land Identification,2023-11-13,49,No,Yes,Pending,No,Approved,212,1
+LA-1076,Kurnool,Nandyal,71.03,Agricultural,Irrigation Project,Document Verification,2023-11-04,58,Yes,No,In Progress,No,Under Review,157,1
+LA-1077,Guntur,Kakinada Rural,79.22,Commercial,Solar Power Plant,Land Identification,2023-05-27,219,Yes,Yes,Disputed,No,Approved,167,1
+LA-1078,Chittoor,Tenali,87.86,Agricultural,Railway Corridor,Document Verification,2023-10-02,91,No,Yes,In Progress,No,Under Review,137,1
+LA-1079,Krishna,Rajahmundry,106.26,Agricultural,Railway Corridor,Acquisition Completion,2023-09-06,117,Yes,No,In Progress,No,Approved,33,0
+LA-1080,Kurnool,Rajahmundry,3.42,Barren,Solar Power Plant,Document Verification,2023-12-10,22,Yes,No,Pending,No,Approved,175,1
+LA-1081,Guntur,Tenali,57.83,Commercial,Irrigation Project,Acquisition Completion,2023-08-24,130,No,Yes,Completed,No,Approved,48,0
+LA-1082,Krishna,Rajahmundry,28.42,Agricultural,Highway Expansion,Compensation,2023-05-30,216,Yes,Yes,In Progress,No,Pending,78,1
+LA-1083,Chittoor,Gudur,106.16,Commercial,Solar Power Plant,Compensation,2023-07-23,162,No,Yes,Completed,No,Approved,110,1
+LA-1084,West Godavari,Anakapalle,99.23,Residential,Solar Power Plant,Acquisition Completion,2023-06-29,186,Yes,Yes,In Progress,No,Approved,25,1
+LA-1085,Nellore,Anakapalle,97.99,Agricultural,Urban Infrastructure,Acquisition Completion,2023-09-25,98,Yes,Yes,Completed,No,Approved,17,0
+LA-1086,Guntur,Rajahmundry,49.31,Agricultural,Industrial Park,Compensation,2023-06-30,185,Yes,Yes,Completed,No,Approved,73,0
+LA-1087,Guntur,Anakapalle,99.05,Agricultural,Railway Corridor,Document Verification,2023-06-01,214,Yes,No,Pending,No,Pending,216,1
+LA-1088,West Godavari,Vijayawada North,74.42,Residential,Urban Infrastructure,Document Verification,2023-11-08,54,No,Yes,Pending,Yes,Approved,273,1
+LA-1089,West Godavari,Tirupati Rural,23.58,Agricultural,Industrial Park,Land Identification,2023-12-06,26,Yes,Yes,Completed,No,Approved,144,0
+LA-1090,Krishna,Tenali,12.75,Barren,Irrigation Project,Owner Verification,2023-10-16,77,Yes,Yes,Completed,No,Approved,102,0
+LA-1091,West Godavari,Gudur,5.97,Barren,Urban Infrastructure,Land Valuation,2023-07-12,173,Yes,Yes,In Progress,Yes,Pending,221,1
+LA-1092,Krishna,Kakinada Rural,12.71,Barren,Urban Infrastructure,Compensation,2023-10-09,84,Yes,Yes,In Progress,No,Approved,30,0
+LA-1093,East Godavari,Gudur,52.16,Barren,Urban Infrastructure,Document Verification,2023-09-30,93,Yes,Yes,Disputed,No,Pending,130,1
+LA-1094,Chittoor,Gudur,19.53,Agricultural,Urban Infrastructure,Compensation,2023-12-15,17,No,No,In Progress,No,Approved,112,1
+LA-1095,Kurnool,Bhimavaram,0.65,Commercial,Solar Power Plant,Land Valuation,2023-09-30,93,Yes,Yes,In Progress,Yes,Under Review,190,1
+LA-1096,Guntur,Kakinada Rural,1.89,Agricultural,Railway Corridor,Legal/Approval,2023-09-19,104,No,Yes,In Progress,No,Pending,115,1
+LA-1097,Nellore,Bhimavaram,29.42,Barren,Solar Power Plant,Legal/Approval,2023-09-22,101,No,Yes,Completed,No,Under Review,80,1
+LA-1098,Krishna,Eluru,47.93,Agricultural,Railway Corridor,Legal/Approval,2023-08-23,131,No,Yes,Completed,Yes,Under Review,174,1
+LA-1099,East Godavari,Tirupati Rural,73.75,Agricultural,Irrigation Project,Owner Verification,2023-09-22,101,No,Yes,Pending,Yes,Pending,291,1
+LA-1100,Krishna,Tirupati Rural,78.21,Agricultural,Industrial Park,Owner Verification,2023-07-29,156,No,Yes,In Progress,No,Under Review,184,1
+LA-1101,Kurnool,Rajahmundry,78.56,Agricultural,Highway Expansion,Document Verification,2023-08-14,140,Yes,Yes,In Progress,No,Approved,119,1
+LA-1102,Guntur,Gudur,51.35,Agricultural,Irrigation Project,Legal/Approval,2023-12-03,29,Yes,Yes,In Progress,No,Approved,34,0
+LA-1103,West Godavari,Vijayawada North,104.87,Barren,Solar Power Plant,Acquisition Completion,2023-07-06,179,No,Yes,Completed,No,Approved,69,1
+LA-1104,Chittoor,Eluru,28.89,Barren,Urban Infrastructure,Compensation,2023-07-10,175,Yes,Yes,Pending,No,Under Review,141,1
+LA-1105,Chittoor,Nandyal,78.43,Agricultural,Irrigation Project,Owner Verification,2023-07-13,172,Yes,Yes,Pending,Yes,Pending,268,1
+LA-1106,Kurnool,Bhimavaram,51.99,Agricultural,Industrial Park,Land Valuation,2023-12-22,10,Yes,Yes,In Progress,No,Approved,68,0
+LA-1107,Krishna,Tenali,93.92,Residential,Irrigation Project,Acquisition Completion,2023-05-30,216,Yes,Yes,Completed,No,Approved,27,1
+LA-1108,Guntur,Kakinada Rural,61.11,Agricultural,Railway Corridor,Land Valuation,2023-06-25,190,Yes,Yes,Completed,No,Pending,103,1
+LA-1109,Visakhapatnam,Rajahmundry,41.45,Agricultural,Solar Power Plant,Compensation,2023-11-01,61,No,Yes,In Progress,No,Approved,71,1
+LA-1110,Chittoor,Nandyal,31.01,Commercial,Railway Corridor,Document Verification,2023-06-04,211,Yes,Yes,Pending,No,Under Review,179,1
+LA-1111,Kurnool,Vijayawada North,81.34,Agricultural,Solar Power Plant,Compensation,2023-11-05,57,Yes,Yes,In Progress,No,Approved,44,0
+LA-1112,Nellore,Bhimavaram,11.31,Agricultural,Industrial Park,Land Valuation,2023-09-16,107,Yes,Yes,Pending,No,Under Review,140,1
+LA-1113,Guntur,Kakinada Rural,14.86,Agricultural,Highway Expansion,Compensation,2023-08-02,152,Yes,Yes,In Progress,No,Under Review,49,0
+LA-1114,Visakhapatnam,Anakapalle,20.63,Commercial,Railway Corridor,Legal/Approval,2023-12-14,18,Yes,No,In Progress,No,Approved,85,0
+LA-1115,East Godavari,Tenali,48.16,Commercial,Irrigation Project,Land Valuation,2023-12-08,24,Yes,Yes,Pending,No,Under Review,137,1
+LA-1116,Visakhapatnam,Anakapalle,7.7,Barren,Solar Power Plant,Document Verification,2023-11-19,43,Yes,Yes,Pending,No,Pending,164,1
+LA-1117,Nellore,Eluru,73.43,Residential,Highway Expansion,Compensation,2023-08-13,141,No,Yes,Completed,No,Under Review,121,1
+LA-1118,Kurnool,Kakinada Rural,45.13,Agricultural,Industrial Park,Compensation,2023-08-26,128,Yes,Yes,In Progress,No,Under Review,89,1
+LA-1119,East Godavari,Eluru,31.05,Agricultural,Industrial Park,Land Valuation,2023-10-24,69,Yes,No,Pending,Yes,Under Review,262,1
+LA-1120,Guntur,Kakinada Rural,21.82,Agricultural,Industrial Park,Land Valuation,2023-06-07,208,Yes,Yes,In Progress,No,Under Review,111,1
+LA-1121,West Godavari,Anakapalle,53.4,Agricultural,Highway Expansion,Land Identification,2023-06-03,212,No,Yes,In Progress,No,Under Review,226,1
+LA-1122,Krishna,Anakapalle,48.44,Agricultural,Solar Power Plant,Land Identification,2023-06-10,205,Yes,No,Pending,Yes,Under Review,297,1
+LA-1123,Kurnool,Eluru,40.29,Commercial,Irrigation Project,Owner Verification,2023-09-12,111,Yes,Yes,In Progress,Yes,Under Review,230,1
+LA-1124,East Godavari,Tirupati Rural,64.53,Agricultural,Highway Expansion,Acquisition Completion,2023-08-01,153,Yes,Yes,Disputed,No,Approved,77,1
+LA-1125,Visakhapatnam,Gudur,2.89,Residential,Irrigation Project,Land Identification,2023-08-24,130,Yes,Yes,In Progress,No,Pending,194,0
+LA-1126,East Godavari,Tirupati Rural,31.94,Agricultural,Urban Infrastructure,Owner Verification,2023-06-05,210,Yes,No,In Progress,No,Pending,178,1
+LA-1127,Kurnool,Tenali,47.23,Agricultural,Highway Expansion,Owner Verification,2023-07-10,175,No,Yes,Pending,No,Pending,241,1
+LA-1128,West Godavari,Rajahmundry,27.22,Barren,Railway Corridor,Owner Verification,2023-11-28,34,Yes,Yes,In Progress,No,Approved,96,0
+LA-1129,Nellore,Nandyal,99.61,Agricultural,Industrial Park,Land Identification,2023-08-11,143,Yes,Yes,Completed,Yes,Approved,231,1
+LA-1130,Nellore,Vijayawada North,53.02,Agricultural,Solar Power Plant,Compensation,2023-11-10,52,Yes,Yes,Completed,Yes,Under Review,136,1
+LA-1131,Kurnool,Rajahmundry,7.4,Commercial,Highway Expansion,Acquisition Completion,2023-10-01,92,Yes,Yes,In Progress,No,Approved,21,0
+LA-1132,Krishna,Tirupati Rural,27.85,Agricultural,Irrigation Project,Land Valuation,2023-11-01,61,Yes,No,Pending,No,Under Review,168,1
+LA-1133,Visakhapatnam,Nandyal,99.39,Residential,Solar Power Plant,Compensation,2023-06-23,192,Yes,Yes,Completed,No,Under Review,73,1
+LA-1134,Chittoor,Tenali,101.4,Agricultural,Railway Corridor,Legal/Approval,2023-06-10,205,No,Yes,In Progress,No,Under Review,108,1
+LA-1135,West Godavari,Kakinada Rural,114.66,Residential,Highway Expansion,Land Identification,2023-08-16,138,No,Yes,In Progress,No,Approved,181,1
+LA-1136,Nellore,Nandyal,76.58,Commercial,Irrigation Project,Acquisition Completion,2023-09-26,97,No,Yes,Disputed,No,Approved,112,1
+LA-1137,Chittoor,Kakinada Rural,9.11,Agricultural,Highway Expansion,Compensation,2023-07-28,157,No,Yes,Completed,No,Under Review,122,1
+LA-1138,Guntur,Nandyal,91.84,Agricultural,Solar Power Plant,Acquisition Completion,2023-09-02,121,No,Yes,In Progress,No,Approved,48,0
+LA-1139,East Godavari,Vijayawada North,73.99,Residential,Highway Expansion,Land Identification,2023-08-23,131,Yes,No,In Progress,Yes,Under Review,315,1
+LA-1140,Nellore,Rajahmundry,15.81,Agricultural,Railway Corridor,Acquisition Completion,2023-06-05,210,Yes,Yes,Completed,No,Under Review,73,1
+LA-1141,Visakhapatnam,Kakinada Rural,77.67,Agricultural,Solar Power Plant,Acquisition Completion,2023-11-14,48,No,No,Completed,No,Approved,86,1
+LA-1142,Krishna,Nandyal,90.51,Agricultural,Irrigation Project,Compensation,2023-12-10,22,Yes,Yes,In Progress,No,Approved,54,0
+LA-1143,Visakhapatnam,Tirupati Rural,100.96,Residential,Industrial Park,Compensation,2023-06-17,198,No,Yes,Completed,Yes,Approved,208,1
+LA-1144,West Godavari,Eluru,1.62,Agricultural,Urban Infrastructure,Document Verification,2023-06-13,202,Yes,Yes,Pending,No,Approved,169,1
+LA-1145,Chittoor,Rajahmundry,42.97,Residential,Irrigation Project,Land Valuation,2023-09-28,95,No,No,Pending,Yes,Under Review,309,1
+LA-1146,Krishna,Eluru,106.4,Commercial,Urban Infrastructure,Legal/Approval,2023-10-30,63,Yes,Yes,In Progress,No,Under Review,44,0
+LA-1147,East Godavari,Tirupati Rural,104.97,Agricultural,Industrial Park,Compensation,2023-10-04,89,Yes,Yes,Completed,No,Under Review,87,0
+LA-1148,East Godavari,Anakapalle,7.5,Agricultural,Solar Power Plant,Owner Verification,2023-08-28,126,No,Yes,In Progress,Yes,Approved,234,1
+LA-1149,Krishna,Kakinada Rural,71.99,Residential,Industrial Park,Land Identification,2023-08-27,127,Yes,Yes,Pending,No,Approved,190,1
+LA-1150,East Godavari,Eluru,70.74,Agricultural,Urban Infrastructure,Owner Verification,2023-11-03,59,Yes,Yes,Pending,No,Under Review,201,1
+LA-1151,Visakhapatnam,Tenali,7.21,Barren,Railway Corridor,Document Verification,2023-10-15,78,No,Yes,Pending,No,Under Review,189,1
+LA-1152,Krishna,Nandyal,7.34,Agricultural,Irrigation Project,Land Valuation,2023-10-27,66,No,Yes,Disputed,Yes,Approved,249,1
+LA-1153,Krishna,Gudur,116.99,Agricultural,Railway Corridor,Land Identification,2023-06-01,214,Yes,Yes,Pending,Yes,Under Review,268,1
+LA-1154,Chittoor,Rajahmundry,88.03,Agricultural,Urban Infrastructure,Owner Verification,2023-07-22,163,Yes,Yes,Pending,No,Approved,146,1
+LA-1155,West Godavari,Tenali,68.06,Agricultural,Highway Expansion,Compensation,2023-08-17,137,No,Yes,Completed,No,Under Review,118,1
+LA-1156,Chittoor,Nandyal,66.09,Commercial,Solar Power Plant,Legal/Approval,2023-09-16,107,Yes,Yes,Pending,No,Under Review,69,0
+LA-1157,Nellore,Anakapalle,78.29,Agricultural,Solar Power Plant,Land Valuation,2023-10-25,68,Yes,Yes,Pending,No,Approved,133,1
+LA-1158,Krishna,Nandyal,2.64,Agricultural,Solar Power Plant,Land Valuation,2023-09-22,101,Yes,No,Pending,No,Under Review,160,1
+LA-1159,Nellore,Kakinada Rural,47.19,Residential,Irrigation Project,Acquisition Completion,2023-09-25,98,Yes,Yes,Completed,No,Approved,7,0
+LA-1160,East Godavari,Vijayawada North,33.53,Agricultural,Highway Expansion,Acquisition Completion,2023-08-02,152,No,Yes,Completed,No,Approved,49,1
+LA-1161,Visakhapatnam,Rajahmundry,20.68,Agricultural,Irrigation Project,Land Identification,2023-12-15,17,No,Yes,In Progress,No,Under Review,196,1
+LA-1162,Nellore,Kakinada Rural,50.42,Barren,Urban Infrastructure,Legal/Approval,2023-12-10,22,Yes,No,Disputed,No,Approved,130,1
+LA-1163,Visakhapatnam,Kakinada Rural,4.01,Residential,Railway Corridor,Legal/Approval,2023-08-12,142,No,Yes,Completed,No,Approved,110,1
+LA-1164,Krishna,Bhimavaram,43.26,Agricultural,Industrial Park,Land Valuation,2023-11-23,39,Yes,Yes,Pending,Yes,Approved,211,1
+LA-1165,East Godavari,Anakapalle,54.32,Residential,Highway Expansion,Acquisition Completion,2023-06-30,185,Yes,Yes,Pending,No,Approved,52,1
+LA-1166,Nellore,Tirupati Rural,20.47,Commercial,Highway Expansion,Acquisition Completion,2023-09-27,96,Yes,Yes,Pending,No,Approved,64,0
+LA-1167,Visakhapatnam,Bhimavaram,36.82,Commercial,Solar Power Plant,Land Valuation,2023-06-02,213,Yes,No,Completed,No,Under Review,112,1
+LA-1168,Kurnool,Anakapalle,49.82,Residential,Industrial Park,Land Valuation,2023-09-01,122,Yes,Yes,Disputed,No,Pending,151,1
+LA-1169,Visakhapatnam,Eluru,84.07,Residential,Urban Infrastructure,Acquisition Completion,2023-05-31,215,No,Yes,Pending,No,Under Review,129,1
+LA-1170,Kurnool,Bhimavaram,1.98,Agricultural,Highway Expansion,Legal/Approval,2023-06-03,212,Yes,Yes,In Progress,No,Approved,62,1
+LA-1171,East Godavari,Nandyal,107.13,Agricultural,Urban Infrastructure,Legal/Approval,2023-09-01,122,Yes,Yes,Completed,No,Under Review,71,0
+LA-1172,Guntur,Bhimavaram,109.2,Commercial,Highway Expansion,Owner Verification,2023-10-19,74,Yes,Yes,Completed,No,Under Review,116,0
+LA-1173,East Godavari,Anakapalle,107.16,Agricultural,Urban Infrastructure,Document Verification,2023-11-15,47,Yes,Yes,In Progress,No,Approved,82,0
+LA-1174,Kurnool,Rajahmundry,32.95,Agricultural,Highway Expansion,Land Identification,2023-10-12,81,Yes,Yes,In Progress,No,Under Review,123,1
+LA-1175,West Godavari,Kakinada Rural,54.33,Agricultural,Industrial Park,Legal/Approval,2023-11-18,44,Yes,Yes,In Progress,No,Pending,62,0
+LA-1176,Guntur,Tenali,68.86,Agricultural,Industrial Park,Legal/Approval,2023-08-19,135,Yes,No,Completed,No,Under Review,98,1
+LA-1177,Guntur,Anakapalle,54.35,Barren,Urban Infrastructure,Land Identification,2023-07-08,177,Yes,Yes,Disputed,No,Under Review,225,1
+LA-1178,Kurnool,Tirupati Rural,86.25,Residential,Highway Expansion,Acquisition Completion,2023-09-30,93,Yes,Yes,Completed,No,Approved,15,0
+LA-1179,Visakhapatnam,Gudur,90.27,Agricultural,Railway Corridor,Document Verification,2023-08-02,152,No,Yes,Pending,No,Pending,201,1
+LA-1180,Kurnool,Tenali,108.34,Agricultural,Solar Power Plant,Owner Verification,2023-10-03,90,Yes,Yes,In Progress,Yes,Approved,202,1
+LA-1181,Guntur,Kakinada Rural,26.32,Agricultural,Highway Expansion,Legal/Approval,2023-11-25,37,Yes,No,Completed,Yes,Under Review,186,1
+LA-1182,Krishna,Bhimavaram,52.0,Agricultural,Railway Corridor,Document Verification,2023-10-27,66,Yes,Yes,Pending,No,Approved,127,1
+LA-1183,Krishna,Tenali,106.87,Agricultural,Irrigation Project,Document Verification,2023-07-19,166,Yes,Yes,Completed,No,Under Review,140,1
+LA-1184,Kurnool,Kakinada Rural,13.08,Agricultural,Railway Corridor,Compensation,2023-07-18,167,Yes,Yes,Disputed,No,Approved,122,1
+LA-1185,Nellore,Eluru,47.75,Agricultural,Urban Infrastructure,Acquisition Completion,2023-11-23,39,Yes,No,Completed,No,Approved,49,0
+LA-1186,East Godavari,Vijayawada North,4.2,Barren,Solar Power Plant,Land Valuation,2023-10-15,78,Yes,Yes,Pending,No,Pending,134,1
+LA-1187,West Godavari,Rajahmundry,31.49,Agricultural,Highway Expansion,Compensation,2023-07-02,183,Yes,Yes,Pending,No,Approved,150,1
+LA-1188,Visakhapatnam,Vijayawada North,48.51,Barren,Irrigation Project,Owner Verification,2023-09-10,113,Yes,No,In Progress,No,Approved,118,1
+LA-1189,Krishna,Nandyal,27.72,Barren,Urban Infrastructure,Owner Verification,2023-12-12,20,Yes,Yes,Completed,No,Under Review,116,0
+LA-1190,Kurnool,Eluru,113.31,Agricultural,Industrial Park,Owner Verification,2023-11-05,57,Yes,No,In Progress,No,Under Review,160,1
+LA-1191,Chittoor,Bhimavaram,43.79,Residential,Urban Infrastructure,Legal/Approval,2023-10-02,91,Yes,Yes,In Progress,No,Under Review,41,0
+LA-1192,Nellore,Anakapalle,37.77,Agricultural,Urban Infrastructure,Compensation,2023-07-01,184,Yes,No,Completed,No,Under Review,124,1
+LA-1193,Nellore,Tenali,43.37,Residential,Industrial Park,Legal/Approval,2023-10-27,66,No,No,Completed,No,Approved,97,1
+LA-1194,East Godavari,Tenali,1.18,Barren,Irrigation Project,Land Identification,2023-08-18,136,No,Yes,In Progress,No,Under Review,220,1
+LA-1195,Chittoor,Nandyal,37.08,Agricultural,Solar Power Plant,Land Valuation,2023-06-01,214,No,Yes,Disputed,No,Approved,158,1
+LA-1196,Kurnool,Rajahmundry,9.21,Agricultural,Irrigation Project,Owner Verification,2023-11-14,48,Yes,Yes,In Progress,No,Approved,113,0
+LA-1197,Chittoor,Tenali,101.15,Agricultural,Solar Power Plant,Compensation,2023-12-10,22,Yes,Yes,In Progress,Yes,Pending,178,1
+LA-1198,Krishna,Vijayawada North,82.07,Agricultural,Irrigation Project,Legal/Approval,2023-10-31,62,No,Yes,In Progress,Yes,Under Review,196,1
+LA-1199,West Godavari,Rajahmundry,98.94,Residential,Highway Expansion,Land Valuation,2023-11-04,58,Yes,Yes,Pending,Yes,Approved,171,1
+LA-1200,Visakhapatnam,Bhimavaram,43.55,Agricultural,Industrial Park,Owner Verification,2023-07-04,181,Yes,No,Disputed,No,Approved,204,1
+LA-1201,Guntur,Kakinada Rural,82.6,Agricultural,Highway Expansion,Land Valuation,2023-08-25,129,Yes,Yes,In Progress,No,Approved,74,0
+LA-1202,Visakhapatnam,Anakapalle,77.48,Agricultural,Urban Infrastructure,Legal/Approval,2023-11-05,57,Yes,No,In Progress,Yes,Under Review,201,1
+LA-1203,Krishna,Tirupati Rural,92.22,Agricultural,Urban Infrastructure,Land Valuation,2023-11-22,40,No,Yes,Pending,No,Under Review,161,1
+LA-1204,Nellore,Tirupati Rural,15.52,Residential,Solar Power Plant,Land Valuation,2023-07-04,181,Yes,Yes,In Progress,No,Approved,77,1
+LA-1205,East Godavari,Nandyal,93.95,Agricultural,Urban Infrastructure,Owner Verification,2023-11-07,55,Yes,No,Pending,No,Pending,207,1
+LA-1206,Kurnool,Vijayawada North,1.69,Agricultural,Irrigation Project,Owner Verification,2023-06-18,197,Yes,No,In Progress,No,Approved,131,1
+LA-1207,Kurnool,Tenali,9.63,Agricultural,Highway Expansion,Owner Verification,2023-07-11,174,Yes,Yes,In Progress,No,Under Review,174,1
+LA-1208,Chittoor,Anakapalle,3.32,Barren,Highway Expansion,Acquisition Completion,2023-06-06,209,Yes,Yes,Pending,No,Under Review,81,1
+LA-1209,Krishna,Tirupati Rural,80.76,Commercial,Highway Expansion,Acquisition Completion,2023-08-12,142,Yes,Yes,In Progress,No,Approved,17,0
+LA-1210,West Godavari,Bhimavaram,74.88,Residential,Urban Infrastructure,Document Verification,2023-12-12,20,No,Yes,Disputed,Yes,Under Review,294,1
+LA-1211,Kurnool,Gudur,87.14,Agricultural,Highway Expansion,Legal/Approval,2023-11-27,35,Yes,Yes,In Progress,No,Approved,35,0
+LA-1212,Chittoor,Eluru,81.71,Agricultural,Solar Power Plant,Legal/Approval,2023-09-28,95,No,Yes,Completed,No,Under Review,94,1
+LA-1213,Krishna,Kakinada Rural,16.87,Barren,Railway Corridor,Document Verification,2023-09-19,104,Yes,No,In Progress,No,Pending,136,1
+LA-1214,Chittoor,Nandyal,74.87,Barren,Irrigation Project,Land Valuation,2023-08-30,124,No,Yes,Pending,No,Pending,173,1
+LA-1215,West Godavari,Gudur,92.88,Agricultural,Solar Power Plant,Land Identification,2023-07-05,180,Yes,Yes,Pending,No,Under Review,204,1
+LA-1216,Krishna,Eluru,96.67,Agricultural,Railway Corridor,Land Valuation,2023-09-10,113,No,Yes,Completed,No,Approved,107,1
+LA-1217,Krishna,Eluru,108.22,Agricultural,Industrial Park,Owner Verification,2023-08-16,138,Yes,No,In Progress,No,Under Review,139,1
+LA-1218,Guntur,Vijayawada North,46.67,Commercial,Railway Corridor,Land Valuation,2023-06-13,202,Yes,Yes,Disputed,Yes,Under Review,247,1
+LA-1219,West Godavari,Kakinada Rural,21.44,Barren,Urban Infrastructure,Land Identification,2023-10-16,77,Yes,Yes,Pending,No,Under Review,214,1
+LA-1220,Chittoor,Eluru,107.16,Agricultural,Irrigation Project,Acquisition Completion,2023-09-08,115,No,Yes,Completed,No,Approved,47,0
+LA-1221,Chittoor,Bhimavaram,44.04,Agricultural,Industrial Park,Compensation,2023-08-16,138,Yes,No,Pending,No,Under Review,146,1
+LA-1222,Chittoor,Tenali,47.32,Agricultural,Highway Expansion,Land Identification,2023-06-18,197,Yes,Yes,Disputed,No,Approved,210,1
+LA-1223,Visakhapatnam,Anakapalle,6.7,Agricultural,Irrigation Project,Legal/Approval,2023-07-12,173,No,No,Completed,No,Approved,116,1
+LA-1224,Visakhapatnam,Nandyal,48.99,Agricultural,Solar Power Plant,Compensation,2023-10-30,63,Yes,Yes,Completed,No,Under Review,47,0
+LA-1225,Chittoor,Bhimavaram,32.63,Commercial,Solar Power Plant,Land Identification,2023-12-06,26,Yes,Yes,Pending,No,Approved,150,1
+LA-1226,East Godavari,Bhimavaram,54.13,Agricultural,Industrial Park,Legal/Approval,2023-12-22,10,Yes,Yes,Pending,No,Approved,79,1
+LA-1227,Guntur,Bhimavaram,41.77,Agricultural,Irrigation Project,Compensation,2023-12-20,12,Yes,No,In Progress,No,Under Review,97,0
+LA-1228,Nellore,Vijayawada North,46.43,Agricultural,Irrigation Project,Document Verification,2023-10-06,87,No,No,In Progress,No,Under Review,127,1
+LA-1229,East Godavari,Gudur,6.67,Agricultural,Industrial Park,Legal/Approval,2023-12-10,22,No,Yes,Disputed,No,Pending,146,1
+LA-1230,Visakhapatnam,Bhimavaram,95.7,Agricultural,Industrial Park,Owner Verification,2023-12-07,25,No,Yes,In Progress,Yes,Approved,253,1
+LA-1231,Visakhapatnam,Tenali,42.68,Commercial,Highway Expansion,Compensation,2023-10-27,66,No,Yes,Completed,No,Approved,65,0
+LA-1232,West Godavari,Tirupati Rural,113.36,Commercial,Solar Power Plant,Acquisition Completion,2023-10-05,88,Yes,No,In Progress,No,Pending,84,0
+LA-1233,Chittoor,Eluru,109.81,Agricultural,Solar Power Plant,Compensation,2023-06-04,211,Yes,No,Completed,No,Under Review,132,0
+LA-1234,Visakhapatnam,Eluru,62.26,Residential,Railway Corridor,Land Valuation,2023-11-29,33,Yes,No,Pending,Yes,Approved,213,1
+LA-1235,East Godavari,Nandyal,83.65,Agricultural,Industrial Park,Acquisition Completion,2023-10-18,75,Yes,Yes,Disputed,No,Approved,50,0
+LA-1236,Visakhapatnam,Vijayawada North,30.32,Agricultural,Irrigation Project,Land Identification,2023-10-01,92,Yes,Yes,Disputed,No,Pending,225,1
+LA-1237,West Godavari,Bhimavaram,6.53,Commercial,Urban Infrastructure,Land Valuation,2023-12-16,16,Yes,Yes,Disputed,No,Pending,124,1
+LA-1238,Visakhapatnam,Vijayawada North,89.93,Barren,Irrigation Project,Acquisition Completion,2023-12-08,24,No,Yes,Completed,No,Approved,43,0
+LA-1239,East Godavari,Bhimavaram,29.42,Residential,Highway Expansion,Compensation,2023-07-25,160,Yes,No,Completed,No,Approved,90,1
+LA-1240,West Godavari,Kakinada Rural,80.91,Agricultural,Railway Corridor,Owner Verification,2023-11-15,47,Yes,Yes,In Progress,No,Approved,96,0
+LA-1241,Kurnool,Kakinada Rural,30.78,Barren,Industrial Park,Legal/Approval,2023-05-28,218,No,Yes,In Progress,No,Approved,99,1
+LA-1242,Visakhapatnam,Nandyal,51.6,Agricultural,Irrigation Project,Document Verification,2023-11-16,46,No,Yes,Pending,No,Under Review,173,1
+LA-1243,Guntur,Nandyal,3.88,Agricultural,Highway Expansion,Acquisition Completion,2023-12-20,12,Yes,Yes,Completed,Yes,Approved,89,1
+LA-1244,Chittoor,Vijayawada North,53.82,Residential,Highway Expansion,Land Valuation,2023-08-05,149,Yes,Yes,Pending,No,Approved,147,1
+LA-1245,East Godavari,Tirupati Rural,26.32,Residential,Urban Infrastructure,Land Valuation,2023-09-04,119,Yes,Yes,Disputed,No,Approved,107,1
+LA-1246,Guntur,Eluru,106.18,Agricultural,Industrial Park,Legal/Approval,2023-10-27,66,Yes,Yes,In Progress,No,Under Review,43,0
+LA-1247,Chittoor,Tirupati Rural,51.84,Residential,Urban Infrastructure,Owner Verification,2023-08-11,143,No,Yes,Pending,No,Under Review,230,1
+LA-1248,Krishna,Rajahmundry,62.55,Commercial,Solar Power Plant,Acquisition Completion,2023-11-06,56,Yes,Yes,Completed,No,Approved,7,0
+LA-1249,Guntur,Bhimavaram,50.19,Agricultural,Industrial Park,Document Verification,2023-10-10,83,Yes,No,In Progress,No,Under Review,120,1
+LA-1250,Chittoor,Gudur,83.2,Agricultural,Urban Infrastructure,Owner Verification,2023-11-04,58,Yes,No,Disputed,No,Under Review,229,1
+LA-1251,Chittoor,Tenali,27.02,Residential,Highway Expansion,Legal/Approval,2023-07-20,165,Yes,No,In Progress,No,Approved,86,1
+LA-1252,Visakhapatnam,Rajahmundry,48.85,Agricultural,Industrial Park,Compensation,2023-07-02,183,Yes,No,Pending,No,Approved,109,1
+LA-1253,Chittoor,Bhimavaram,89.3,Residential,Irrigation Project,Land Identification,2023-11-04,58,Yes,Yes,Pending,No,Pending,197,1
+LA-1254,Kurnool,Gudur,8.71,Agricultural,Industrial Park,Land Valuation,2023-08-29,125,Yes,Yes,Disputed,No,Pending,152,1
+LA-1255,Chittoor,Rajahmundry,92.85,Agricultural,Highway Expansion,Land Valuation,2023-08-09,145,Yes,Yes,Pending,No,Under Review,175,1
+LA-1256,Guntur,Tirupati Rural,79.67,Agricultural,Solar Power Plant,Compensation,2023-06-20,195,No,No,In Progress,No,Pending,166,1
+LA-1257,West Godavari,Nandyal,46.65,Commercial,Highway Expansion,Compensation,2023-06-19,196,No,No,In Progress,No,Under Review,141,1
+LA-1258,Nellore,Kakinada Rural,33.0,Commercial,Industrial Park,Legal/Approval,2023-06-11,204,Yes,Yes,Completed,No,Under Review,99,1
+LA-1259,Kurnool,Eluru,79.61,Residential,Irrigation Project,Acquisition Completion,2023-08-26,128,Yes,Yes,In Progress,No,Approved,5,0
+LA-1260,Guntur,Tenali,106.67,Residential,Irrigation Project,Legal/Approval,2023-06-28,187,No,Yes,Completed,No,Under Review,112,1
+LA-1261,Kurnool,Rajahmundry,101.46,Agricultural,Solar Power Plant,Compensation,2023-11-15,47,Yes,No,Completed,No,Pending,90,0
+LA-1262,East Godavari,Anakapalle,3.18,Agricultural,Industrial Park,Legal/Approval,2023-06-03,212,Yes,Yes,Completed,Yes,Approved,133,1
+LA-1263,East Godavari,Vijayawada North,5.15,Residential,Industrial Park,Owner Verification,2023-09-15,108,No,Yes,In Progress,No,Approved,169,1
+LA-1264,Visakhapatnam,Bhimavaram,27.85,Commercial,Industrial Park,Legal/Approval,2023-06-23,192,Yes,Yes,In Progress,No,Under Review,84,1
+LA-1265,East Godavari,Rajahmundry,43.81,Barren,Industrial Park,Compensation,2023-07-04,181,Yes,Yes,In Progress,No,Approved,71,1
+LA-1266,Nellore,Nandyal,54.89,Commercial,Urban Infrastructure,Legal/Approval,2023-08-03,151,Yes,Yes,Completed,Yes,Under Review,208,1
+LA-1267,Kurnool,Anakapalle,76.86,Barren,Urban Infrastructure,Compensation,2023-10-18,75,Yes,Yes,Pending,No,Under Review,97,1
+LA-1268,Nellore,Vijayawada North,105.78,Barren,Solar Power Plant,Document Verification,2023-12-16,16,Yes,No,Pending,No,Pending,172,1
+LA-1269,Visakhapatnam,Vijayawada North,26.34,Commercial,Highway Expansion,Acquisition Completion,2023-09-19,104,No,Yes,Completed,No,Approved,49,0
+LA-1270,West Godavari,Tirupati Rural,25.69,Agricultural,Irrigation Project,Owner Verification,2023-09-12,111,No,Yes,In Progress,No,Pending,150,1
+LA-1271,Nellore,Gudur,19.09,Agricultural,Urban Infrastructure,Legal/Approval,2023-10-28,65,Yes,Yes,Completed,No,Approved,42,0
+LA-1272,Chittoor,Rajahmundry,41.45,Barren,Solar Power Plant,Owner Verification,2023-11-22,40,Yes,Yes,Pending,Yes,Under Review,262,1
+LA-1273,Krishna,Tirupati Rural,10.33,Agricultural,Railway Corridor,Land Identification,2023-06-23,192,Yes,Yes,In Progress,No,Under Review,195,1
+LA-1274,Chittoor,Tirupati Rural,100.89,Barren,Highway Expansion,Land Valuation,2023-10-02,91,Yes,Yes,Pending,No,Under Review,140,1
+LA-1275,Nellore,Rajahmundry,15.23,Commercial,Industrial Park,Land Identification,2023-10-22,71,No,No,Pending,No,Under Review,260,1
+LA-1276,Chittoor,Nandyal,102.64,Agricultural,Industrial Park,Land Valuation,2023-08-14,140,Yes,No,In Progress,No,Pending,152,1
+LA-1277,West Godavari,Anakapalle,107.33,Agricultural,Industrial Park,Acquisition Completion,2023-09-21,102,No,Yes,In Progress,No,Approved,44,0
+LA-1278,Guntur,Eluru,95.22,Commercial,Urban Infrastructure,Land Identification,2023-06-24,191,Yes,Yes,In Progress,No,Approved,144,0
+LA-1279,Kurnool,Gudur,25.3,Agricultural,Industrial Park,Compensation,2023-07-09,176,Yes,No,In Progress,No,Under Review,152,1
+LA-1280,Guntur,Tenali,5.93,Commercial,Industrial Park,Land Valuation,2023-08-02,152,No,Yes,Pending,Yes,Approved,279,1
+LA-1281,Kurnool,Kakinada Rural,95.62,Residential,Highway Expansion,Acquisition Completion,2023-08-05,149,No,Yes,In Progress,No,Approved,55,1
+LA-1282,Visakhapatnam,Kakinada Rural,25.69,Commercial,Urban Infrastructure,Compensation,2023-07-08,177,No,Yes,Completed,Yes,Pending,245,1
+LA-1283,Visakhapatnam,Gudur,4.1,Barren,Industrial Park,Acquisition Completion,2023-07-20,165,Yes,Yes,Completed,No,Approved,33,0
+LA-1284,West Godavari,Kakinada Rural,34.15,Barren,Irrigation Project,Owner Verification,2023-11-21,41,Yes,Yes,In Progress,No,Approved,111,0
+LA-1285,Kurnool,Gudur,37.92,Residential,Railway Corridor,Owner Verification,2023-11-05,57,No,No,In Progress,No,Pending,204,1
+LA-1286,Chittoor,Gudur,41.3,Agricultural,Railway Corridor,Document Verification,2023-07-24,161,Yes,Yes,Pending,No,Under Review,141,1
+LA-1287,West Godavari,Kakinada Rural,1.32,Agricultural,Urban Infrastructure,Land Valuation,2023-11-27,35,No,No,In Progress,No,Approved,129,1
+LA-1288,West Godavari,Anakapalle,41.38,Agricultural,Highway Expansion,Land Valuation,2023-06-16,199,Yes,Yes,Pending,No,Approved,126,1
+LA-1289,East Godavari,Tenali,70.24,Agricultural,Solar Power Plant,Land Identification,2023-09-07,116,Yes,Yes,Pending,No,Pending,212,1
+LA-1290,West Godavari,Eluru,39.55,Agricultural,Industrial Park,Compensation,2023-06-14,201,Yes,Yes,In Progress,Yes,Pending,183,1
+LA-1291,Visakhapatnam,Rajahmundry,88.79,Agricultural,Solar Power Plant,Document Verification,2023-09-06,117,Yes,Yes,Pending,No,Pending,152,1
+LA-1292,Chittoor,Vijayawada North,3.76,Agricultural,Solar Power Plant,Compensation,2023-09-03,120,Yes,Yes,In Progress,No,Under Review,60,0
+LA-1293,Visakhapatnam,Gudur,19.42,Agricultural,Solar Power Plant,Owner Verification,2023-08-04,150,Yes,Yes,In Progress,No,Approved,137,1
+LA-1294,Guntur,Kakinada Rural,33.45,Agricultural,Irrigation Project,Legal/Approval,2023-06-09,206,No,Yes,In Progress,Yes,Under Review,181,1
+LA-1295,Nellore,Rajahmundry,116.55,Commercial,Solar Power Plant,Legal/Approval,2023-12-10,22,Yes,Yes,In Progress,No,Approved,47,0
+LA-1296,Krishna,Vijayawada North,81.92,Barren,Irrigation Project,Compensation,2023-08-20,134,Yes,Yes,Completed,No,Under Review,108,0
+LA-1297,Chittoor,Vijayawada North,66.98,Agricultural,Solar Power Plant,Land Valuation,2023-07-03,182,Yes,Yes,Pending,Yes,Approved,248,1
+LA-1298,East Godavari,Anakapalle,11.42,Agricultural,Railway Corridor,Compensation,2023-08-28,126,Yes,Yes,Pending,Yes,Pending,242,1
+LA-1299,Guntur,Tirupati Rural,60.31,Agricultural,Railway Corridor,Land Identification,2023-06-04,211,Yes,Yes,Completed,No,Approved,132,1
+LA-1300,Visakhapatnam,Tenali,102.93,Residential,Industrial Park,Legal/Approval,2023-06-13,202,Yes,No,Completed,No,Approved,106,1
+LA-1301,East Godavari,Rajahmundry,14.89,Barren,Railway Corridor,Document Verification,2023-08-20,134,Yes,Yes,Pending,No,Approved,167,1
+LA-1302,Kurnool,Eluru,10.55,Agricultural,Highway Expansion,Land Identification,2023-10-06,87,Yes,Yes,Completed,No,Pending,151,1
+LA-1303,East Godavari,Rajahmundry,111.21,Agricultural,Solar Power Plant,Document Verification,2023-10-09,84,Yes,Yes,Pending,No,Pending,152,1
+LA-1304,West Godavari,Vijayawada North,116.87,Agricultural,Industrial Park,Document Verification,2023-11-26,36,Yes,No,In Progress,No,Approved,106,0
+LA-1305,Krishna,Kakinada Rural,27.0,Agricultural,Irrigation Project,Compensation,2023-12-15,17,No,Yes,In Progress,No,Pending,78,1
+LA-1306,Visakhapatnam,Vijayawada North,83.41,Commercial,Urban Infrastructure,Owner Verification,2023-12-02,30,No,No,In Progress,Yes,Approved,236,1
+LA-1307,Nellore,Rajahmundry,7.27,Agricultural,Urban Infrastructure,Document Verification,2023-11-19,43,Yes,Yes,In Progress,No,Pending,113,0
+LA-1308,Chittoor,Bhimavaram,17.36,Agricultural,Railway Corridor,Owner Verification,2023-12-18,14,Yes,Yes,In Progress,No,Approved,109,0
+LA-1309,West Godavari,Eluru,53.62,Agricultural,Irrigation Project,Document Verification,2023-07-17,168,Yes,Yes,Pending,No,Under Review,152,1
+LA-1310,East Godavari,Tirupati Rural,112.16,Commercial,Highway Expansion,Document Verification,2023-08-26,128,Yes,Yes,Pending,No,Under Review,160,1
+LA-1311,Krishna,Tenali,91.96,Agricultural,Irrigation Project,Land Valuation,2023-12-04,28,Yes,No,Pending,No,Approved,170,1
+LA-1312,Nellore,Rajahmundry,69.26,Agricultural,Solar Power Plant,Land Valuation,2023-11-28,34,Yes,Yes,Disputed,No,Under Review,158,1
+LA-1313,Chittoor,Tenali,78.23,Agricultural,Highway Expansion,Land Valuation,2023-09-07,116,Yes,No,In Progress,No,Under Review,120,1
+LA-1314,Nellore,Vijayawada North,58.18,Residential,Industrial Park,Land Valuation,2023-07-12,173,Yes,Yes,Pending,No,Approved,121,1
+LA-1315,Krishna,Vijayawada North,67.89,Agricultural,Railway Corridor,Legal/Approval,2023-10-06,87,No,Yes,Pending,No,Approved,79,1
+LA-1316,Guntur,Vijayawada North,73.93,Commercial,Urban Infrastructure,Document Verification,2023-08-01,153,Yes,Yes,Pending,No,Approved,156,1
+LA-1317,Nellore,Kakinada Rural,79.97,Commercial,Solar Power Plant,Acquisition Completion,2023-11-09,53,No,Yes,In Progress,No,Under Review,59,0
+LA-1318,Visakhapatnam,Nandyal,11.51,Residential,Urban Infrastructure,Document Verification,2023-11-18,44,No,Yes,Pending,No,Under Review,209,1
+LA-1319,Chittoor,Kakinada Rural,38.13,Agricultural,Industrial Park,Acquisition Completion,2023-10-30,63,Yes,Yes,Pending,No,Approved,37,0
+LA-1320,East Godavari,Kakinada Rural,58.94,Barren,Urban Infrastructure,Document Verification,2023-07-15,170,Yes,Yes,Pending,No,Under Review,138,1
+LA-1321,Visakhapatnam,Nandyal,119.36,Agricultural,Industrial Park,Compensation,2023-08-04,150,Yes,Yes,Completed,No,Pending,99,1
+LA-1322,Krishna,Bhimavaram,10.78,Agricultural,Industrial Park,Land Valuation,2023-05-30,216,Yes,Yes,Pending,No,Approved,110,1
+LA-1323,Nellore,Nandyal,30.65,Agricultural,Railway Corridor,Land Valuation,2023-10-19,74,No,Yes,In Progress,No,Approved,80,1
+LA-1324,West Godavari,Nandyal,67.0,Agricultural,Urban Infrastructure,Compensation,2023-11-07,55,No,No,Disputed,No,Approved,145,1
+LA-1325,Visakhapatnam,Kakinada Rural,81.29,Agricultural,Irrigation Project,Legal/Approval,2023-07-03,182,Yes,Yes,Disputed,No,Approved,83,1
+LA-1326,Kurnool,Kakinada Rural,13.21,Agricultural,Irrigation Project,Compensation,2023-07-03,182,Yes,No,Completed,No,Under Review,128,0
+LA-1327,Chittoor,Bhimavaram,112.89,Commercial,Railway Corridor,Land Identification,2023-07-07,178,Yes,Yes,Pending,Yes,Pending,268,1
+LA-1328,Krishna,Nandyal,7.5,Commercial,Solar Power Plant,Owner Verification,2023-06-05,210,Yes,Yes,In Progress,No,Under Review,156,1
+LA-1329,East Godavari,Rajahmundry,21.06,Barren,Industrial Park,Acquisition Completion,2023-06-19,196,Yes,Yes,In Progress,No,Approved,60,1
+LA-1330,West Godavari,Eluru,33.61,Barren,Highway Expansion,Acquisition Completion,2023-06-20,195,No,Yes,Completed,No,Under Review,83,1
+LA-1331,Chittoor,Tenali,1.75,Barren,Railway Corridor,Compensation,2023-12-11,21,No,Yes,Disputed,Yes,Pending,252,1
+LA-1332,Krishna,Nandyal,15.69,Agricultural,Railway Corridor,Land Valuation,2023-07-10,175,Yes,Yes,Completed,No,Pending,116,1
+LA-1333,Guntur,Gudur,66.79,Residential,Solar Power Plant,Owner Verification,2023-11-28,34,Yes,Yes,In Progress,No,Approved,102,0
+LA-1334,East Godavari,Bhimavaram,3.01,Residential,Urban Infrastructure,Acquisition Completion,2023-06-09,206,No,Yes,Completed,No,Approved,66,1
+LA-1335,Krishna,Anakapalle,6.61,Agricultural,Urban Infrastructure,Compensation,2023-07-29,156,No,Yes,Completed,No,Approved,112,1
+LA-1336,Visakhapatnam,Bhimavaram,67.17,Barren,Highway Expansion,Acquisition Completion,2023-12-08,24,No,No,Pending,No,Approved,152,1
+LA-1337,Kurnool,Gudur,35.95,Agricultural,Irrigation Project,Land Identification,2023-05-28,218,No,No,Pending,Yes,Approved,354,1
+LA-1338,Kurnool,Rajahmundry,80.85,Agricultural,Irrigation Project,Document Verification,2023-10-28,65,Yes,Yes,In Progress,Yes,Approved,183,1
+LA-1339,East Godavari,Rajahmundry,5.45,Barren,Solar Power Plant,Acquisition Completion,2023-09-20,103,Yes,Yes,Completed,No,Approved,5,0
+LA-1340,Chittoor,Rajahmundry,75.52,Commercial,Industrial Park,Document Verification,2023-10-31,62,Yes,No,Pending,No,Under Review,203,1
+LA-1341,West Godavari,Tirupati Rural,33.08,Residential,Highway Expansion,Document Verification,2023-11-25,37,No,No,Completed,No,Approved,112,1
+LA-1342,Chittoor,Nandyal,7.57,Commercial,Industrial Park,Land Valuation,2023-07-03,182,Yes,Yes,Disputed,No,Pending,170,1
+LA-1343,Kurnool,Tirupati Rural,36.69,Residential,Industrial Park,Acquisition Completion,2023-09-18,105,Yes,Yes,In Progress,Yes,Approved,84,1
+LA-1344,Nellore,Anakapalle,99.39,Agricultural,Railway Corridor,Land Valuation,2023-09-23,100,Yes,Yes,Pending,No,Under Review,128,1
+LA-1345,Guntur,Kakinada Rural,16.42,Agricultural,Urban Infrastructure,Land Valuation,2023-07-31,154,Yes,Yes,In Progress,No,Pending,106,1
+LA-1346,Chittoor,Tenali,56.86,Agricultural,Railway Corridor,Land Identification,2023-08-29,125,Yes,Yes,Pending,No,Approved,211,1
+LA-1347,Visakhapatnam,Rajahmundry,106.93,Commercial,Industrial Park,Acquisition Completion,2023-11-28,34,No,No,In Progress,No,Approved,63,0
+LA-1348,Guntur,Nandyal,70.96,Agricultural,Highway Expansion,Document Verification,2023-11-14,48,No,No,Pending,No,Approved,183,1
+LA-1349,Krishna,Gudur,80.43,Residential,Irrigation Project,Land Identification,2023-12-07,25,Yes,Yes,Pending,No,Pending,180,1
+LA-1350,East Godavari,Gudur,76.8,Agricultural,Highway Expansion,Legal/Approval,2023-08-28,126,Yes,No,Completed,No,Under Review,117,1
+LA-1351,Krishna,Tirupati Rural,37.86,Agricultural,Urban Infrastructure,Acquisition Completion,2023-07-19,166,Yes,No,In Progress,No,Pending,113,1
+LA-1352,West Godavari,Tirupati Rural,60.78,Agricultural,Railway Corridor,Document Verification,2023-08-27,127,Yes,Yes,In Progress,Yes,Under Review,217,1
+LA-1353,Chittoor,Bhimavaram,39.19,Residential,Solar Power Plant,Land Identification,2023-09-12,111,Yes,Yes,Pending,No,Approved,168,1
+LA-1354,Krishna,Anakapalle,105.12,Agricultural,Urban Infrastructure,Acquisition Completion,2023-07-21,164,No,Yes,Pending,Yes,Under Review,218,1
+LA-1355,Chittoor,Anakapalle,37.07,Agricultural,Industrial Park,Legal/Approval,2023-06-17,198,Yes,No,Completed,No,Under Review,124,1
+LA-1356,Guntur,Kakinada Rural,71.94,Agricultural,Solar Power Plant,Land Valuation,2023-11-18,44,No,Yes,Completed,No,Under Review,108,1
+LA-1357,Krishna,Tirupati Rural,20.61,Residential,Urban Infrastructure,Land Identification,2023-06-28,187,Yes,Yes,In Progress,No,Under Review,170,1
+LA-1358,Chittoor,Kakinada Rural,36.86,Agricultural,Railway Corridor,Owner Verification,2023-05-31,215,Yes,Yes,In Progress,No,Approved,138,1
+LA-1359,Chittoor,Bhimavaram,16.31,Barren,Urban Infrastructure,Legal/Approval,2023-08-29,125,Yes,No,Completed,No,Approved,84,1
+LA-1360,Guntur,Bhimavaram,17.04,Barren,Solar Power Plant,Owner Verification,2023-05-28,218,Yes,No,Pending,No,Under Review,195,1
+LA-1361,West Godavari,Kakinada Rural,16.91,Agricultural,Railway Corridor,Land Valuation,2023-09-29,94,Yes,Yes,In Progress,No,Approved,55,0
+LA-1362,West Godavari,Bhimavaram,13.1,Commercial,Solar Power Plant,Legal/Approval,2023-12-01,31,No,No,In Progress,No,Under Review,130,1
+LA-1363,Krishna,Rajahmundry,9.22,Residential,Highway Expansion,Land Valuation,2023-09-08,115,Yes,Yes,Disputed,No,Approved,113,1
+LA-1364,Nellore,Rajahmundry,54.54,Residential,Industrial Park,Acquisition Completion,2023-06-17,198,Yes,No,Pending,Yes,Approved,143,1
+LA-1365,Nellore,Rajahmundry,118.43,Residential,Solar Power Plant,Owner Verification,2023-06-13,202,No,Yes,Pending,No,Under Review,233,1
+LA-1366,Kurnool,Bhimavaram,35.32,Agricultural,Solar Power Plant,Compensation,2023-12-01,31,No,No,In Progress,No,Pending,139,1
+LA-1367,Kurnool,Tirupati Rural,20.13,Residential,Solar Power Plant,Document Verification,2023-10-28,65,Yes,Yes,Completed,No,Approved,84,0
+LA-1368,Guntur,Tenali,17.11,Agricultural,Solar Power Plant,Owner Verification,2023-10-04,89,Yes,No,Pending,Yes,Pending,295,1
+LA-1369,Krishna,Rajahmundry,45.56,Agricultural,Solar Power Plant,Acquisition Completion,2023-09-18,105,Yes,Yes,Completed,No,Approved,19,0
+LA-1370,Kurnool,Tenali,48.48,Residential,Solar Power Plant,Compensation,2023-09-17,106,Yes,Yes,Disputed,No,Approved,105,1
+LA-1371,Krishna,Tirupati Rural,47.37,Barren,Urban Infrastructure,Owner Verification,2023-10-29,64,No,Yes,Pending,No,Under Review,188,1
+LA-1372,East Godavari,Bhimavaram,110.16,Barren,Railway Corridor,Document Verification,2023-08-10,144,No,Yes,Pending,No,Under Review,203,1
+LA-1373,Kurnool,Kakinada Rural,51.41,Barren,Railway Corridor,Document Verification,2023-06-14,201,No,Yes,Pending,No,Under Review,231,1
+LA-1374,Chittoor,Nandyal,9.14,Commercial,Industrial Park,Owner Verification,2023-11-28,34,Yes,Yes,In Progress,Yes,Approved,212,1
+LA-1375,East Godavari,Gudur,109.34,Agricultural,Highway Expansion,Land Valuation,2023-10-22,71,No,Yes,In Progress,No,Under Review,134,1
+LA-1376,Guntur,Kakinada Rural,23.86,Agricultural,Urban Infrastructure,Compensation,2023-10-02,91,Yes,No,Completed,Yes,Under Review,220,1
+LA-1377,Krishna,Bhimavaram,38.03,Agricultural,Irrigation Project,Compensation,2023-12-04,28,Yes,Yes,In Progress,No,Under Review,70,0
+LA-1378,East Godavari,Kakinada Rural,51.99,Agricultural,Industrial Park,Document Verification,2023-11-04,58,No,Yes,Pending,No,Under Review,183,1
+LA-1379,Nellore,Nandyal,47.71,Agricultural,Railway Corridor,Legal/Approval,2023-05-29,217,Yes,Yes,In Progress,No,Under Review,75,1
+LA-1380,East Godavari,Eluru,3.71,Agricultural,Industrial Park,Land Valuation,2023-10-16,77,No,No,In Progress,No,Pending,145,1
+LA-1381,Kurnool,Gudur,81.84,Commercial,Urban Infrastructure,Land Valuation,2023-11-05,57,Yes,Yes,Disputed,No,Under Review,140,1
+LA-1382,Visakhapatnam,Anakapalle,59.34,Residential,Irrigation Project,Legal/Approval,2023-12-07,25,Yes,No,In Progress,No,Approved,58,0
+LA-1383,Krishna,Vijayawada North,97.98,Commercial,Industrial Park,Acquisition Completion,2023-11-05,57,Yes,Yes,Pending,Yes,Approved,128,1
+LA-1384,Guntur,Tirupati Rural,94.79,Agricultural,Industrial Park,Compensation,2023-06-08,207,Yes,Yes,Completed,No,Pending,76,1
+LA-1385,Kurnool,Eluru,111.65,Agricultural,Solar Power Plant,Owner Verification,2023-07-07,178,No,Yes,Pending,No,Under Review,232,1
+LA-1386,East Godavari,Vijayawada North,70.13,Agricultural,Irrigation Project,Land Identification,2023-10-10,83,Yes,Yes,Pending,No,Under Review,196,1
+LA-1387,Nellore,Eluru,40.47,Agricultural,Railway Corridor,Compensation,2023-09-02,121,Yes,Yes,Completed,No,Under Review,69,0
+LA-1388,West Godavari,Nandyal,100.45,Barren,Solar Power Plant,Land Valuation,2023-10-10,83,No,Yes,Pending,No,Under Review,164,1
+LA-1389,Guntur,Gudur,21.96,Agricultural,Highway Expansion,Document Verification,2023-12-05,27,Yes,Yes,Pending,No,Approved,123,1
+LA-1390,West Godavari,Eluru,56.22,Residential,Highway Expansion,Land Valuation,2023-08-19,135,Yes,Yes,Pending,No,Approved,137,1
+LA-1391,Guntur,Rajahmundry,74.2,Barren,Urban Infrastructure,Legal/Approval,2023-07-30,155,Yes,Yes,Completed,No,Approved,61,1
+LA-1392,East Godavari,Vijayawada North,101.86,Commercial,Solar Power Plant,Document Verification,2023-06-20,195,No,Yes,In Progress,No,Approved,166,1
+LA-1393,East Godavari,Tenali,20.17,Agricultural,Industrial Park,Compensation,2023-12-20,12,No,Yes,In Progress,Yes,Approved,169,1
+LA-1394,Chittoor,Tenali,47.59,Barren,Irrigation Project,Acquisition Completion,2023-07-08,177,No,No,Completed,No,Approved,118,1
+LA-1395,Guntur,Rajahmundry,101.47,Agricultural,Irrigation Project,Document Verification,2023-08-02,152,Yes,No,In Progress,No,Under Review,161,1
+LA-1396,Guntur,Vijayawada North,100.71,Residential,Railway Corridor,Land Identification,2023-11-09,53,Yes,No,Pending,Yes,Under Review,335,1
+LA-1397,Guntur,Rajahmundry,112.28,Residential,Railway Corridor,Compensation,2023-09-02,121,No,Yes,Completed,No,Approved,90,1
+LA-1398,Kurnool,Anakapalle,24.82,Barren,Railway Corridor,Land Valuation,2023-11-28,34,Yes,Yes,Pending,No,Pending,103,1
+LA-1399,Kurnool,Bhimavaram,39.48,Residential,Irrigation Project,Compensation,2023-07-07,178,Yes,Yes,Completed,No,Approved,46,1
+LA-1400,Nellore,Gudur,70.21,Barren,Railway Corridor,Land Identification,2023-06-16,199,Yes,Yes,Pending,No,Under Review,213,1
+LA-1401,Nellore,Tirupati Rural,95.79,Agricultural,Industrial Park,Document Verification,2023-09-16,107,No,Yes,In Progress,No,Under Review,115,1
+LA-1402,Krishna,Anakapalle,83.81,Agricultural,Highway Expansion,Owner Verification,2023-08-21,133,Yes,Yes,In Progress,No,Approved,120,1
+LA-1403,Krishna,Tirupati Rural,116.64,Agricultural,Highway Expansion,Owner Verification,2023-11-16,46,No,Yes,In Progress,Yes,Approved,213,1
+LA-1404,Krishna,Tenali,40.26,Barren,Urban Infrastructure,Acquisition Completion,2023-12-13,19,Yes,Yes,Completed,No,Approved,8,0
+LA-1405,Visakhapatnam,Anakapalle,62.83,Agricultural,Highway Expansion,Acquisition Completion,2023-10-06,87,Yes,Yes,Completed,No,Approved,38,0
+LA-1406,Kurnool,Anakapalle,94.13,Agricultural,Solar Power Plant,Land Identification,2023-06-16,199,Yes,Yes,In Progress,No,Pending,157,1
+LA-1407,Guntur,Gudur,111.75,Agricultural,Solar Power Plant,Legal/Approval,2023-11-28,34,No,Yes,In Progress,No,Approved,50,0
+LA-1408,Visakhapatnam,Bhimavaram,53.03,Agricultural,Irrigation Project,Land Valuation,2023-07-04,181,Yes,Yes,Disputed,No,Approved,124,1
+LA-1409,Chittoor,Bhimavaram,1.24,Residential,Industrial Park,Acquisition Completion,2023-08-27,127,Yes,No,In Progress,Yes,Approved,165,1
+LA-1410,East Godavari,Tirupati Rural,48.97,Agricultural,Solar Power Plant,Land Identification,2023-06-09,206,Yes,No,Completed,No,Approved,148,0
+LA-1411,Visakhapatnam,Rajahmundry,44.83,Residential,Industrial Park,Acquisition Completion,2023-05-28,218,No,Yes,Completed,Yes,Approved,161,1
+LA-1412,East Godavari,Tenali,27.31,Agricultural,Industrial Park,Document Verification,2023-09-18,105,Yes,Yes,In Progress,No,Under Review,110,1
+LA-1413,East Godavari,Rajahmundry,104.22,Commercial,Solar Power Plant,Owner Verification,2023-10-13,80,Yes,Yes,In Progress,No,Under Review,118,0
+LA-1414,Krishna,Tirupati Rural,116.01,Agricultural,Irrigation Project,Owner Verification,2023-05-31,215,Yes,Yes,Pending,Yes,Approved,247,1
+LA-1415,Chittoor,Bhimavaram,6.23,Barren,Irrigation Project,Owner Verification,2023-11-11,51,Yes,No,In Progress,No,Under Review,174,1
+LA-1416,Krishna,Tirupati Rural,59.78,Agricultural,Railway Corridor,Legal/Approval,2023-11-08,54,No,Yes,Pending,Yes,Pending,187,1
+LA-1417,Visakhapatnam,Anakapalle,8.74,Agricultural,Highway Expansion,Acquisition Completion,2023-12-10,22,Yes,Yes,Completed,No,Approved,30,0
+LA-1418,Visakhapatnam,Anakapalle,17.15,Barren,Industrial Park,Document Verification,2023-12-20,12,Yes,Yes,Pending,No,Approved,130,1
+LA-1419,Nellore,Vijayawada North,89.72,Agricultural,Solar Power Plant,Land Identification,2023-07-12,173,Yes,Yes,Pending,Yes,Under Review,312,1
+LA-1420,Chittoor,Anakapalle,35.62,Agricultural,Urban Infrastructure,Land Valuation,2023-09-11,112,No,Yes,Pending,No,Pending,178,1
+LA-1421,Kurnool,Anakapalle,57.19,Agricultural,Industrial Park,Legal/Approval,2023-10-13,80,Yes,Yes,In Progress,No,Approved,13,0
+LA-1422,Kurnool,Bhimavaram,15.39,Commercial,Railway Corridor,Owner Verification,2023-05-29,217,Yes,Yes,Disputed,No,Under Review,204,1
+LA-1423,Kurnool,Rajahmundry,108.02,Commercial,Irrigation Project,Land Identification,2023-09-21,102,Yes,No,In Progress,No,Approved,143,1
+LA-1424,Chittoor,Eluru,32.18,Agricultural,Irrigation Project,Owner Verification,2023-09-27,96,Yes,Yes,In Progress,No,Under Review,131,1
+LA-1425,Guntur,Tirupati Rural,52.56,Agricultural,Irrigation Project,Compensation,2023-09-23,100,Yes,Yes,Completed,No,Pending,79,0
+LA-1426,Guntur,Eluru,61.09,Commercial,Urban Infrastructure,Legal/Approval,2023-08-20,134,Yes,Yes,In Progress,No,Under Review,70,1
+LA-1427,Visakhapatnam,Kakinada Rural,100.45,Barren,Solar Power Plant,Owner Verification,2023-09-23,100,Yes,Yes,Pending,No,Under Review,192,1
+LA-1428,Krishna,Anakapalle,25.91,Agricultural,Solar Power Plant,Land Valuation,2023-06-14,201,No,No,In Progress,No,Pending,186,1
+LA-1429,Guntur,Kakinada Rural,40.92,Barren,Industrial Park,Owner Verification,2023-08-12,142,Yes,Yes,Pending,No,Approved,165,1
+LA-1430,East Godavari,Tenali,17.19,Residential,Urban Infrastructure,Acquisition Completion,2023-07-27,158,No,Yes,In Progress,No,Approved,57,1
+LA-1431,Guntur,Tirupati Rural,23.5,Agricultural,Industrial Park,Legal/Approval,2023-06-15,200,Yes,Yes,In Progress,No,Under Review,90,1
+LA-1432,Nellore,Vijayawada North,22.99,Agricultural,Solar Power Plant,Acquisition Completion,2023-07-25,160,Yes,Yes,In Progress,Yes,Approved,138,1
+LA-1433,East Godavari,Bhimavaram,34.44,Barren,Urban Infrastructure,Owner Verification,2023-11-24,38,No,Yes,Pending,No,Under Review,205,1
+LA-1434,West Godavari,Bhimavaram,91.23,Commercial,Railway Corridor,Owner Verification,2023-06-26,189,Yes,Yes,Pending,No,Under Review,200,1
+LA-1435,West Godavari,Nandyal,89.83,Barren,Irrigation Project,Land Identification,2023-06-13,202,Yes,No,Completed,No,Approved,178,1
+LA-1436,West Godavari,Kakinada Rural,2.25,Barren,Irrigation Project,Land Valuation,2023-05-29,217,Yes,No,In Progress,No,Under Review,118,1
+LA-1437,Visakhapatnam,Vijayawada North,54.03,Agricultural,Railway Corridor,Document Verification,2023-05-27,219,No,No,Completed,No,Under Review,208,1
+LA-1438,Nellore,Vijayawada North,65.71,Commercial,Irrigation Project,Compensation,2023-12-22,10,Yes,Yes,Pending,No,Under Review,108,1
+LA-1439,East Godavari,Tenali,17.4,Agricultural,Industrial Park,Compensation,2023-08-29,125,No,Yes,Completed,No,Approved,93,1
+LA-1440,Krishna,Tirupati Rural,2.61,Agricultural,Railway Corridor,Compensation,2023-12-06,26,No,Yes,Pending,No,Approved,126,1
+LA-1441,Kurnool,Kakinada Rural,118.28,Commercial,Industrial Park,Land Valuation,2023-12-21,11,Yes,No,Disputed,No,Under Review,173,1
+LA-1442,West Godavari,Eluru,112.89,Barren,Railway Corridor,Land Identification,2023-06-29,186,Yes,Yes,In Progress,No,Under Review,172,1
+LA-1443,Nellore,Eluru,3.86,Agricultural,Railway Corridor,Owner Verification,2023-06-21,194,Yes,No,Disputed,No,Pending,217,1
+LA-1444,West Godavari,Bhimavaram,96.76,Agricultural,Solar Power Plant,Land Identification,2023-09-22,101,Yes,Yes,Pending,No,Pending,200,1
+LA-1445,West Godavari,Kakinada Rural,36.28,Agricultural,Irrigation Project,Compensation,2023-08-14,140,Yes,Yes,Completed,No,Under Review,92,0
+LA-1446,Chittoor,Bhimavaram,2.71,Agricultural,Irrigation Project,Acquisition Completion,2023-11-06,56,No,Yes,Pending,No,Approved,102,1
+LA-1447,West Godavari,Tenali,60.25,Agricultural,Solar Power Plant,Acquisition Completion,2023-10-17,76,No,Yes,Pending,No,Approved,97,1
+LA-1448,Visakhapatnam,Tirupati Rural,109.27,Agricultural,Irrigation Project,Land Valuation,2023-11-07,55,Yes,Yes,In Progress,No,Approved,75,0
+LA-1449,Kurnool,Gudur,105.9,Barren,Industrial Park,Land Valuation,2023-11-28,34,Yes,Yes,Completed,No,Pending,95,0
+LA-1450,Chittoor,Bhimavaram,17.89,Barren,Highway Expansion,Acquisition Completion,2023-12-07,25,No,Yes,Completed,No,Approved,39,0
+LA-1451,East Godavari,Eluru,71.92,Residential,Irrigation Project,Land Identification,2023-09-07,116,Yes,Yes,In Progress,No,Approved,130,1
+LA-1452,Kurnool,Rajahmundry,110.05,Residential,Solar Power Plant,Owner Verification,2023-07-30,155,Yes,Yes,In Progress,No,Approved,127,1
+LA-1453,Kurnool,Nandyal,58.68,Barren,Solar Power Plant,Legal/Approval,2023-11-02,60,Yes,Yes,Completed,No,Under Review,54,0
+LA-1454,Guntur,Rajahmundry,85.4,Agricultural,Solar Power Plant,Document Verification,2023-08-25,129,No,Yes,Pending,No,Under Review,198,1
+LA-1455,Visakhapatnam,Bhimavaram,86.25,Residential,Industrial Park,Land Valuation,2023-10-21,72,Yes,Yes,Pending,Yes,Under Review,240,1
+LA-1456,Chittoor,Eluru,111.05,Agricultural,Highway Expansion,Document Verification,2023-12-21,11,Yes,No,Pending,No,Pending,199,1
+LA-1457,East Godavari,Tenali,74.89,Agricultural,Highway Expansion,Legal/Approval,2023-09-27,96,Yes,Yes,Pending,Yes,Under Review,218,1
+LA-1458,West Godavari,Vijayawada North,26.27,Residential,Railway Corridor,Legal/Approval,2023-07-18,167,Yes,No,Completed,No,Approved,97,1
+LA-1459,Kurnool,Tenali,117.95,Agricultural,Industrial Park,Acquisition Completion,2023-08-24,130,Yes,Yes,Pending,No,Under Review,108,1
+LA-1460,Guntur,Nandyal,80.25,Agricultural,Highway Expansion,Owner Verification,2023-06-08,207,Yes,No,Pending,No,Approved,210,1
+LA-1461,Visakhapatnam,Tenali,70.4,Agricultural,Highway Expansion,Acquisition Completion,2023-06-24,191,No,No,In Progress,No,Approved,97,1
+LA-1462,Krishna,Eluru,102.81,Agricultural,Solar Power Plant,Acquisition Completion,2023-07-04,181,Yes,Yes,Completed,No,Approved,33,1
+LA-1463,East Godavari,Tenali,28.66,Residential,Railway Corridor,Land Identification,2023-07-30,155,No,Yes,In Progress,No,Approved,194,1
+LA-1464,East Godavari,Kakinada Rural,97.85,Barren,Highway Expansion,Document Verification,2023-05-28,218,Yes,Yes,Pending,No,Approved,156,1
+LA-1465,Kurnool,Kakinada Rural,99.92,Agricultural,Highway Expansion,Compensation,2023-06-24,191,Yes,Yes,In Progress,No,Approved,66,1
+LA-1466,Kurnool,Kakinada Rural,4.7,Agricultural,Railway Corridor,Legal/Approval,2023-12-11,21,Yes,Yes,Completed,No,Approved,31,0
+LA-1467,Kurnool,Gudur,33.48,Residential,Highway Expansion,Land Valuation,2023-06-25,190,Yes,Yes,Pending,No,Under Review,130,1
+LA-1468,East Godavari,Eluru,104.99,Agricultural,Railway Corridor,Acquisition Completion,2023-10-25,68,No,Yes,Completed,No,Approved,79,1
+LA-1469,Nellore,Nandyal,88.3,Agricultural,Irrigation Project,Owner Verification,2023-09-04,119,Yes,Yes,Pending,No,Approved,127,1
+LA-1470,Krishna,Anakapalle,46.31,Residential,Highway Expansion,Acquisition Completion,2023-09-14,109,No,Yes,In Progress,No,Approved,54,0
+LA-1471,Visakhapatnam,Eluru,37.96,Commercial,Irrigation Project,Land Valuation,2023-11-03,59,Yes,No,Pending,No,Pending,168,1
+LA-1472,West Godavari,Nandyal,48.73,Barren,Industrial Park,Acquisition Completion,2023-09-06,117,Yes,Yes,Completed,No,Approved,16,0
+LA-1473,Guntur,Eluru,86.94,Agricultural,Solar Power Plant,Compensation,2023-06-18,197,No,Yes,In Progress,No,Approved,104,1
+LA-1474,Guntur,Eluru,36.66,Agricultural,Highway Expansion,Land Identification,2023-11-10,52,Yes,No,Completed,No,Under Review,150,1
+LA-1475,Guntur,Kakinada Rural,60.14,Agricultural,Solar Power Plant,Land Valuation,2023-07-18,167,No,No,In Progress,Yes,Approved,219,1
+LA-1476,East Godavari,Rajahmundry,101.14,Agricultural,Irrigation Project,Land Valuation,2023-06-07,208,Yes,No,Pending,Yes,Pending,284,1
+LA-1477,Krishna,Gudur,81.97,Barren,Urban Infrastructure,Land Valuation,2023-09-14,109,No,No,In Progress,No,Approved,101,1
+LA-1478,Chittoor,Tirupati Rural,13.14,Commercial,Railway Corridor,Legal/Approval,2023-08-13,141,Yes,Yes,In Progress,No,Approved,40,0
+LA-1479,Chittoor,Eluru,116.66,Agricultural,Irrigation Project,Document Verification,2023-09-10,113,No,No,Disputed,Yes,Under Review,323,1
+LA-1480,Chittoor,Tirupati Rural,34.82,Agricultural,Railway Corridor,Acquisition Completion,2023-10-16,77,Yes,Yes,In Progress,No,Approved,5,0
+LA-1481,West Godavari,Anakapalle,102.26,Agricultural,Highway Expansion,Owner Verification,2023-06-03,212,No,Yes,Pending,No,Pending,229,1
+LA-1482,Krishna,Tirupati Rural,93.12,Commercial,Highway Expansion,Acquisition Completion,2023-12-17,15,Yes,No,In Progress,No,Approved,28,0
+LA-1483,Kurnool,Gudur,17.42,Agricultural,Highway Expansion,Owner Verification,2023-09-16,107,Yes,Yes,Disputed,No,Pending,161,1
+LA-1484,Nellore,Rajahmundry,37.73,Residential,Industrial Park,Document Verification,2023-11-04,58,Yes,Yes,Pending,Yes,Approved,234,1
+LA-1485,Chittoor,Kakinada Rural,106.69,Agricultural,Solar Power Plant,Compensation,2023-12-14,18,Yes,Yes,In Progress,No,Approved,59,0
+LA-1486,Guntur,Kakinada Rural,9.67,Agricultural,Railway Corridor,Land Identification,2023-09-01,122,Yes,Yes,Pending,No,Pending,240,1
+LA-1487,Guntur,Eluru,11.78,Agricultural,Highway Expansion,Legal/Approval,2023-08-13,141,No,Yes,Completed,No,Under Review,137,1
+LA-1488,Visakhapatnam,Tirupati Rural,62.43,Agricultural,Railway Corridor,Legal/Approval,2023-09-24,99,Yes,Yes,Pending,No,Approved,97,1
+LA-1489,Krishna,Kakinada Rural,65.22,Commercial,Railway Corridor,Land Valuation,2023-06-18,197,Yes,Yes,Pending,No,Under Review,162,1
+LA-1490,Nellore,Eluru,106.84,Commercial,Irrigation Project,Document Verification,2023-09-25,98,Yes,No,Pending,No,Pending,183,1
+LA-1491,Kurnool,Gudur,49.93,Residential,Solar Power Plant,Land Identification,2023-11-11,51,Yes,Yes,Pending,No,Pending,236,1
+LA-1492,West Godavari,Vijayawada North,115.25,Commercial,Solar Power Plant,Legal/Approval,2023-06-25,190,Yes,Yes,Completed,No,Approved,67,1
+LA-1493,West Godavari,Bhimavaram,88.36,Residential,Solar Power Plant,Owner Verification,2023-07-05,180,Yes,Yes,Pending,Yes,Under Review,265,1
+LA-1494,East Godavari,Tenali,93.07,Commercial,Urban Infrastructure,Acquisition Completion,2023-08-08,146,No,No,In Progress,No,Approved,114,1
+LA-1495,Chittoor,Tenali,64.93,Barren,Highway Expansion,Acquisition Completion,2023-08-22,132,Yes,No,Disputed,No,Approved,119,1
+LA-1496,Visakhapatnam,Nandyal,82.38,Barren,Irrigation Project,Legal/Approval,2023-12-06,26,No,Yes,In Progress,No,Approved,73,1
+LA-1497,Krishna,Tirupati Rural,26.75,Agricultural,Solar Power Plant,Document Verification,2023-06-16,199,Yes,No,Pending,No,Under Review,179,1
+LA-1498,Chittoor,Nandyal,13.93,Agricultural,Irrigation Project,Document Verification,2023-11-14,48,Yes,Yes,Completed,No,Approved,64,0
+LA-1499,East Godavari,Vijayawada North,53.52,Barren,Highway Expansion,Acquisition Completion,2023-08-18,136,Yes,No,In Progress,No,Under Review,88,1
+LA-1500,Chittoor,Anakapalle,82.14,Agricultural,Highway Expansion,Land Valuation,2023-11-19,43,No,Yes,In Progress,No,Under Review,137,1
+LA-1501,West Godavari,Tirupati Rural,75.46,Agricultural,Urban Infrastructure,Acquisition Completion,2023-10-07,86,No,Yes,In Progress,Yes,Approved,100,1
+LA-1502,Kurnool,Eluru,9.51,Agricultural,Solar Power Plant,Document Verification,2023-07-19,166,Yes,Yes,Pending,No,Under Review,183,1
+LA-1503,East Godavari,Kakinada Rural,67.32,Agricultural,Railway Corridor,Owner Verification,2023-09-22,101,No,Yes,In Progress,No,Approved,127,1
+LA-1504,Chittoor,Vijayawada North,114.64,Agricultural,Solar Power Plant,Compensation,2023-07-23,162,Yes,Yes,Completed,No,Approved,82,1
+LA-1505,East Godavari,Eluru,67.67,Agricultural,Solar Power Plant,Land Valuation,2023-10-03,90,Yes,Yes,Disputed,No,Approved,143,1
+LA-1506,West Godavari,Nandyal,10.85,Commercial,Solar Power Plant,Land Identification,2023-09-23,100,No,Yes,In Progress,No,Approved,157,1
+LA-1507,Chittoor,Anakapalle,102.6,Residential,Solar Power Plant,Land Valuation,2023-07-20,165,No,No,In Progress,No,Pending,177,1
+LA-1508,Krishna,Gudur,93.94,Agricultural,Industrial Park,Owner Verification,2023-11-16,46,Yes,Yes,Pending,No,Approved,153,1
+LA-1509,Nellore,Anakapalle,37.03,Agricultural,Solar Power Plant,Legal/Approval,2023-09-08,115,No,No,Completed,Yes,Approved,161,1
+LA-1510,East Godavari,Rajahmundry,113.77,Agricultural,Highway Expansion,Acquisition Completion,2023-10-29,64,Yes,Yes,In Progress,No,Approved,7,0
+LA-1511,Kurnool,Anakapalle,11.31,Agricultural,Urban Infrastructure,Land Valuation,2023-09-22,101,No,Yes,Pending,Yes,Pending,245,1
+LA-1512,West Godavari,Tirupati Rural,38.81,Agricultural,Industrial Park,Land Identification,2023-11-19,43,Yes,No,In Progress,No,Approved,135,0
+LA-1513,Chittoor,Nandyal,47.65,Residential,Solar Power Plant,Land Identification,2023-11-29,33,No,Yes,Completed,Yes,Pending,296,1
+LA-1514,East Godavari,Anakapalle,2.61,Agricultural,Highway Expansion,Owner Verification,2023-10-30,63,Yes,Yes,Pending,Yes,Under Review,258,1
+LA-1515,West Godavari,Eluru,89.04,Commercial,Urban Infrastructure,Owner Verification,2023-09-08,115,Yes,Yes,Pending,No,Approved,140,1
+LA-1516,Krishna,Tenali,29.72,Agricultural,Urban Infrastructure,Land Valuation,2023-08-08,146,Yes,Yes,Pending,No,Under Review,176,1
+LA-1517,Chittoor,Tirupati Rural,56.5,Commercial,Industrial Park,Compensation,2023-07-11,174,Yes,Yes,In Progress,Yes,Under Review,144,1
+LA-1518,Guntur,Vijayawada North,85.2,Agricultural,Urban Infrastructure,Document Verification,2023-09-26,97,No,Yes,In Progress,No,Pending,131,1
+LA-1519,West Godavari,Tenali,52.35,Residential,Industrial Park,Land Identification,2023-10-15,78,Yes,Yes,In Progress,Yes,Approved,214,1
+LA-1520,West Godavari,Bhimavaram,34.78,Agricultural,Industrial Park,Land Valuation,2023-10-14,79,Yes,No,Pending,No,Under Review,150,1
+LA-1521,West Godavari,Vijayawada North,13.98,Barren,Solar Power Plant,Legal/Approval,2023-06-02,213,Yes,Yes,In Progress,No,Pending,77,1
+LA-1522,Krishna,Vijayawada North,105.03,Barren,Irrigation Project,Legal/Approval,2023-06-30,185,Yes,Yes,Completed,Yes,Approved,107,1
+LA-1523,East Godavari,Tirupati Rural,37.88,Agricultural,Highway Expansion,Owner Verification,2023-08-04,150,Yes,Yes,In Progress,No,Under Review,150,0
+LA-1524,Chittoor,Kakinada Rural,80.15,Residential,Railway Corridor,Compensation,2023-08-16,138,Yes,No,Pending,No,Under Review,157,1
+LA-1525,Kurnool,Nandyal,26.22,Residential,Railway Corridor,Owner Verification,2023-08-01,153,Yes,Yes,Disputed,Yes,Under Review,258,1
+LA-1526,Visakhapatnam,Tenali,35.02,Commercial,Railway Corridor,Land Identification,2023-06-28,187,Yes,Yes,Disputed,No,Under Review,199,1
+LA-1527,Krishna,Eluru,52.11,Agricultural,Industrial Park,Compensation,2023-06-27,188,Yes,Yes,In Progress,No,Pending,95,1
+LA-1528,West Godavari,Bhimavaram,24.48,Residential,Highway Expansion,Owner Verification,2023-06-12,203,Yes,No,Pending,Yes,Under Review,268,1
+LA-1529,Kurnool,Nandyal,92.37,Agricultural,Highway Expansion,Land Identification,2023-10-10,83,Yes,Yes,Disputed,No,Approved,171,1
+LA-1530,Visakhapatnam,Bhimavaram,108.14,Barren,Solar Power Plant,Owner Verification,2023-06-29,186,No,No,Completed,No,Under Review,241,1
+LA-1531,Visakhapatnam,Anakapalle,91.95,Agricultural,Irrigation Project,Land Identification,2023-08-03,151,No,Yes,In Progress,No,Approved,166,1
+LA-1532,Nellore,Vijayawada North,109.34,Commercial,Solar Power Plant,Land Valuation,2023-11-05,57,Yes,Yes,Pending,No,Approved,97,1
+LA-1533,Krishna,Bhimavaram,83.92,Commercial,Solar Power Plant,Owner Verification,2023-10-07,86,Yes,Yes,Completed,No,Approved,81,0
+LA-1534,Kurnool,Nandyal,37.02,Commercial,Solar Power Plant,Compensation,2023-09-02,121,Yes,Yes,In Progress,Yes,Approved,186,1
+LA-1535,East Godavari,Gudur,11.63,Agricultural,Irrigation Project,Legal/Approval,2023-05-29,217,Yes,Yes,Completed,No,Approved,65,1
+LA-1536,Kurnool,Tirupati Rural,101.19,Agricultural,Solar Power Plant,Acquisition Completion,2023-06-07,208,Yes,Yes,In Progress,No,Under Review,66,1
+LA-1537,Kurnool,Bhimavaram,42.75,Agricultural,Industrial Park,Owner Verification,2023-07-26,159,Yes,No,Pending,No,Approved,206,1
+LA-1538,Guntur,Vijayawada North,96.36,Agricultural,Industrial Park,Legal/Approval,2023-10-30,63,No,Yes,In Progress,No,Approved,88,1
+LA-1539,East Godavari,Bhimavaram,22.82,Residential,Industrial Park,Land Identification,2023-08-25,129,Yes,Yes,Completed,No,Approved,166,0
+LA-1540,Nellore,Bhimavaram,108.35,Agricultural,Irrigation Project,Land Identification,2023-11-15,47,No,Yes,Pending,No,Under Review,244,1
+LA-1541,Kurnool,Vijayawada North,46.33,Agricultural,Highway Expansion,Owner Verification,2023-09-14,109,Yes,Yes,In Progress,No,Approved,125,1
+LA-1542,Krishna,Tenali,47.68,Commercial,Solar Power Plant,Owner Verification,2023-06-16,199,Yes,Yes,Pending,No,Approved,155,1
+LA-1543,Guntur,Tenali,36.67,Agricultural,Highway Expansion,Legal/Approval,2023-09-20,103,Yes,No,Completed,No,Pending,111,0
+LA-1544,Chittoor,Anakapalle,46.88,Agricultural,Railway Corridor,Document Verification,2023-10-12,81,Yes,Yes,Completed,No,Approved,93,0
+LA-1545,Nellore,Kakinada Rural,67.03,Residential,Irrigation Project,Acquisition Completion,2023-12-10,22,Yes,Yes,Completed,No,Approved,5,0
+LA-1546,Krishna,Bhimavaram,110.83,Commercial,Highway Expansion,Acquisition Completion,2023-07-04,181,Yes,Yes,Pending,No,Approved,64,1
+LA-1547,Kurnool,Tirupati Rural,73.8,Agricultural,Railway Corridor,Land Identification,2023-12-13,19,Yes,No,Pending,No,Approved,209,1
+LA-1548,Krishna,Vijayawada North,39.56,Agricultural,Urban Infrastructure,Land Valuation,2023-11-30,32,No,Yes,Pending,No,Under Review,160,1
+LA-1549,East Godavari,Rajahmundry,113.44,Agricultural,Railway Corridor,Legal/Approval,2023-11-23,39,Yes,Yes,In Progress,No,Under Review,66,0
+LA-1550,Visakhapatnam,Kakinada Rural,56.86,Commercial,Railway Corridor,Land Identification,2023-07-13,172,Yes,No,Pending,Yes,Approved,312,1
+LA-1551,Guntur,Nandyal,98.55,Commercial,Industrial Park,Document Verification,2023-08-19,135,Yes,Yes,Pending,No,Under Review,217,1
+LA-1552,Visakhapatnam,Nandyal,90.87,Agricultural,Urban Infrastructure,Compensation,2023-11-10,52,No,Yes,In Progress,Yes,Under Review,208,1
+LA-1553,Krishna,Eluru,39.3,Barren,Urban Infrastructure,Compensation,2023-08-22,132,No,Yes,Pending,No,Approved,155,1
+LA-1554,Nellore,Tirupati Rural,106.45,Agricultural,Urban Infrastructure,Document Verification,2023-12-08,24,No,No,In Progress,Yes,Under Review,291,1
+LA-1555,Kurnool,Tenali,30.71,Agricultural,Irrigation Project,Owner Verification,2023-11-30,32,Yes,Yes,In Progress,No,Under Review,131,0
+LA-1556,Kurnool,Gudur,103.09,Agricultural,Highway Expansion,Legal/Approval,2023-12-05,27,Yes,Yes,In Progress,No,Pending,43,0
+LA-1557,Kurnool,Tirupati Rural,20.17,Residential,Railway Corridor,Legal/Approval,2023-10-20,73,Yes,Yes,In Progress,No,Approved,68,0
+LA-1558,East Godavari,Gudur,39.03,Agricultural,Industrial Park,Owner Verification,2023-09-04,119,No,Yes,Pending,Yes,Approved,253,1
+LA-1559,East Godavari,Nandyal,98.13,Agricultural,Solar Power Plant,Acquisition Completion,2023-11-16,46,Yes,Yes,In Progress,No,Approved,11,0
+LA-1560,Chittoor,Eluru,51.91,Barren,Solar Power Plant,Compensation,2023-10-24,69,No,No,In Progress,Yes,Approved,203,1
+LA-1561,Kurnool,Bhimavaram,65.61,Agricultural,Highway Expansion,Land Valuation,2023-10-15,78,No,Yes,Completed,No,Under Review,108,1
+LA-1562,West Godavari,Rajahmundry,96.29,Commercial,Solar Power Plant,Land Valuation,2023-10-23,70,No,Yes,Disputed,No,Approved,155,1
+LA-1563,West Godavari,Tenali,116.04,Agricultural,Industrial Park,Acquisition Completion,2023-07-28,157,Yes,No,Completed,No,Approved,62,1
+LA-1564,Guntur,Anakapalle,23.66,Agricultural,Railway Corridor,Acquisition Completion,2023-12-11,21,Yes,Yes,Pending,No,Approved,34,0
+LA-1565,Guntur,Eluru,94.14,Barren,Irrigation Project,Acquisition Completion,2023-07-17,168,Yes,Yes,Pending,No,Approved,82,1
+LA-1566,Guntur,Anakapalle,67.02,Commercial,Industrial Park,Land Valuation,2023-10-04,89,Yes,Yes,Pending,No,Pending,120,1
+LA-1567,Krishna,Vijayawada North,47.12,Agricultural,Solar Power Plant,Compensation,2023-06-17,198,No,Yes,Completed,No,Under Review,119,1
+LA-1568,Chittoor,Gudur,63.51,Agricultural,Industrial Park,Acquisition Completion,2023-08-08,146,Yes,Yes,In Progress,No,Approved,29,0
+LA-1569,Visakhapatnam,Kakinada Rural,107.44,Agricultural,Solar Power Plant,Acquisition Completion,2023-08-17,137,Yes,Yes,In Progress,No,Approved,14,0
+LA-1570,East Godavari,Tirupati Rural,56.55,Agricultural,Industrial Park,Land Valuation,2023-10-25,68,Yes,No,In Progress,No,Under Review,131,0
+LA-1571,Krishna,Kakinada Rural,99.1,Agricultural,Railway Corridor,Document Verification,2023-06-26,189,Yes,Yes,In Progress,No,Under Review,116,1
+LA-1572,Chittoor,Kakinada Rural,88.24,Agricultural,Railway Corridor,Acquisition Completion,2023-12-05,27,Yes,Yes,Completed,No,Under Review,32,0
+LA-1573,Guntur,Anakapalle,27.69,Agricultural,Urban Infrastructure,Compensation,2023-08-23,131,No,Yes,In Progress,No,Under Review,110,1
+LA-1574,West Godavari,Bhimavaram,55.31,Commercial,Industrial Park,Land Identification,2023-11-24,38,No,Yes,In Progress,No,Approved,177,1
+LA-1575,Kurnool,Kakinada Rural,109.7,Agricultural,Highway Expansion,Compensation,2023-08-05,149,Yes,Yes,Completed,No,Approved,44,0
+LA-1576,Guntur,Vijayawada North,80.26,Agricultural,Urban Infrastructure,Document Verification,2023-06-19,196,Yes,Yes,In Progress,No,Under Review,120,1
+LA-1577,Guntur,Gudur,72.11,Residential,Solar Power Plant,Compensation,2023-06-17,198,Yes,Yes,Completed,No,Under Review,101,1
+LA-1578,Guntur,Kakinada Rural,33.51,Residential,Railway Corridor,Owner Verification,2023-08-16,138,Yes,Yes,Pending,No,Pending,210,1
+LA-1579,Nellore,Eluru,73.33,Residential,Irrigation Project,Owner Verification,2023-12-11,21,No,No,In Progress,No,Under Review,219,1
+LA-1580,East Godavari,Rajahmundry,65.94,Commercial,Urban Infrastructure,Document Verification,2023-09-25,98,Yes,Yes,Pending,No,Under Review,137,1
+LA-1581,West Godavari,Tenali,47.54,Agricultural,Railway Corridor,Document Verification,2023-12-03,29,No,Yes,Completed,No,Approved,132,1
+LA-1582,West Godavari,Gudur,79.61,Agricultural,Urban Infrastructure,Compensation,2023-08-24,130,Yes,Yes,In Progress,No,Under Review,82,0
+LA-1583,East Godavari,Tirupati Rural,47.41,Agricultural,Highway Expansion,Legal/Approval,2023-06-18,197,Yes,Yes,In Progress,Yes,Under Review,165,1
+LA-1584,Guntur,Nandyal,0.65,Agricultural,Highway Expansion,Land Valuation,2023-11-08,54,Yes,Yes,Pending,Yes,Approved,201,1
+LA-1585,Visakhapatnam,Rajahmundry,119.71,Barren,Solar Power Plant,Compensation,2023-08-09,145,Yes,No,Completed,No,Approved,95,1
+LA-1586,Nellore,Nandyal,96.79,Commercial,Urban Infrastructure,Acquisition Completion,2023-09-02,121,No,Yes,Completed,No,Approved,78,1
+LA-1587,Nellore,Bhimavaram,23.14,Commercial,Irrigation Project,Land Identification,2023-12-20,12,Yes,Yes,Pending,No,Under Review,192,1
+LA-1588,Nellore,Rajahmundry,106.42,Residential,Industrial Park,Acquisition Completion,2023-09-20,103,Yes,Yes,In Progress,No,Pending,34,0
+LA-1589,West Godavari,Tirupati Rural,31.89,Agricultural,Highway Expansion,Acquisition Completion,2023-08-27,127,Yes,Yes,In Progress,Yes,Approved,128,1
+LA-1590,East Godavari,Vijayawada North,13.67,Residential,Highway Expansion,Document Verification,2023-12-16,16,No,No,In Progress,No,Under Review,177,1
+LA-1591,West Godavari,Tenali,41.41,Residential,Urban Infrastructure,Acquisition Completion,2023-09-04,119,No,No,In Progress,No,Approved,74,1
+LA-1592,Visakhapatnam,Tirupati Rural,69.77,Commercial,Industrial Park,Compensation,2023-11-23,39,No,Yes,Completed,No,Pending,110,1
+LA-1593,Visakhapatnam,Vijayawada North,70.1,Agricultural,Industrial Park,Document Verification,2023-09-05,118,Yes,Yes,In Progress,No,Under Review,125,1
+LA-1594,Kurnool,Vijayawada North,57.8,Agricultural,Highway Expansion,Compensation,2023-10-07,86,Yes,Yes,Completed,Yes,Pending,164,1
+LA-1595,West Godavari,Rajahmundry,51.39,Barren,Railway Corridor,Land Valuation,2023-12-04,28,Yes,Yes,Pending,No,Approved,125,1
+LA-1596,Visakhapatnam,Gudur,21.97,Barren,Highway Expansion,Owner Verification,2023-08-15,139,Yes,Yes,Disputed,No,Under Review,203,1
+LA-1597,Guntur,Gudur,88.45,Agricultural,Railway Corridor,Land Identification,2023-06-12,203,Yes,Yes,In Progress,No,Approved,186,1
+LA-1598,East Godavari,Rajahmundry,107.07,Agricultural,Urban Infrastructure,Acquisition Completion,2023-11-10,52,No,Yes,In Progress,No,Approved,57,0
+LA-1599,Chittoor,Tirupati Rural,60.71,Residential,Highway Expansion,Compensation,2023-11-05,57,No,Yes,In Progress,No,Under Review,111,1
+LA-1600,Krishna,Bhimavaram,76.8,Agricultural,Solar Power Plant,Acquisition Completion,2023-11-07,55,No,Yes,In Progress,No,Approved,45,0
+LA-1601,West Godavari,Anakapalle,112.11,Agricultural,Irrigation Project,Legal/Approval,2023-06-08,207,Yes,Yes,Completed,Yes,Approved,155,1
+LA-1602,Guntur,Rajahmundry,31.21,Agricultural,Highway Expansion,Acquisition Completion,2023-08-30,124,Yes,Yes,Completed,No,Approved,21,0
+LA-1603,Chittoor,Rajahmundry,46.05,Agricultural,Railway Corridor,Legal/Approval,2023-09-20,103,No,Yes,Completed,No,Under Review,136,1
+LA-1604,Visakhapatnam,Tenali,108.75,Residential,Solar Power Plant,Legal/Approval,2023-09-09,114,Yes,Yes,Completed,No,Pending,72,0
+LA-1605,Kurnool,Rajahmundry,14.66,Agricultural,Solar Power Plant,Owner Verification,2023-08-10,144,No,Yes,In Progress,No,Under Review,184,1
+LA-1606,Chittoor,Eluru,1.6,Commercial,Solar Power Plant,Land Valuation,2023-11-21,41,Yes,Yes,Disputed,No,Under Review,137,1
+LA-1607,East Godavari,Gudur,107.1,Agricultural,Solar Power Plant,Compensation,2023-08-31,123,Yes,Yes,Completed,No,Under Review,92,1
+LA-1608,Chittoor,Tenali,48.32,Agricultural,Highway Expansion,Document Verification,2023-07-13,172,Yes,Yes,Pending,No,Under Review,187,1
+LA-1609,West Godavari,Kakinada Rural,26.93,Agricultural,Urban Infrastructure,Acquisition Completion,2023-07-04,181,Yes,Yes,Completed,No,Approved,49,1
+LA-1610,Chittoor,Kakinada Rural,73.28,Residential,Railway Corridor,Acquisition Completion,2023-07-03,182,Yes,Yes,In Progress,No,Approved,39,1
+LA-1611,East Godavari,Vijayawada North,76.2,Agricultural,Urban Infrastructure,Acquisition Completion,2023-07-08,177,Yes,No,In Progress,No,Approved,50,1
+LA-1612,Kurnool,Gudur,43.94,Commercial,Highway Expansion,Land Identification,2023-06-29,186,Yes,No,Disputed,No,Under Review,231,1
+LA-1613,Visakhapatnam,Tirupati Rural,9.94,Commercial,Solar Power Plant,Document Verification,2023-09-12,111,Yes,Yes,Pending,Yes,Approved,212,1
+LA-1614,Krishna,Tenali,3.63,Commercial,Urban Infrastructure,Owner Verification,2023-07-22,163,Yes,Yes,In Progress,Yes,Approved,198,1
+LA-1615,East Godavari,Bhimavaram,49.59,Agricultural,Urban Infrastructure,Acquisition Completion,2023-06-24,191,Yes,Yes,In Progress,No,Approved,45,1
+LA-1616,Nellore,Bhimavaram,82.58,Barren,Industrial Park,Owner Verification,2023-06-28,187,Yes,Yes,In Progress,No,Pending,156,1
+LA-1617,West Godavari,Kakinada Rural,110.75,Commercial,Irrigation Project,Land Valuation,2023-12-21,11,Yes,Yes,Pending,No,Under Review,136,1
+LA-1618,West Godavari,Nandyal,74.32,Agricultural,Urban Infrastructure,Owner Verification,2023-06-04,211,Yes,Yes,Pending,No,Under Review,182,1
+LA-1619,Guntur,Gudur,98.69,Agricultural,Irrigation Project,Owner Verification,2023-06-15,200,No,No,In Progress,No,Under Review,184,1
+LA-1620,Chittoor,Anakapalle,56.86,Residential,Solar Power Plant,Land Identification,2023-10-01,92,Yes,No,Pending,No,Approved,191,1
+LA-1621,Krishna,Tenali,57.94,Commercial,Irrigation Project,Land Valuation,2023-12-19,13,No,Yes,Disputed,Yes,Under Review,245,1
+LA-1622,West Godavari,Kakinada Rural,88.06,Commercial,Highway Expansion,Legal/Approval,2023-06-20,195,Yes,Yes,Completed,No,Approved,73,1
+LA-1623,West Godavari,Vijayawada North,107.21,Agricultural,Industrial Park,Land Identification,2023-08-26,128,No,Yes,Pending,No,Under Review,259,1
+LA-1624,East Godavari,Vijayawada North,98.04,Barren,Solar Power Plant,Land Identification,2023-10-12,81,No,No,Disputed,No,Approved,244,1
+LA-1625,Nellore,Nandyal,116.86,Commercial,Solar Power Plant,Land Valuation,2023-12-04,28,No,Yes,Pending,No,Under Review,159,1
+LA-1626,Kurnool,Eluru,100.75,Agricultural,Railway Corridor,Land Identification,2023-06-02,213,Yes,No,In Progress,No,Approved,179,1
+LA-1627,Kurnool,Eluru,105.11,Agricultural,Urban Infrastructure,Document Verification,2023-12-13,19,Yes,No,Completed,No,Pending,151,0
+LA-1628,Guntur,Vijayawada North,12.83,Barren,Industrial Park,Land Valuation,2023-09-15,108,No,Yes,In Progress,No,Pending,102,1
+LA-1629,East Godavari,Kakinada Rural,45.47,Agricultural,Industrial Park,Legal/Approval,2023-09-15,108,No,Yes,In Progress,No,Approved,60,0
+LA-1630,Visakhapatnam,Anakapalle,27.25,Agricultural,Irrigation Project,Land Identification,2023-08-25,129,Yes,No,Pending,No,Pending,241,1
+LA-1631,Kurnool,Eluru,45.65,Agricultural,Urban Infrastructure,Compensation,2023-07-16,169,Yes,Yes,Completed,No,Pending,82,0
+LA-1632,Chittoor,Bhimavaram,37.0,Agricultural,Irrigation Project,Acquisition Completion,2023-10-28,65,No,No,In Progress,No,Approved,92,1
+LA-1633,Chittoor,Tenali,88.14,Barren,Solar Power Plant,Owner Verification,2023-12-16,16,Yes,Yes,In Progress,No,Pending,142,0
+LA-1634,Chittoor,Gudur,54.5,Residential,Urban Infrastructure,Legal/Approval,2023-09-18,105,Yes,Yes,In Progress,No,Approved,65,0
+LA-1635,East Godavari,Rajahmundry,81.44,Agricultural,Urban Infrastructure,Legal/Approval,2023-10-30,63,Yes,Yes,In Progress,Yes,Approved,135,1
+LA-1636,Nellore,Kakinada Rural,117.73,Commercial,Urban Infrastructure,Legal/Approval,2023-07-17,168,Yes,No,Completed,No,Under Review,116,1
+LA-1637,Chittoor,Vijayawada North,41.43,Agricultural,Urban Infrastructure,Owner Verification,2023-09-21,102,Yes,Yes,Pending,No,Approved,129,1
+LA-1638,Chittoor,Anakapalle,39.86,Commercial,Industrial Park,Compensation,2023-06-02,213,No,Yes,Pending,No,Under Review,160,1
+LA-1639,Guntur,Eluru,74.31,Commercial,Railway Corridor,Owner Verification,2023-11-12,50,Yes,Yes,Pending,No,Approved,129,1
+LA-1640,Visakhapatnam,Anakapalle,61.27,Agricultural,Railway Corridor,Owner Verification,2023-08-04,150,No,No,Disputed,No,Approved,243,1
+LA-1641,Chittoor,Bhimavaram,83.7,Agricultural,Solar Power Plant,Compensation,2023-09-20,103,Yes,Yes,In Progress,No,Pending,82,0
+LA-1642,Kurnool,Tenali,52.1,Residential,Irrigation Project,Document Verification,2023-12-06,26,Yes,No,Pending,No,Approved,183,1
+LA-1643,Guntur,Kakinada Rural,90.48,Residential,Irrigation Project,Acquisition Completion,2023-07-14,171,Yes,No,Completed,No,Approved,70,1
+LA-1644,Visakhapatnam,Bhimavaram,119.97,Residential,Irrigation Project,Legal/Approval,2023-07-11,174,Yes,No,Completed,No,Under Review,104,1
+LA-1645,Chittoor,Bhimavaram,89.35,Commercial,Solar Power Plant,Owner Verification,2023-11-11,51,Yes,Yes,In Progress,No,Approved,97,0
+LA-1646,East Godavari,Nandyal,117.08,Agricultural,Highway Expansion,Land Valuation,2023-06-27,188,No,No,Disputed,No,Approved,190,1
+LA-1647,Nellore,Gudur,96.96,Agricultural,Solar Power Plant,Owner Verification,2023-08-26,128,Yes,Yes,In Progress,No,Approved,98,1
+LA-1648,Visakhapatnam,Tirupati Rural,91.47,Barren,Irrigation Project,Document Verification,2023-05-29,217,No,Yes,In Progress,No,Pending,159,1
+LA-1649,Visakhapatnam,Tenali,0.69,Barren,Urban Infrastructure,Acquisition Completion,2023-06-24,191,Yes,Yes,Pending,No,Approved,60,1
+LA-1650,Kurnool,Tenali,6.84,Agricultural,Railway Corridor,Compensation,2023-11-09,53,Yes,Yes,Pending,Yes,Under Review,190,1
+LA-1651,Chittoor,Anakapalle,53.26,Barren,Highway Expansion,Owner Verification,2023-07-13,172,No,Yes,Pending,No,Under Review,227,1
+LA-1652,Kurnool,Tirupati Rural,26.81,Agricultural,Irrigation Project,Land Valuation,2023-11-08,54,No,Yes,Pending,No,Under Review,169,1
+LA-1653,Guntur,Bhimavaram,50.63,Agricultural,Industrial Park,Land Valuation,2023-09-13,110,Yes,Yes,In Progress,No,Pending,82,0
+LA-1654,West Godavari,Vijayawada North,51.47,Agricultural,Highway Expansion,Land Identification,2023-12-20,12,Yes,Yes,In Progress,No,Approved,138,0
+LA-1655,Visakhapatnam,Nandyal,0.55,Commercial,Solar Power Plant,Compensation,2023-10-03,90,Yes,Yes,In Progress,No,Approved,44,0
+LA-1656,Guntur,Anakapalle,58.95,Residential,Urban Infrastructure,Legal/Approval,2023-06-07,208,Yes,Yes,Completed,No,Under Review,90,1
+LA-1657,Guntur,Anakapalle,67.07,Residential,Highway Expansion,Owner Verification,2023-07-01,184,Yes,Yes,Disputed,No,Under Review,200,1
+LA-1658,Chittoor,Vijayawada North,61.88,Residential,Solar Power Plant,Acquisition Completion,2023-08-05,149,Yes,No,Disputed,No,Approved,124,1
+LA-1659,Krishna,Eluru,71.45,Residential,Urban Infrastructure,Land Identification,2023-10-31,62,Yes,No,Pending,No,Approved,169,1
+LA-1660,Chittoor,Bhimavaram,114.34,Agricultural,Solar Power Plant,Land Valuation,2023-12-21,11,Yes,No,In Progress,No,Under Review,125,0
+LA-1661,Krishna,Eluru,19.46,Agricultural,Irrigation Project,Acquisition Completion,2023-11-04,58,No,Yes,In Progress,No,Approved,47,0
+LA-1662,Visakhapatnam,Tenali,8.42,Agricultural,Highway Expansion,Document Verification,2023-11-27,35,Yes,No,Pending,No,Under Review,175,1
+LA-1663,Nellore,Bhimavaram,19.0,Agricultural,Urban Infrastructure,Compensation,2023-08-16,138,Yes,No,Completed,No,Under Review,134,1
+LA-1664,Krishna,Rajahmundry,96.07,Agricultural,Railway Corridor,Acquisition Completion,2023-06-06,209,Yes,Yes,Completed,Yes,Approved,121,1
+LA-1665,Visakhapatnam,Anakapalle,113.67,Agricultural,Industrial Park,Acquisition Completion,2023-09-24,99,No,Yes,Completed,No,Approved,42,0
+LA-1666,East Godavari,Eluru,26.04,Agricultural,Industrial Park,Owner Verification,2023-09-06,117,Yes,Yes,In Progress,No,Pending,132,1
+LA-1667,West Godavari,Anakapalle,116.87,Agricultural,Urban Infrastructure,Land Valuation,2023-12-15,17,No,Yes,In Progress,No,Approved,90,1
+LA-1668,Chittoor,Tirupati Rural,39.4,Agricultural,Irrigation Project,Land Identification,2023-07-20,165,Yes,No,Disputed,No,Pending,259,1
+LA-1669,Visakhapatnam,Vijayawada North,78.0,Agricultural,Railway Corridor,Land Identification,2023-11-09,53,Yes,No,Completed,No,Approved,160,1
+LA-1670,Visakhapatnam,Kakinada Rural,111.38,Residential,Solar Power Plant,Land Identification,2023-09-06,117,Yes,Yes,Pending,Yes,Under Review,291,1
+LA-1671,West Godavari,Tenali,89.26,Residential,Highway Expansion,Land Valuation,2023-07-11,174,No,No,Pending,No,Under Review,216,1
+LA-1672,West Godavari,Gudur,96.87,Agricultural,Irrigation Project,Land Identification,2023-10-13,80,Yes,Yes,In Progress,No,Approved,138,1
+LA-1673,Kurnool,Rajahmundry,88.22,Agricultural,Highway Expansion,Land Valuation,2023-07-12,173,Yes,Yes,In Progress,No,Approved,92,1
+LA-1674,Visakhapatnam,Vijayawada North,46.51,Residential,Solar Power Plant,Acquisition Completion,2023-11-06,56,Yes,No,Completed,No,Approved,40,0
+LA-1675,East Godavari,Tenali,15.7,Agricultural,Highway Expansion,Acquisition Completion,2023-10-25,68,Yes,Yes,Pending,Yes,Pending,172,1
+LA-1676,Kurnool,Vijayawada North,38.68,Agricultural,Urban Infrastructure,Document Verification,2023-11-06,56,Yes,Yes,Pending,Yes,Under Review,245,1
+LA-1677,Nellore,Nandyal,75.49,Agricultural,Irrigation Project,Owner Verification,2023-09-03,120,Yes,Yes,Pending,No,Approved,138,1
+LA-1678,Guntur,Bhimavaram,5.34,Agricultural,Urban Infrastructure,Acquisition Completion,2023-10-04,89,Yes,Yes,In Progress,No,Approved,24,0
+LA-1679,Chittoor,Vijayawada North,38.03,Agricultural,Urban Infrastructure,Legal/Approval,2023-10-14,79,Yes,Yes,Pending,No,Under Review,100,1
+LA-1680,Visakhapatnam,Gudur,86.59,Agricultural,Urban Infrastructure,Acquisition Completion,2023-06-14,201,Yes,Yes,Pending,Yes,Approved,183,1
+LA-1681,Guntur,Bhimavaram,10.38,Agricultural,Urban Infrastructure,Document Verification,2023-07-06,179,Yes,Yes,Completed,No,Under Review,138,1
+LA-1682,Guntur,Anakapalle,73.15,Agricultural,Solar Power Plant,Acquisition Completion,2023-11-27,35,No,Yes,Completed,No,Approved,47,0
+LA-1683,Krishna,Tirupati Rural,76.67,Residential,Irrigation Project,Acquisition Completion,2023-08-31,123,Yes,No,Completed,Yes,Approved,141,1
+LA-1684,Nellore,Nandyal,7.78,Agricultural,Irrigation Project,Land Valuation,2023-07-14,171,Yes,No,In Progress,No,Under Review,143,0
+LA-1685,Chittoor,Bhimavaram,19.4,Agricultural,Irrigation Project,Land Valuation,2023-06-28,187,Yes,Yes,Pending,No,Under Review,165,1
+LA-1686,Guntur,Kakinada Rural,88.33,Agricultural,Highway Expansion,Acquisition Completion,2023-10-25,68,Yes,No,Completed,No,Approved,38,0
+LA-1687,East Godavari,Tirupati Rural,43.15,Agricultural,Urban Infrastructure,Land Valuation,2023-09-11,112,Yes,Yes,Pending,No,Approved,111,1
+LA-1688,Krishna,Vijayawada North,47.11,Barren,Solar Power Plant,Acquisition Completion,2023-11-13,49,Yes,Yes,Pending,No,Approved,57,0
+LA-1689,Nellore,Tirupati Rural,1.14,Commercial,Urban Infrastructure,Compensation,2023-10-16,77,Yes,Yes,Completed,No,Under Review,41,0
+LA-1690,West Godavari,Tenali,67.04,Commercial,Urban Infrastructure,Land Identification,2023-07-10,175,Yes,Yes,Pending,No,Approved,219,1
+LA-1691,East Godavari,Bhimavaram,83.41,Commercial,Urban Infrastructure,Acquisition Completion,2023-08-09,145,Yes,No,In Progress,No,Approved,77,1
+LA-1692,Guntur,Kakinada Rural,55.31,Commercial,Urban Infrastructure,Land Valuation,2023-09-27,96,Yes,Yes,Disputed,No,Approved,120,1
+LA-1693,West Godavari,Tenali,5.43,Agricultural,Highway Expansion,Land Identification,2023-05-30,216,Yes,Yes,In Progress,No,Under Review,164,1
+LA-1694,East Godavari,Nandyal,12.9,Residential,Solar Power Plant,Document Verification,2023-07-25,160,Yes,No,In Progress,No,Approved,147,1
+LA-1695,Nellore,Nandyal,44.49,Agricultural,Railway Corridor,Land Valuation,2023-11-27,35,Yes,Yes,Completed,No,Approved,86,0
+LA-1696,Krishna,Eluru,118.17,Agricultural,Urban Infrastructure,Legal/Approval,2023-12-05,27,Yes,Yes,Completed,No,Under Review,61,0
+LA-1697,West Godavari,Rajahmundry,111.34,Agricultural,Industrial Park,Owner Verification,2023-10-30,63,Yes,Yes,Disputed,No,Approved,172,1
+LA-1698,Chittoor,Tenali,97.51,Residential,Solar Power Plant,Owner Verification,2023-08-04,150,No,Yes,Pending,No,Under Review,226,1
+LA-1699,Chittoor,Rajahmundry,94.21,Residential,Highway Expansion,Land Identification,2023-08-04,150,Yes,Yes,In Progress,No,Approved,161,1
+LA-1700,Visakhapatnam,Tenali,45.78,Agricultural,Urban Infrastructure,Legal/Approval,2023-08-07,147,No,Yes,Pending,No,Approved,120,1
+LA-1701,Kurnool,Anakapalle,15.41,Agricultural,Railway Corridor,Land Identification,2023-09-05,118,No,Yes,Pending,No,Under Review,223,1
+LA-1702,Nellore,Anakapalle,77.45,Commercial,Railway Corridor,Compensation,2023-09-01,122,No,No,Pending,No,Under Review,187,1
+LA-1703,Krishna,Tirupati Rural,81.67,Agricultural,Irrigation Project,Land Identification,2023-07-05,180,Yes,Yes,In Progress,No,Under Review,160,1
+LA-1704,Guntur,Rajahmundry,65.53,Agricultural,Irrigation Project,Owner Verification,2023-11-11,51,No,Yes,In Progress,No,Approved,168,1
+LA-1705,Krishna,Tenali,67.05,Agricultural,Solar Power Plant,Document Verification,2023-05-31,215,Yes,No,Pending,No,Approved,161,1
+LA-1706,Nellore,Kakinada Rural,33.23,Agricultural,Railway Corridor,Acquisition Completion,2023-11-02,60,No,Yes,Completed,No,Approved,31,0
+LA-1707,Nellore,Rajahmundry,55.41,Barren,Urban Infrastructure,Compensation,2023-07-07,178,No,No,Pending,Yes,Pending,253,1
+LA-1708,Chittoor,Tirupati Rural,15.56,Barren,Solar Power Plant,Document Verification,2023-09-01,122,Yes,Yes,Pending,No,Under Review,168,1
+LA-1709,East Godavari,Anakapalle,75.95,Commercial,Solar Power Plant,Document Verification,2023-10-01,92,Yes,No,Pending,No,Approved,168,1
+LA-1710,Visakhapatnam,Nandyal,54.08,Agricultural,Highway Expansion,Owner Verification,2023-12-20,12,Yes,No,In Progress,No,Approved,146,0
+LA-1711,Krishna,Tenali,50.03,Agricultural,Solar Power Plant,Document Verification,2023-11-06,56,No,Yes,Disputed,No,Under Review,218,1
+LA-1712,Chittoor,Anakapalle,91.01,Agricultural,Industrial Park,Land Identification,2023-09-10,113,Yes,Yes,Pending,No,Under Review,197,1
+LA-1713,Nellore,Anakapalle,35.92,Agricultural,Railway Corridor,Legal/Approval,2023-11-03,59,Yes,Yes,In Progress,No,Under Review,58,0
+LA-1714,East Godavari,Vijayawada North,10.03,Agricultural,Solar Power Plant,Compensation,2023-10-22,71,Yes,No,In Progress,No,Pending,93,0
+LA-1715,West Godavari,Rajahmundry,69.05,Agricultural,Solar Power Plant,Land Identification,2023-10-15,78,No,No,Disputed,Yes,Approved,319,1
+LA-1716,Kurnool,Kakinada Rural,47.97,Agricultural,Urban Infrastructure,Legal/Approval,2023-09-18,105,No,Yes,In Progress,Yes,Pending,194,1
+LA-1717,Visakhapatnam,Vijayawada North,25.55,Barren,Railway Corridor,Compensation,2023-10-02,91,Yes,Yes,Disputed,No,Approved,87,1
+LA-1718,Nellore,Kakinada Rural,53.22,Residential,Highway Expansion,Compensation,2023-08-12,142,No,Yes,In Progress,No,Approved,111,1
+LA-1719,Visakhapatnam,Eluru,30.51,Commercial,Highway Expansion,Land Identification,2023-06-25,190,Yes,Yes,Pending,No,Pending,219,1
+LA-1720,West Godavari,Kakinada Rural,23.04,Agricultural,Highway Expansion,Legal/Approval,2023-09-29,94,Yes,Yes,In Progress,No,Pending,63,0
+LA-1721,Nellore,Tirupati Rural,23.42,Agricultural,Urban Infrastructure,Land Valuation,2023-12-15,17,Yes,Yes,Pending,No,Approved,121,1
+LA-1722,Chittoor,Vijayawada North,105.55,Residential,Urban Infrastructure,Owner Verification,2023-06-07,208,Yes,Yes,Pending,Yes,Under Review,299,1
+LA-1723,Nellore,Tirupati Rural,3.2,Commercial,Industrial Park,Document Verification,2023-07-20,165,Yes,Yes,Completed,Yes,Approved,195,1
+LA-1724,Kurnool,Bhimavaram,6.79,Agricultural,Urban Infrastructure,Compensation,2023-12-10,22,Yes,Yes,In Progress,No,Pending,68,0
+LA-1725,West Godavari,Kakinada Rural,118.11,Agricultural,Irrigation Project,Document Verification,2023-07-20,165,Yes,Yes,In Progress,No,Approved,96,1
+LA-1726,Guntur,Vijayawada North,27.96,Agricultural,Solar Power Plant,Legal/Approval,2023-07-14,171,No,Yes,Disputed,Yes,Under Review,249,1
+LA-1727,Krishna,Gudur,75.34,Agricultural,Industrial Park,Land Valuation,2023-10-24,69,Yes,No,In Progress,No,Approved,110,0
+LA-1728,East Godavari,Anakapalle,86.73,Agricultural,Urban Infrastructure,Acquisition Completion,2023-12-07,25,Yes,Yes,Pending,No,Under Review,73,1
+LA-1729,Nellore,Tirupati Rural,105.69,Agricultural,Urban Infrastructure,Owner Verification,2023-07-01,184,Yes,Yes,Completed,No,Approved,131,1
+LA-1730,Nellore,Tenali,20.74,Residential,Solar Power Plant,Compensation,2023-06-29,186,Yes,Yes,Disputed,No,Under Review,141,1
+LA-1731,Krishna,Kakinada Rural,45.67,Agricultural,Solar Power Plant,Owner Verification,2023-10-19,74,Yes,Yes,Pending,No,Approved,137,1
+LA-1732,West Godavari,Rajahmundry,63.77,Agricultural,Railway Corridor,Compensation,2023-07-04,181,No,No,Completed,No,Under Review,153,1
+LA-1733,East Godavari,Bhimavaram,87.67,Barren,Irrigation Project,Compensation,2023-07-19,166,No,Yes,Completed,No,Under Review,134,1
+LA-1734,Kurnool,Rajahmundry,5.77,Agricultural,Solar Power Plant,Owner Verification,2023-09-08,115,No,Yes,Pending,No,Approved,157,1
+LA-1735,Guntur,Kakinada Rural,13.28,Agricultural,Urban Infrastructure,Owner Verification,2023-09-29,94,No,No,Pending,No,Under Review,234,1
+LA-1736,West Godavari,Kakinada Rural,12.74,Agricultural,Irrigation Project,Legal/Approval,2023-07-26,159,No,Yes,Completed,Yes,Pending,185,1
+LA-1737,Visakhapatnam,Tenali,18.83,Agricultural,Irrigation Project,Document Verification,2023-10-16,77,Yes,No,Pending,Yes,Under Review,278,1
+LA-1738,Nellore,Nandyal,5.75,Commercial,Urban Infrastructure,Acquisition Completion,2023-11-03,59,Yes,Yes,Completed,No,Approved,21,0
+LA-1739,Guntur,Tirupati Rural,12.97,Barren,Highway Expansion,Compensation,2023-10-22,71,Yes,Yes,Pending,No,Approved,110,1
+LA-1740,Visakhapatnam,Anakapalle,96.45,Agricultural,Highway Expansion,Document Verification,2023-10-16,77,Yes,Yes,Pending,Yes,Under Review,220,1
+LA-1741,Guntur,Anakapalle,110.23,Commercial,Railway Corridor,Document Verification,2023-11-29,33,Yes,Yes,Completed,No,Approved,99,0
+LA-1742,Guntur,Tirupati Rural,38.5,Agricultural,Highway Expansion,Land Valuation,2023-06-30,185,Yes,Yes,Pending,No,Approved,133,1
+LA-1743,West Godavari,Nandyal,67.45,Agricultural,Industrial Park,Document Verification,2023-05-31,215,Yes,Yes,Pending,No,Under Review,151,1
+LA-1744,Guntur,Vijayawada North,69.81,Barren,Solar Power Plant,Document Verification,2023-10-13,80,Yes,Yes,Pending,Yes,Pending,232,1
+LA-1745,West Godavari,Eluru,34.62,Agricultural,Industrial Park,Land Identification,2023-09-24,99,Yes,Yes,Pending,No,Under Review,203,1
+LA-1746,Visakhapatnam,Kakinada Rural,97.18,Residential,Urban Infrastructure,Land Valuation,2023-11-01,61,Yes,No,Pending,No,Pending,176,1
+LA-1747,West Godavari,Nandyal,103.23,Agricultural,Railway Corridor,Compensation,2023-06-28,187,Yes,Yes,Completed,Yes,Under Review,195,1
+LA-1748,Nellore,Tenali,115.96,Residential,Highway Expansion,Owner Verification,2023-12-17,15,Yes,Yes,In Progress,No,Approved,106,0
+LA-1749,Guntur,Nandyal,51.71,Residential,Industrial Park,Compensation,2023-10-11,82,Yes,Yes,Completed,Yes,Pending,149,1
+LA-1750,Kurnool,Bhimavaram,111.97,Agricultural,Irrigation Project,Owner Verification,2023-08-23,131,No,Yes,In Progress,No,Pending,207,1
+LA-1751,Guntur,Bhimavaram,0.73,Residential,Highway Expansion,Acquisition Completion,2023-10-18,75,Yes,No,Completed,No,Approved,28,0
+LA-1752,East Godavari,Tenali,50.85,Residential,Railway Corridor,Legal/Approval,2023-09-11,112,Yes,Yes,Completed,No,Approved,49,0
+LA-1753,Krishna,Bhimavaram,65.31,Residential,Irrigation Project,Compensation,2023-11-26,36,Yes,Yes,Completed,No,Under Review,94,0
+LA-1754,Krishna,Kakinada Rural,112.12,Agricultural,Industrial Park,Land Valuation,2023-10-19,74,No,Yes,In Progress,No,Under Review,115,1
+LA-1755,Chittoor,Tirupati Rural,75.21,Barren,Industrial Park,Land Identification,2023-07-12,173,Yes,Yes,Completed,No,Pending,177,1
+LA-1756,Chittoor,Eluru,103.61,Agricultural,Industrial Park,Compensation,2023-08-29,125,No,Yes,Completed,No,Approved,100,1
+LA-1757,Krishna,Kakinada Rural,72.63,Barren,Irrigation Project,Legal/Approval,2023-12-10,22,No,Yes,In Progress,No,Pending,113,1
+LA-1758,Krishna,Kakinada Rural,97.92,Agricultural,Industrial Park,Land Identification,2023-10-13,80,No,Yes,Pending,No,Pending,232,1
+LA-1759,Chittoor,Tirupati Rural,19.02,Residential,Highway Expansion,Land Identification,2023-12-17,15,No,Yes,Completed,No,Approved,179,1
+LA-1760,West Godavari,Rajahmundry,85.61,Commercial,Solar Power Plant,Owner Verification,2023-06-01,214,Yes,Yes,Pending,No,Under Review,169,1
+LA-1761,Chittoor,Nandyal,112.37,Agricultural,Urban Infrastructure,Owner Verification,2023-11-22,40,No,Yes,In Progress,No,Approved,155,1
+LA-1762,Krishna,Eluru,69.01,Agricultural,Highway Expansion,Compensation,2023-07-12,173,Yes,Yes,Completed,No,Approved,71,1
+LA-1763,Kurnool,Vijayawada North,20.64,Agricultural,Highway Expansion,Legal/Approval,2023-06-06,209,Yes,Yes,Pending,Yes,Approved,191,1
+LA-1764,East Godavari,Gudur,62.86,Commercial,Industrial Park,Document Verification,2023-12-07,25,Yes,No,Pending,No,Pending,151,1
+LA-1765,Chittoor,Tirupati Rural,13.48,Agricultural,Urban Infrastructure,Acquisition Completion,2023-11-08,54,Yes,Yes,Completed,No,Approved,8,0
+LA-1766,Krishna,Nandyal,109.68,Agricultural,Highway Expansion,Acquisition Completion,2023-09-20,103,Yes,Yes,Completed,Yes,Approved,74,1
+LA-1767,Guntur,Tirupati Rural,80.2,Agricultural,Urban Infrastructure,Owner Verification,2023-06-29,186,No,No,Completed,No,Under Review,203,1
+LA-1768,West Godavari,Rajahmundry,111.93,Residential,Irrigation Project,Owner Verification,2023-11-18,44,Yes,Yes,Pending,Yes,Under Review,239,1
+LA-1769,East Godavari,Anakapalle,73.18,Agricultural,Solar Power Plant,Acquisition Completion,2023-06-14,201,No,Yes,Completed,No,Under Review,94,1
+LA-1770,Chittoor,Vijayawada North,22.0,Barren,Industrial Park,Document Verification,2023-10-01,92,No,Yes,Pending,No,Under Review,183,1
+LA-1771,East Godavari,Gudur,59.04,Agricultural,Industrial Park,Legal/Approval,2023-10-28,65,Yes,Yes,Completed,Yes,Approved,105,1
+LA-1772,Visakhapatnam,Bhimavaram,33.85,Commercial,Solar Power Plant,Land Identification,2023-07-21,164,No,No,Pending,No,Pending,286,1
+LA-1773,Kurnool,Kakinada Rural,17.32,Agricultural,Railway Corridor,Acquisition Completion,2023-10-12,81,Yes,Yes,Completed,Yes,Approved,94,1
+LA-1774,Chittoor,Tenali,61.69,Agricultural,Railway Corridor,Compensation,2023-08-19,135,No,Yes,Completed,No,Approved,117,1
+LA-1775,Visakhapatnam,Nandyal,105.35,Residential,Industrial Park,Acquisition Completion,2023-07-29,156,No,Yes,Completed,No,Approved,72,1
+LA-1776,Chittoor,Kakinada Rural,109.1,Agricultural,Irrigation Project,Acquisition Completion,2023-11-29,33,Yes,Yes,In Progress,No,Approved,32,0
+LA-1777,Visakhapatnam,Kakinada Rural,78.2,Agricultural,Irrigation Project,Land Valuation,2023-06-05,210,No,No,In Progress,No,Approved,130,1
+LA-1778,Guntur,Tirupati Rural,40.86,Residential,Solar Power Plant,Acquisition Completion,2023-06-26,189,Yes,Yes,In Progress,No,Approved,42,1
+LA-1779,Visakhapatnam,Bhimavaram,11.76,Agricultural,Railway Corridor,Legal/Approval,2023-06-19,196,Yes,No,Completed,No,Pending,106,1
+LA-1780,Nellore,Bhimavaram,53.1,Agricultural,Irrigation Project,Land Valuation,2023-06-21,194,Yes,Yes,Pending,No,Approved,161,1
+LA-1781,Chittoor,Tenali,48.01,Commercial,Solar Power Plant,Land Valuation,2023-06-28,187,Yes,No,In Progress,No,Approved,145,1
+LA-1782,Kurnool,Anakapalle,108.22,Residential,Irrigation Project,Compensation,2023-05-27,219,Yes,Yes,Pending,Yes,Under Review,173,1
+LA-1783,East Godavari,Rajahmundry,3.03,Agricultural,Urban Infrastructure,Legal/Approval,2023-09-20,103,Yes,Yes,In Progress,No,Under Review,31,0
+LA-1784,West Godavari,Kakinada Rural,45.43,Commercial,Irrigation Project,Document Verification,2023-11-02,60,Yes,Yes,In Progress,No,Approved,69,0
+LA-1785,East Godavari,Vijayawada North,81.76,Agricultural,Urban Infrastructure,Document Verification,2023-06-25,190,No,Yes,In Progress,No,Under Review,157,1
+LA-1786,East Godavari,Gudur,94.73,Agricultural,Urban Infrastructure,Compensation,2023-06-26,189,No,Yes,Completed,No,Pending,106,1
+LA-1787,East Godavari,Rajahmundry,35.34,Agricultural,Urban Infrastructure,Compensation,2023-07-03,182,No,Yes,In Progress,No,Under Review,89,1
+LA-1788,Visakhapatnam,Anakapalle,96.05,Commercial,Industrial Park,Compensation,2023-07-30,155,Yes,Yes,Completed,No,Under Review,90,1
+LA-1789,East Godavari,Bhimavaram,19.63,Residential,Urban Infrastructure,Land Identification,2023-08-17,137,No,Yes,Disputed,No,Pending,239,1
+LA-1790,Guntur,Tirupati Rural,61.98,Residential,Industrial Park,Legal/Approval,2023-07-28,157,Yes,Yes,Completed,No,Under Review,66,1
+LA-1791,Guntur,Bhimavaram,110.71,Agricultural,Irrigation Project,Land Identification,2023-07-27,158,Yes,Yes,In Progress,No,Pending,176,1
+LA-1792,Kurnool,Tirupati Rural,62.92,Agricultural,Urban Infrastructure,Acquisition Completion,2023-12-11,21,Yes,No,In Progress,No,Approved,33,0
+LA-1793,Chittoor,Gudur,33.87,Agricultural,Railway Corridor,Owner Verification,2023-10-23,70,No,No,In Progress,No,Approved,163,1
+LA-1794,Visakhapatnam,Gudur,57.61,Agricultural,Highway Expansion,Acquisition Completion,2023-10-07,86,Yes,Yes,Disputed,Yes,Approved,133,1
+LA-1795,West Godavari,Kakinada Rural,28.31,Agricultural,Urban Infrastructure,Owner Verification,2023-10-24,69,Yes,Yes,Pending,Yes,Under Review,241,1
+LA-1796,Kurnool,Nandyal,88.87,Barren,Highway Expansion,Owner Verification,2023-07-12,173,No,Yes,In Progress,No,Under Review,190,1
+LA-1797,East Godavari,Tirupati Rural,34.52,Residential,Highway Expansion,Land Valuation,2023-11-28,34,Yes,No,In Progress,Yes,Under Review,219,1
+LA-1798,Kurnool,Tenali,44.12,Barren,Highway Expansion,Acquisition Completion,2023-12-08,24,Yes,Yes,In Progress,Yes,Approved,138,1
+LA-1799,Krishna,Rajahmundry,94.74,Residential,Solar Power Plant,Land Identification,2023-07-05,180,No,Yes,In Progress,No,Pending,201,1
+LA-1800,Krishna,Vijayawada North,101.78,Agricultural,Highway Expansion,Land Identification,2023-11-15,47,Yes,Yes,In Progress,No,Approved,146,0
+LA-1801,Chittoor,Nandyal,5.52,Agricultural,Highway Expansion,Acquisition Completion,2023-12-03,29,No,Yes,Completed,No,Approved,56,0
+LA-1802,Chittoor,Nandyal,57.83,Residential,Urban Infrastructure,Land Identification,2023-11-15,47,Yes,Yes,Pending,No,Approved,212,1
+LA-1803,Guntur,Bhimavaram,80.61,Barren,Solar Power Plant,Legal/Approval,2023-08-25,129,Yes,Yes,In Progress,No,Under Review,91,1
+LA-1804,Nellore,Bhimavaram,6.27,Agricultural,Irrigation Project,Acquisition Completion,2023-06-27,188,No,No,Pending,No,Approved,121,1
+LA-1805,Chittoor,Tenali,63.27,Barren,Solar Power Plant,Document Verification,2023-06-23,192,No,Yes,In Progress,Yes,Under Review,289,1
+LA-1806,East Godavari,Nandyal,6.48,Agricultural,Irrigation Project,Land Identification,2023-07-29,156,No,Yes,In Progress,Yes,Under Review,339,1
+LA-1807,Guntur,Eluru,17.37,Agricultural,Highway Expansion,Land Valuation,2023-08-01,153,Yes,Yes,In Progress,No,Under Review,120,1
+LA-1808,East Godavari,Tirupati Rural,76.93,Agricultural,Highway Expansion,Owner Verification,2023-06-29,186,Yes,Yes,Pending,No,Under Review,184,1
+LA-1809,Guntur,Eluru,112.98,Commercial,Industrial Park,Legal/Approval,2023-06-10,205,Yes,Yes,In Progress,No,Approved,67,1
+LA-1810,Guntur,Nandyal,51.63,Agricultural,Industrial Park,Owner Verification,2023-06-21,194,Yes,No,Pending,Yes,Approved,262,1
+LA-1811,Chittoor,Tenali,103.92,Agricultural,Urban Infrastructure,Acquisition Completion,2023-09-04,119,Yes,Yes,In Progress,No,Approved,8,0
+LA-1812,Guntur,Bhimavaram,84.76,Barren,Urban Infrastructure,Legal/Approval,2023-12-07,25,Yes,Yes,In Progress,No,Approved,32,0
+LA-1813,Nellore,Gudur,78.51,Barren,Solar Power Plant,Land Valuation,2023-11-22,40,Yes,No,In Progress,No,Under Review,115,0
+LA-1814,Kurnool,Vijayawada North,75.29,Agricultural,Highway Expansion,Land Identification,2023-08-11,143,Yes,Yes,In Progress,No,Approved,156,1
+LA-1815,West Godavari,Bhimavaram,79.53,Barren,Railway Corridor,Document Verification,2023-08-20,134,No,Yes,In Progress,No,Pending,186,1
+LA-1816,East Godavari,Gudur,25.86,Barren,Railway Corridor,Land Identification,2023-07-13,172,Yes,Yes,Pending,No,Pending,241,1
+LA-1817,Kurnool,Nandyal,25.4,Agricultural,Solar Power Plant,Acquisition Completion,2023-05-30,216,Yes,Yes,Completed,No,Approved,46,1
+LA-1818,West Godavari,Kakinada Rural,57.29,Barren,Irrigation Project,Legal/Approval,2023-10-02,91,Yes,Yes,In Progress,No,Approved,44,0
+LA-1819,Chittoor,Eluru,101.41,Commercial,Urban Infrastructure,Acquisition Completion,2023-06-26,189,Yes,Yes,Completed,No,Under Review,47,1
+LA-1820,East Godavari,Tirupati Rural,0.9,Agricultural,Highway Expansion,Legal/Approval,2023-11-30,32,Yes,Yes,In Progress,Yes,Approved,151,1
+LA-1821,Chittoor,Anakapalle,84.78,Commercial,Solar Power Plant,Land Identification,2023-10-25,68,Yes,Yes,Disputed,Yes,Approved,274,1
+LA-1822,Krishna,Nandyal,5.11,Agricultural,Industrial Park,Legal/Approval,2023-11-05,57,No,No,Disputed,No,Under Review,167,1
+LA-1823,Visakhapatnam,Kakinada Rural,32.01,Agricultural,Solar Power Plant,Compensation,2023-07-29,156,Yes,Yes,In Progress,Yes,Under Review,170,1
+LA-1824,East Godavari,Vijayawada North,69.63,Agricultural,Railway Corridor,Legal/Approval,2023-06-13,202,Yes,No,Completed,No,Approved,72,1
+LA-1825,East Godavari,Vijayawada North,66.56,Agricultural,Railway Corridor,Land Valuation,2023-07-25,160,Yes,Yes,In Progress,No,Under Review,107,1
+LA-1826,West Godavari,Gudur,9.96,Commercial,Solar Power Plant,Land Valuation,2023-06-18,197,No,Yes,Completed,No,Under Review,155,1
+LA-1827,Nellore,Kakinada Rural,90.42,Agricultural,Urban Infrastructure,Legal/Approval,2023-12-04,28,Yes,Yes,Completed,No,Under Review,52,0
+LA-1828,East Godavari,Kakinada Rural,14.55,Barren,Railway Corridor,Document Verification,2023-08-27,127,No,Yes,Pending,No,Under Review,216,1
+LA-1829,West Godavari,Rajahmundry,60.54,Barren,Industrial Park,Document Verification,2023-07-23,162,Yes,Yes,In Progress,No,Pending,153,1
+LA-1830,West Godavari,Kakinada Rural,80.74,Agricultural,Irrigation Project,Legal/Approval,2023-12-18,14,Yes,Yes,Pending,Yes,Pending,196,1
+LA-1831,Chittoor,Anakapalle,45.0,Residential,Railway Corridor,Land Valuation,2023-08-12,142,Yes,Yes,In Progress,No,Pending,100,1
+LA-1832,West Godavari,Vijayawada North,7.1,Barren,Railway Corridor,Land Identification,2023-10-04,89,Yes,Yes,In Progress,No,Approved,138,1
+LA-1833,Chittoor,Tenali,7.66,Barren,Railway Corridor,Legal/Approval,2023-12-07,25,No,Yes,Pending,No,Under Review,114,1
+LA-1834,Guntur,Nandyal,102.71,Commercial,Railway Corridor,Owner Verification,2023-08-15,139,No,Yes,In Progress,No,Approved,178,1
+LA-1835,Visakhapatnam,Tenali,85.19,Agricultural,Industrial Park,Legal/Approval,2023-07-14,171,Yes,Yes,In Progress,No,Pending,91,1
+LA-1836,West Godavari,Eluru,87.37,Barren,Irrigation Project,Owner Verification,2023-12-13,19,No,Yes,Pending,No,Pending,208,1
+LA-1837,Guntur,Anakapalle,46.78,Commercial,Industrial Park,Land Valuation,2023-11-02,60,Yes,Yes,Pending,Yes,Pending,270,1
+LA-1838,East Godavari,Bhimavaram,8.41,Agricultural,Industrial Park,Acquisition Completion,2023-10-27,66,No,Yes,In Progress,No,Approved,19,0
+LA-1839,Guntur,Bhimavaram,57.12,Agricultural,Urban Infrastructure,Compensation,2023-10-09,84,Yes,Yes,Pending,No,Approved,123,1
+LA-1840,Kurnool,Rajahmundry,71.59,Agricultural,Irrigation Project,Compensation,2023-07-28,157,Yes,No,Completed,No,Pending,131,1
+LA-1841,Nellore,Tirupati Rural,7.2,Commercial,Railway Corridor,Land Valuation,2023-07-16,169,Yes,Yes,In Progress,No,Pending,92,1
+LA-1842,Visakhapatnam,Bhimavaram,22.86,Agricultural,Industrial Park,Land Valuation,2023-08-16,138,Yes,Yes,Pending,No,Approved,145,1
+LA-1843,Krishna,Rajahmundry,42.79,Barren,Railway Corridor,Owner Verification,2023-07-10,175,Yes,Yes,In Progress,No,Approved,141,1
+LA-1844,Kurnool,Bhimavaram,67.55,Agricultural,Railway Corridor,Legal/Approval,2023-09-19,104,Yes,Yes,Completed,No,Under Review,42,0
+LA-1845,Visakhapatnam,Gudur,101.98,Agricultural,Highway Expansion,Acquisition Completion,2023-10-12,81,No,Yes,Completed,No,Approved,31,0
+LA-1846,Chittoor,Eluru,77.16,Barren,Industrial Park,Owner Verification,2023-07-23,162,Yes,Yes,Pending,No,Under Review,226,1
+LA-1847,Nellore,Eluru,4.21,Barren,Irrigation Project,Land Valuation,2023-09-01,122,Yes,Yes,Pending,Yes,Under Review,249,1
+LA-1848,Kurnool,Nandyal,75.84,Agricultural,Irrigation Project,Document Verification,2023-07-10,175,Yes,Yes,Disputed,No,Approved,139,1
+LA-1849,Krishna,Tenali,46.68,Agricultural,Highway Expansion,Owner Verification,2023-07-03,182,Yes,Yes,Pending,No,Approved,165,1
+LA-1850,East Godavari,Nandyal,86.62,Agricultural,Railway Corridor,Owner Verification,2023-07-23,162,Yes,Yes,In Progress,No,Approved,141,1
+LA-1851,West Godavari,Rajahmundry,36.38,Agricultural,Irrigation Project,Document Verification,2023-12-14,18,No,Yes,Completed,Yes,Under Review,264,1
+LA-1852,Visakhapatnam,Tirupati Rural,77.78,Barren,Highway Expansion,Land Valuation,2023-08-03,151,Yes,Yes,In Progress,No,Pending,125,1
+LA-1853,Nellore,Vijayawada North,6.0,Agricultural,Solar Power Plant,Document Verification,2023-05-30,216,Yes,Yes,Completed,No,Under Review,123,1
+LA-1854,Guntur,Gudur,111.42,Agricultural,Urban Infrastructure,Compensation,2023-08-25,129,No,Yes,Completed,No,Approved,93,1
+LA-1855,East Godavari,Eluru,61.25,Agricultural,Railway Corridor,Document Verification,2023-12-20,12,No,No,In Progress,No,Approved,153,1
+LA-1856,Guntur,Tirupati Rural,80.66,Agricultural,Irrigation Project,Document Verification,2023-12-01,31,No,No,In Progress,No,Under Review,172,1
+LA-1857,Visakhapatnam,Rajahmundry,79.7,Commercial,Solar Power Plant,Land Valuation,2023-06-11,204,No,Yes,Pending,Yes,Approved,245,1
+LA-1858,West Godavari,Eluru,71.38,Agricultural,Industrial Park,Legal/Approval,2023-08-01,153,Yes,Yes,In Progress,No,Under Review,80,1
+LA-1859,Chittoor,Eluru,34.37,Commercial,Railway Corridor,Legal/Approval,2023-09-06,117,Yes,Yes,In Progress,No,Under Review,52,0
+LA-1860,West Godavari,Vijayawada North,74.71,Residential,Highway Expansion,Legal/Approval,2023-10-02,91,No,No,In Progress,No,Approved,112,1
+LA-1861,Guntur,Vijayawada North,5.09,Agricultural,Urban Infrastructure,Document Verification,2023-09-01,122,Yes,Yes,In Progress,No,Approved,101,1
+LA-1862,Chittoor,Eluru,84.46,Barren,Urban Infrastructure,Acquisition Completion,2023-09-03,120,Yes,Yes,In Progress,No,Approved,5,0
+LA-1863,Visakhapatnam,Tenali,63.73,Barren,Railway Corridor,Document Verification,2023-12-17,15,Yes,No,In Progress,No,Approved,119,0
+LA-1864,Visakhapatnam,Nandyal,71.68,Barren,Highway Expansion,Compensation,2023-05-28,218,No,Yes,Disputed,Yes,Approved,221,1
+LA-1865,Nellore,Kakinada Rural,65.73,Agricultural,Solar Power Plant,Acquisition Completion,2023-11-17,45,No,Yes,Completed,No,Approved,58,0
+LA-1866,Chittoor,Tirupati Rural,17.08,Agricultural,Industrial Park,Acquisition Completion,2023-07-20,165,No,No,Completed,No,Pending,127,1
+LA-1867,West Godavari,Tirupati Rural,74.01,Agricultural,Irrigation Project,Legal/Approval,2023-08-30,124,Yes,Yes,In Progress,No,Approved,51,0
+LA-1868,East Godavari,Nandyal,26.08,Agricultural,Irrigation Project,Owner Verification,2023-09-10,113,Yes,Yes,Completed,No,Approved,104,1
+LA-1869,Guntur,Tirupati Rural,13.43,Agricultural,Railway Corridor,Document Verification,2023-09-10,113,No,Yes,Pending,Yes,Under Review,281,1
+LA-1870,East Godavari,Nandyal,100.16,Agricultural,Urban Infrastructure,Land Valuation,2023-10-23,70,Yes,Yes,In Progress,Yes,Under Review,191,1
+LA-1871,West Godavari,Eluru,20.8,Agricultural,Irrigation Project,Document Verification,2023-06-27,188,No,No,In Progress,Yes,Pending,315,1
+LA-1872,Krishna,Tirupati Rural,13.71,Barren,Solar Power Plant,Owner Verification,2023-10-02,91,Yes,Yes,Pending,No,Approved,153,1
+LA-1873,Nellore,Kakinada Rural,42.26,Barren,Railway Corridor,Legal/Approval,2023-08-07,147,No,Yes,Pending,No,Under Review,160,1
+LA-1874,West Godavari,Rajahmundry,2.72,Residential,Highway Expansion,Compensation,2023-07-17,168,No,Yes,In Progress,No,Pending,130,1
+LA-1875,Visakhapatnam,Tirupati Rural,39.08,Agricultural,Highway Expansion,Acquisition Completion,2023-08-25,129,Yes,No,Completed,No,Approved,76,0
+LA-1876,Kurnool,Bhimavaram,81.22,Agricultural,Industrial Park,Acquisition Completion,2023-10-11,82,Yes,No,In Progress,No,Approved,35,0
+LA-1877,Visakhapatnam,Vijayawada North,83.53,Agricultural,Highway Expansion,Compensation,2023-06-10,205,Yes,Yes,Completed,No,Pending,89,1
+LA-1878,Chittoor,Rajahmundry,40.21,Barren,Industrial Park,Legal/Approval,2023-08-12,142,Yes,Yes,In Progress,No,Pending,85,1
+LA-1879,Guntur,Eluru,74.81,Agricultural,Urban Infrastructure,Land Valuation,2023-08-03,151,Yes,Yes,In Progress,No,Pending,123,1
+LA-1880,West Godavari,Kakinada Rural,82.16,Agricultural,Railway Corridor,Legal/Approval,2023-06-30,185,Yes,No,Completed,No,Under Review,112,1
+LA-1881,Chittoor,Nandyal,69.22,Agricultural,Irrigation Project,Land Valuation,2023-12-08,24,Yes,Yes,In Progress,No,Approved,82,0
+LA-1882,Guntur,Eluru,112.87,Agricultural,Railway Corridor,Compensation,2023-09-02,121,Yes,Yes,Disputed,No,Approved,109,1
+LA-1883,East Godavari,Kakinada Rural,106.2,Commercial,Irrigation Project,Acquisition Completion,2023-06-24,191,Yes,Yes,Pending,No,Approved,72,1
+LA-1884,Kurnool,Anakapalle,45.39,Agricultural,Urban Infrastructure,Land Identification,2023-11-08,54,Yes,No,Pending,No,Approved,193,1
+LA-1885,Nellore,Kakinada Rural,24.41,Agricultural,Solar Power Plant,Compensation,2023-11-19,43,Yes,Yes,Completed,No,Under Review,41,0
+LA-1886,East Godavari,Tenali,113.43,Agricultural,Highway Expansion,Acquisition Completion,2023-08-25,129,No,No,In Progress,No,Approved,85,1
+LA-1887,Guntur,Vijayawada North,15.11,Residential,Highway Expansion,Land Identification,2023-07-29,156,Yes,Yes,Completed,Yes,Approved,222,1
+LA-1888,Kurnool,Eluru,62.7,Residential,Industrial Park,Acquisition Completion,2023-08-14,140,No,Yes,Pending,No,Approved,117,1
+LA-1889,Kurnool,Eluru,107.4,Residential,Industrial Park,Owner Verification,2023-08-18,136,Yes,Yes,Pending,No,Under Review,206,1
+LA-1890,Krishna,Rajahmundry,18.56,Residential,Solar Power Plant,Acquisition Completion,2023-06-25,190,Yes,No,Pending,No,Approved,92,1
+LA-1891,Visakhapatnam,Nandyal,15.86,Agricultural,Industrial Park,Legal/Approval,2023-07-16,169,No,No,Completed,No,Pending,145,1
+LA-1892,Chittoor,Eluru,14.31,Agricultural,Railway Corridor,Land Identification,2023-07-12,173,Yes,Yes,In Progress,Yes,Approved,213,1
+LA-1893,Kurnool,Bhimavaram,75.02,Agricultural,Highway Expansion,Land Identification,2023-11-21,41,No,Yes,Pending,No,Approved,221,1
+LA-1894,West Godavari,Bhimavaram,43.42,Commercial,Railway Corridor,Compensation,2023-06-10,205,Yes,Yes,Completed,No,Pending,104,1
+LA-1895,Visakhapatnam,Eluru,95.52,Residential,Railway Corridor,Legal/Approval,2023-11-02,60,Yes,No,Completed,Yes,Pending,144,1
+LA-1896,Kurnool,Tirupati Rural,14.34,Commercial,Highway Expansion,Compensation,2023-06-12,203,No,Yes,In Progress,No,Pending,103,1
+LA-1897,East Godavari,Tirupati Rural,53.91,Residential,Urban Infrastructure,Compensation,2023-10-08,85,No,No,Completed,Yes,Approved,186,1
+LA-1898,Chittoor,Nandyal,67.06,Commercial,Solar Power Plant,Owner Verification,2023-08-04,150,No,No,In Progress,No,Pending,251,1
+LA-1899,Nellore,Bhimavaram,32.61,Commercial,Railway Corridor,Owner Verification,2023-08-28,126,Yes,Yes,In Progress,No,Under Review,124,1
+LA-1900,Chittoor,Eluru,32.1,Agricultural,Irrigation Project,Acquisition Completion,2023-06-25,190,Yes,No,Pending,No,Under Review,164,1
+LA-1901,Chittoor,Anakapalle,71.2,Agricultural,Irrigation Project,Land Identification,2023-07-08,177,Yes,Yes,Completed,No,Approved,147,1
+LA-1902,East Godavari,Tirupati Rural,112.34,Barren,Solar Power Plant,Acquisition Completion,2023-07-01,184,No,Yes,In Progress,Yes,Approved,140,1
+LA-1903,East Godavari,Anakapalle,31.21,Agricultural,Irrigation Project,Land Identification,2023-09-07,116,Yes,Yes,In Progress,No,Pending,150,1
+LA-1904,Guntur,Bhimavaram,117.05,Residential,Irrigation Project,Land Identification,2023-07-24,161,No,Yes,Pending,No,Under Review,250,1
+LA-1905,Visakhapatnam,Tirupati Rural,70.69,Agricultural,Industrial Park,Owner Verification,2023-12-21,11,Yes,Yes,In Progress,No,Approved,109,0
+LA-1906,Guntur,Gudur,4.11,Agricultural,Industrial Park,Acquisition Completion,2023-11-07,55,Yes,Yes,Completed,No,Approved,5,0
+LA-1907,Guntur,Vijayawada North,68.67,Agricultural,Irrigation Project,Legal/Approval,2023-11-17,45,No,Yes,Pending,Yes,Approved,194,1
+LA-1908,West Godavari,Eluru,119.89,Residential,Solar Power Plant,Owner Verification,2023-10-13,80,Yes,No,Completed,Yes,Approved,220,1
+LA-1909,Chittoor,Bhimavaram,117.85,Agricultural,Irrigation Project,Acquisition Completion,2023-09-15,108,No,No,Pending,No,Approved,113,1
+LA-1910,Nellore,Nandyal,33.12,Commercial,Highway Expansion,Land Identification,2023-06-12,203,No,No,Pending,Yes,Approved,349,1
+LA-1911,Nellore,Anakapalle,57.16,Agricultural,Irrigation Project,Land Identification,2023-11-30,32,No,No,In Progress,No,Pending,205,1
+LA-1912,East Godavari,Vijayawada North,36.1,Commercial,Railway Corridor,Document Verification,2023-09-29,94,Yes,Yes,Completed,No,Approved,89,0
+LA-1913,Guntur,Anakapalle,57.93,Commercial,Railway Corridor,Document Verification,2023-11-29,33,Yes,Yes,Completed,No,Pending,117,0
+LA-1914,Guntur,Gudur,1.82,Barren,Urban Infrastructure,Document Verification,2023-08-21,133,No,Yes,In Progress,Yes,Approved,242,1
+LA-1915,Kurnool,Nandyal,28.1,Agricultural,Irrigation Project,Legal/Approval,2023-08-04,150,No,Yes,Completed,No,Approved,76,1
+LA-1916,Chittoor,Tenali,95.17,Agricultural,Railway Corridor,Legal/Approval,2023-11-27,35,Yes,Yes,Completed,No,Pending,57,0
+LA-1917,East Godavari,Gudur,12.26,Agricultural,Urban Infrastructure,Legal/Approval,2023-05-27,219,Yes,Yes,Completed,No,Pending,78,1
+LA-1918,Visakhapatnam,Tenali,101.74,Agricultural,Irrigation Project,Document Verification,2023-06-14,201,No,Yes,In Progress,No,Under Review,180,1
+LA-1919,West Godavari,Bhimavaram,74.9,Agricultural,Irrigation Project,Owner Verification,2023-06-08,207,Yes,Yes,Pending,No,Approved,176,1
+LA-1920,Krishna,Tirupati Rural,33.44,Agricultural,Irrigation Project,Land Valuation,2023-08-12,142,Yes,No,Pending,No,Approved,154,1
+LA-1921,West Godavari,Nandyal,38.37,Commercial,Industrial Park,Compensation,2023-06-13,202,No,Yes,Pending,No,Pending,179,1
+LA-1922,East Godavari,Bhimavaram,9.19,Residential,Railway Corridor,Owner Verification,2023-08-03,151,Yes,Yes,Pending,No,Approved,153,1
+LA-1923,Kurnool,Rajahmundry,68.04,Agricultural,Industrial Park,Owner Verification,2023-07-17,168,No,Yes,Disputed,No,Approved,190,1
+LA-1924,Chittoor,Rajahmundry,77.29,Agricultural,Industrial Park,Document Verification,2023-05-31,215,No,Yes,In Progress,No,Pending,170,1
+LA-1925,Visakhapatnam,Tirupati Rural,107.95,Residential,Solar Power Plant,Acquisition Completion,2023-07-02,183,No,Yes,Completed,No,Pending,69,0
+LA-1926,Visakhapatnam,Anakapalle,117.28,Barren,Highway Expansion,Legal/Approval,2023-10-02,91,Yes,Yes,Completed,No,Pending,66,0
+LA-1927,Nellore,Rajahmundry,53.23,Commercial,Solar Power Plant,Owner Verification,2023-05-28,218,Yes,Yes,In Progress,Yes,Approved,227,1
+LA-1928,Kurnool,Bhimavaram,76.29,Residential,Railway Corridor,Acquisition Completion,2023-11-18,44,Yes,Yes,Completed,No,Approved,24,0
+LA-1929,Chittoor,Tenali,14.68,Agricultural,Solar Power Plant,Owner Verification,2023-11-02,60,Yes,Yes,Pending,No,Pending,185,1
+LA-1930,Kurnool,Bhimavaram,28.76,Agricultural,Industrial Park,Owner Verification,2023-08-03,151,No,No,In Progress,No,Approved,183,1
+LA-1931,Visakhapatnam,Vijayawada North,32.69,Barren,Urban Infrastructure,Legal/Approval,2023-07-14,171,Yes,Yes,Completed,No,Pending,92,1
+LA-1932,Guntur,Tenali,57.12,Commercial,Railway Corridor,Land Identification,2023-10-12,81,Yes,Yes,In Progress,No,Approved,131,1
+LA-1933,Visakhapatnam,Gudur,35.69,Agricultural,Railway Corridor,Legal/Approval,2023-12-13,19,Yes,Yes,In Progress,No,Approved,47,0
+LA-1934,Guntur,Vijayawada North,66.63,Agricultural,Solar Power Plant,Acquisition Completion,2023-10-28,65,Yes,Yes,Pending,No,Approved,69,0
+LA-1935,Chittoor,Tirupati Rural,58.43,Agricultural,Irrigation Project,Compensation,2023-08-30,124,Yes,Yes,Pending,No,Under Review,178,1
+LA-1936,West Godavari,Nandyal,112.98,Commercial,Irrigation Project,Land Valuation,2023-10-12,81,No,Yes,In Progress,No,Approved,73,1
+LA-1937,Guntur,Tenali,91.64,Agricultural,Urban Infrastructure,Land Identification,2023-08-15,139,No,No,Pending,No,Under Review,290,1
+LA-1938,Chittoor,Eluru,12.64,Agricultural,Solar Power Plant,Acquisition Completion,2023-09-25,98,Yes,Yes,Completed,No,Approved,5,0
+LA-1939,Krishna,Kakinada Rural,31.21,Barren,Highway Expansion,Land Valuation,2023-08-30,124,Yes,Yes,In Progress,No,Under Review,125,1
+LA-1940,Guntur,Kakinada Rural,71.7,Agricultural,Solar Power Plant,Land Valuation,2023-06-23,192,No,No,In Progress,No,Approved,175,1
+LA-1941,East Godavari,Kakinada Rural,20.65,Residential,Highway Expansion,Legal/Approval,2023-09-28,95,Yes,No,Disputed,Yes,Approved,189,1
+LA-1942,Chittoor,Anakapalle,26.31,Residential,Irrigation Project,Legal/Approval,2023-07-09,176,Yes,Yes,In Progress,No,Approved,62,1
+LA-1943,West Godavari,Tenali,106.76,Agricultural,Railway Corridor,Acquisition Completion,2023-12-06,26,Yes,Yes,Disputed,No,Approved,83,1
+LA-1944,Chittoor,Rajahmundry,106.71,Agricultural,Irrigation Project,Compensation,2023-10-31,62,Yes,No,Pending,No,Approved,95,1
+LA-1945,Visakhapatnam,Tirupati Rural,22.99,Agricultural,Railway Corridor,Land Identification,2023-12-15,17,No,Yes,Pending,No,Under Review,252,1
+LA-1946,East Godavari,Vijayawada North,15.87,Agricultural,Highway Expansion,Acquisition Completion,2023-08-30,124,Yes,Yes,In Progress,No,Approved,35,0
+LA-1947,Nellore,Tenali,101.58,Barren,Industrial Park,Owner Verification,2023-07-15,170,Yes,No,Completed,No,Under Review,185,1
+LA-1948,West Godavari,Anakapalle,58.25,Residential,Railway Corridor,Legal/Approval,2023-10-09,84,Yes,Yes,Completed,No,Approved,36,0
+LA-1949,Nellore,Kakinada Rural,42.98,Agricultural,Industrial Park,Compensation,2023-12-18,14,Yes,Yes,Completed,No,Under Review,82,0
+LA-1950,Nellore,Tirupati Rural,89.89,Agricultural,Solar Power Plant,Owner Verification,2023-10-28,65,Yes,No,In Progress,No,Approved,156,1
+LA-1951,East Godavari,Bhimavaram,88.68,Agricultural,Urban Infrastructure,Land Valuation,2023-09-10,113,Yes,Yes,In Progress,No,Under Review,85,0
+LA-1952,Chittoor,Anakapalle,5.71,Agricultural,Industrial Park,Acquisition Completion,2023-10-15,78,Yes,Yes,Completed,No,Approved,5,0
+LA-1953,East Godavari,Anakapalle,0.66,Barren,Highway Expansion,Land Identification,2023-07-30,155,Yes,No,In Progress,Yes,Under Review,329,1
+LA-1954,West Godavari,Gudur,118.32,Agricultural,Irrigation Project,Compensation,2023-12-13,19,Yes,Yes,Completed,No,Pending,53,0
+LA-1955,Guntur,Rajahmundry,15.96,Agricultural,Urban Infrastructure,Land Identification,2023-07-17,168,Yes,Yes,Pending,No,Under Review,225,1
+LA-1956,Krishna,Rajahmundry,36.41,Agricultural,Solar Power Plant,Land Identification,2023-08-02,152,No,No,Disputed,No,Under Review,279,1
+LA-1957,Kurnool,Kakinada Rural,16.84,Commercial,Irrigation Project,Acquisition Completion,2023-07-23,162,Yes,Yes,Pending,No,Approved,55,1
+LA-1958,Chittoor,Rajahmundry,46.86,Agricultural,Railway Corridor,Land Valuation,2023-12-03,29,No,Yes,In Progress,Yes,Approved,159,1
+LA-1959,Visakhapatnam,Gudur,25.25,Agricultural,Solar Power Plant,Acquisition Completion,2023-12-03,29,No,Yes,In Progress,No,Under Review,79,1
+LA-1960,West Godavari,Nandyal,112.47,Agricultural,Industrial Park,Compensation,2023-07-10,175,Yes,No,Completed,No,Approved,83,1
+LA-1961,Kurnool,Tirupati Rural,56.44,Barren,Irrigation Project,Land Identification,2023-06-24,191,Yes,Yes,Pending,No,Pending,222,1
+LA-1962,East Godavari,Eluru,68.04,Agricultural,Irrigation Project,Compensation,2023-07-03,182,Yes,Yes,Completed,Yes,Approved,128,1
+LA-1963,Kurnool,Nandyal,31.18,Agricultural,Urban Infrastructure,Compensation,2023-11-28,34,Yes,Yes,In Progress,No,Under Review,87,0
+LA-1964,Visakhapatnam,Tenali,76.67,Barren,Solar Power Plant,Document Verification,2023-11-19,43,Yes,Yes,Pending,No,Under Review,191,1
+LA-1965,East Godavari,Nandyal,16.06,Barren,Highway Expansion,Document Verification,2023-11-21,41,Yes,Yes,Completed,No,Approved,87,0
+LA-1966,Krishna,Nandyal,26.37,Agricultural,Solar Power Plant,Document Verification,2023-07-24,161,Yes,Yes,In Progress,No,Approved,104,0
+LA-1967,East Godavari,Tirupati Rural,83.61,Agricultural,Irrigation Project,Land Identification,2023-08-30,124,Yes,Yes,In Progress,No,Under Review,172,0
+LA-1968,Nellore,Nandyal,33.81,Barren,Urban Infrastructure,Legal/Approval,2023-06-13,202,Yes,Yes,In Progress,No,Pending,97,1
+LA-1969,West Godavari,Vijayawada North,29.22,Agricultural,Highway Expansion,Compensation,2023-06-05,210,Yes,Yes,Completed,No,Approved,59,1
+LA-1970,Guntur,Gudur,49.72,Residential,Railway Corridor,Owner Verification,2023-12-21,11,Yes,Yes,Completed,No,Under Review,145,0
+LA-1971,West Godavari,Gudur,70.16,Agricultural,Urban Infrastructure,Land Identification,2023-11-01,61,Yes,Yes,Pending,Yes,Under Review,318,1
+LA-1972,Guntur,Nandyal,41.92,Residential,Highway Expansion,Compensation,2023-09-08,115,Yes,Yes,In Progress,No,Approved,50,0
+LA-1973,Krishna,Rajahmundry,90.51,Agricultural,Solar Power Plant,Compensation,2023-09-04,119,No,Yes,Completed,No,Under Review,109,1
+LA-1974,Kurnool,Eluru,62.04,Residential,Railway Corridor,Land Valuation,2023-10-11,82,Yes,Yes,In Progress,No,Under Review,84,0
+LA-1975,Visakhapatnam,Eluru,90.67,Residential,Railway Corridor,Document Verification,2023-11-10,52,Yes,No,In Progress,No,Approved,107,0
+LA-1976,Guntur,Eluru,109.96,Residential,Urban Infrastructure,Land Identification,2023-08-02,152,Yes,No,Pending,Yes,Approved,348,1
+LA-1977,Guntur,Anakapalle,14.94,Agricultural,Railway Corridor,Owner Verification,2023-09-26,97,Yes,Yes,Pending,Yes,Approved,283,1
+LA-1978,Visakhapatnam,Tenali,89.9,Commercial,Solar Power Plant,Legal/Approval,2023-08-20,134,No,Yes,In Progress,No,Approved,69,0
+LA-1979,Chittoor,Bhimavaram,16.88,Agricultural,Urban Infrastructure,Compensation,2023-07-31,154,Yes,Yes,In Progress,No,Approved,48,1
+LA-1980,Krishna,Vijayawada North,65.71,Commercial,Highway Expansion,Acquisition Completion,2023-07-31,154,Yes,No,In Progress,No,Under Review,109,1
+LA-1981,Kurnool,Eluru,110.97,Residential,Urban Infrastructure,Owner Verification,2023-11-06,56,Yes,Yes,Completed,No,Under Review,154,1
+LA-1982,Guntur,Kakinada Rural,19.91,Commercial,Highway Expansion,Compensation,2023-06-27,188,No,Yes,Completed,No,Approved,84,1
+LA-1983,East Godavari,Tenali,91.93,Agricultural,Industrial Park,Compensation,2023-09-12,111,Yes,Yes,In Progress,No,Approved,47,0
+LA-1984,Visakhapatnam,Vijayawada North,21.84,Barren,Irrigation Project,Land Identification,2023-12-17,15,Yes,Yes,Pending,Yes,Under Review,243,1
+LA-1985,Kurnool,Eluru,18.29,Residential,Irrigation Project,Acquisition Completion,2023-06-20,195,Yes,Yes,Completed,No,Approved,35,1
+LA-1986,Guntur,Eluru,29.16,Barren,Irrigation Project,Acquisition Completion,2023-06-27,188,Yes,Yes,Pending,No,Approved,71,1
+LA-1987,East Godavari,Tirupati Rural,105.28,Agricultural,Solar Power Plant,Acquisition Completion,2023-09-12,111,No,Yes,In Progress,No,Approved,71,1
+LA-1988,Guntur,Anakapalle,99.52,Agricultural,Industrial Park,Land Identification,2023-06-21,194,Yes,Yes,Disputed,No,Under Review,223,1
+LA-1989,West Godavari,Rajahmundry,35.88,Agricultural,Solar Power Plant,Land Identification,2023-05-30,216,Yes,Yes,Completed,No,Approved,128,1
+LA-1990,Nellore,Rajahmundry,51.35,Barren,Industrial Park,Acquisition Completion,2023-06-26,189,Yes,No,Completed,Yes,Under Review,203,1
+LA-1991,Nellore,Eluru,97.67,Residential,Solar Power Plant,Land Valuation,2023-09-25,98,Yes,Yes,In Progress,No,Approved,60,0
+LA-1992,Visakhapatnam,Nandyal,113.06,Commercial,Urban Infrastructure,Legal/Approval,2023-08-12,142,Yes,No,Completed,No,Under Review,125,1
+LA-1993,East Godavari,Bhimavaram,105.84,Residential,Irrigation Project,Owner Verification,2023-10-20,73,Yes,Yes,Pending,Yes,Under Review,269,1
+LA-1994,Krishna,Bhimavaram,99.62,Commercial,Urban Infrastructure,Compensation,2023-08-09,145,Yes,Yes,Pending,No,Approved,134,1
+LA-1995,West Godavari,Gudur,87.24,Commercial,Solar Power Plant,Land Identification,2023-10-05,88,Yes,Yes,Pending,No,Approved,200,1
+LA-1996,Kurnool,Tirupati Rural,28.9,Agricultural,Solar Power Plant,Compensation,2023-08-03,151,Yes,Yes,In Progress,Yes,Under Review,168,1
+LA-1997,Kurnool,Rajahmundry,21.02,Agricultural,Industrial Park,Legal/Approval,2023-07-23,162,Yes,Yes,Pending,Yes,Approved,159,1
+LA-1998,Visakhapatnam,Kakinada Rural,46.33,Barren,Railway Corridor,Land Valuation,2023-07-12,173,Yes,Yes,Disputed,Yes,Pending,237,1
+LA-1999,Visakhapatnam,Bhimavaram,19.73,Agricultural,Urban Infrastructure,Document Verification,2023-12-19,13,Yes,Yes,In Progress,No,Pending,120,0
+LA-2000,West Godavari,Rajahmundry,114.42,Commercial,Railway Corridor,Document Verification,2023-09-28,95,Yes,Yes,Pending,Yes,Under Review,224,1
+LA-2001,Chittoor,Kakinada Rural,39.13,Agricultural,Industrial Park,Compensation,2023-11-01,61,No,Yes,In Progress,No,Pending,122,1
+LA-2002,Chittoor,Bhimavaram,67.48,Barren,Solar Power Plant,Compensation,2023-11-27,35,No,Yes,Completed,Yes,Approved,180,1
+LA-2003,Krishna,Tirupati Rural,29.91,Commercial,Solar Power Plant,Owner Verification,2023-06-15,200,Yes,Yes,Disputed,No,Under Review,197,1
+LA-2004,East Godavari,Gudur,103.55,Agricultural,Irrigation Project,Owner Verification,2023-11-22,40,No,Yes,Pending,No,Approved,210,1
+LA-2005,Krishna,Anakapalle,12.33,Residential,Solar Power Plant,Land Identification,2023-07-25,160,Yes,Yes,In Progress,Yes,Pending,244,1
+LA-2006,Visakhapatnam,Vijayawada North,51.72,Residential,Urban Infrastructure,Acquisition Completion,2023-11-04,58,No,Yes,Completed,No,Pending,73,1
+LA-2007,East Godavari,Eluru,11.4,Agricultural,Railway Corridor,Compensation,2023-06-05,210,Yes,Yes,In Progress,No,Approved,63,0
+LA-2008,Chittoor,Vijayawada North,21.0,Commercial,Irrigation Project,Acquisition Completion,2023-12-02,30,Yes,Yes,In Progress,No,Approved,5,0
+LA-2009,Kurnool,Vijayawada North,112.57,Agricultural,Industrial Park,Compensation,2023-10-12,81,No,Yes,Completed,Yes,Approved,165,1
+LA-2010,Visakhapatnam,Vijayawada North,36.4,Agricultural,Solar Power Plant,Owner Verification,2023-10-30,63,Yes,Yes,In Progress,No,Approved,108,0
+LA-2011,Nellore,Nandyal,71.38,Agricultural,Railway Corridor,Land Identification,2023-06-14,201,Yes,Yes,In Progress,No,Under Review,195,1
+LA-2012,Nellore,Nandyal,91.02,Agricultural,Urban Infrastructure,Compensation,2023-11-09,53,Yes,Yes,In Progress,No,Pending,60,0
+LA-2013,Guntur,Nandyal,28.66,Barren,Solar Power Plant,Legal/Approval,2023-07-01,184,Yes,Yes,Completed,No,Pending,79,1
+LA-2014,Guntur,Kakinada Rural,12.4,Agricultural,Railway Corridor,Acquisition Completion,2023-09-11,112,Yes,Yes,In Progress,No,Approved,5,0
+LA-2015,Visakhapatnam,Bhimavaram,101.41,Commercial,Railway Corridor,Legal/Approval,2023-07-14,171,Yes,Yes,Pending,No,Under Review,134,1
+LA-2016,Krishna,Gudur,28.47,Agricultural,Industrial Park,Owner Verification,2023-08-05,149,Yes,No,Pending,Yes,Under Review,318,1
+LA-2017,East Godavari,Kakinada Rural,83.39,Barren,Highway Expansion,Land Identification,2023-06-17,198,Yes,Yes,Pending,No,Under Review,227,1
+LA-2018,Nellore,Gudur,118.93,Agricultural,Railway Corridor,Legal/Approval,2023-10-30,63,Yes,Yes,Completed,Yes,Approved,86,1
+LA-2019,Kurnool,Anakapalle,23.76,Agricultural,Irrigation Project,Acquisition Completion,2023-09-12,111,No,Yes,In Progress,No,Under Review,72,1
+LA-2020,Visakhapatnam,Tirupati Rural,111.91,Commercial,Irrigation Project,Compensation,2023-08-19,135,No,No,Completed,No,Approved,130,1
+LA-2021,Nellore,Gudur,68.0,Residential,Railway Corridor,Owner Verification,2023-11-02,60,Yes,Yes,Completed,No,Approved,97,0
+LA-2022,East Godavari,Bhimavaram,26.01,Agricultural,Urban Infrastructure,Acquisition Completion,2023-10-30,63,Yes,Yes,Pending,No,Approved,65,0
+LA-2023,Krishna,Tenali,22.79,Commercial,Solar Power Plant,Owner Verification,2023-08-25,129,Yes,Yes,In Progress,No,Under Review,158,1
+LA-2024,West Godavari,Anakapalle,68.79,Agricultural,Industrial Park,Owner Verification,2023-09-10,113,No,Yes,In Progress,No,Pending,172,1
+LA-2025,Nellore,Bhimavaram,47.43,Agricultural,Industrial Park,Land Identification,2023-07-08,177,Yes,Yes,Pending,No,Under Review,235,1
+LA-2026,Guntur,Tenali,77.49,Agricultural,Highway Expansion,Legal/Approval,2023-07-28,157,Yes,No,In Progress,No,Under Review,115,0
+LA-2027,Nellore,Gudur,20.13,Residential,Urban Infrastructure,Acquisition Completion,2023-06-20,195,Yes,Yes,In Progress,No,Approved,31,1
+LA-2028,East Godavari,Rajahmundry,19.71,Residential,Solar Power Plant,Document Verification,2023-07-04,181,Yes,No,Pending,No,Under Review,172,1
+LA-2029,Nellore,Kakinada Rural,112.59,Residential,Highway Expansion,Owner Verification,2023-07-31,154,Yes,Yes,Completed,No,Under Review,120,1
+LA-2030,Chittoor,Kakinada Rural,106.0,Agricultural,Highway Expansion,Land Valuation,2023-11-27,35,Yes,Yes,In Progress,No,Under Review,81,0
+LA-2031,West Godavari,Bhimavaram,90.68,Barren,Irrigation Project,Compensation,2023-10-18,75,Yes,Yes,Completed,No,Approved,53,0
+LA-2032,West Godavari,Nandyal,24.86,Barren,Urban Infrastructure,Compensation,2023-07-26,159,Yes,Yes,In Progress,No,Under Review,77,1
+LA-2033,Guntur,Bhimavaram,90.71,Agricultural,Urban Infrastructure,Owner Verification,2023-10-06,87,Yes,No,Pending,Yes,Approved,258,1
+LA-2034,Visakhapatnam,Gudur,118.87,Agricultural,Industrial Park,Document Verification,2023-10-15,78,Yes,Yes,In Progress,No,Approved,81,0
+LA-2035,Krishna,Vijayawada North,28.58,Agricultural,Solar Power Plant,Document Verification,2023-06-01,214,No,Yes,In Progress,No,Approved,142,1
+LA-2036,Nellore,Anakapalle,74.2,Agricultural,Highway Expansion,Land Valuation,2023-10-21,72,Yes,Yes,In Progress,No,Approved,63,0
+LA-2037,Chittoor,Bhimavaram,53.73,Residential,Highway Expansion,Land Identification,2023-06-02,213,No,No,Disputed,No,Approved,273,1
+LA-2038,West Godavari,Rajahmundry,111.65,Commercial,Irrigation Project,Legal/Approval,2023-05-27,219,No,Yes,Completed,No,Under Review,124,1
+LA-2039,East Godavari,Eluru,116.87,Agricultural,Industrial Park,Owner Verification,2023-09-12,111,No,Yes,Pending,Yes,Pending,280,1
+LA-2040,Guntur,Nandyal,31.89,Agricultural,Solar Power Plant,Owner Verification,2023-05-29,217,Yes,No,In Progress,No,Under Review,175,1
+LA-2041,West Godavari,Gudur,13.83,Residential,Highway Expansion,Acquisition Completion,2023-07-26,159,No,Yes,Completed,No,Approved,81,1
+LA-2042,Guntur,Eluru,58.33,Residential,Highway Expansion,Owner Verification,2023-12-16,16,Yes,No,Pending,Yes,Approved,265,1
+LA-2043,Nellore,Tirupati Rural,78.84,Commercial,Industrial Park,Owner Verification,2023-09-12,111,Yes,Yes,In Progress,No,Under Review,123,1
+LA-2044,Nellore,Tirupati Rural,109.11,Residential,Irrigation Project,Legal/Approval,2023-09-27,96,Yes,Yes,In Progress,No,Approved,14,0
+LA-2045,West Godavari,Anakapalle,76.94,Commercial,Highway Expansion,Legal/Approval,2023-10-03,90,Yes,Yes,Pending,No,Approved,85,1
+LA-2046,Guntur,Anakapalle,39.47,Agricultural,Irrigation Project,Compensation,2023-08-05,149,No,No,Completed,No,Approved,115,1
+LA-2047,Nellore,Vijayawada North,72.46,Agricultural,Solar Power Plant,Owner Verification,2023-09-26,97,Yes,No,Disputed,No,Approved,175,1
+LA-2048,Guntur,Eluru,32.13,Agricultural,Industrial Park,Compensation,2023-10-05,88,Yes,Yes,Completed,No,Approved,56,0
+LA-2049,Krishna,Anakapalle,62.61,Commercial,Irrigation Project,Compensation,2023-06-04,211,Yes,Yes,In Progress,No,Under Review,103,1
+LA-2050,West Godavari,Eluru,105.22,Agricultural,Highway Expansion,Compensation,2023-09-13,110,No,Yes,Completed,Yes,Approved,150,1
+LA-2051,Kurnool,Eluru,45.1,Barren,Highway Expansion,Document Verification,2023-07-22,163,Yes,Yes,Completed,No,Approved,104,1
+LA-2052,Chittoor,Gudur,95.43,Agricultural,Irrigation Project,Land Identification,2023-10-22,71,No,Yes,In Progress,No,Pending,163,1
+LA-2053,Chittoor,Vijayawada North,9.22,Barren,Industrial Park,Document Verification,2023-06-08,207,Yes,Yes,Pending,No,Pending,182,1
+LA-2054,Guntur,Bhimavaram,23.13,Agricultural,Industrial Park,Document Verification,2023-06-26,189,Yes,Yes,In Progress,No,Approved,99,1
+LA-2055,Guntur,Tenali,97.02,Agricultural,Solar Power Plant,Land Identification,2023-09-26,97,No,Yes,In Progress,No,Approved,155,1
+LA-2056,Nellore,Rajahmundry,78.99,Residential,Urban Infrastructure,Compensation,2023-06-07,208,Yes,Yes,Disputed,No,Under Review,120,1
+LA-2057,Nellore,Rajahmundry,30.24,Agricultural,Railway Corridor,Owner Verification,2023-09-19,104,No,Yes,Completed,No,Pending,149,1
+LA-2058,West Godavari,Nandyal,103.37,Agricultural,Solar Power Plant,Compensation,2023-06-02,213,Yes,Yes,Pending,No,Pending,130,1
+LA-2059,Guntur,Kakinada Rural,13.33,Commercial,Highway Expansion,Owner Verification,2023-11-18,44,No,Yes,In Progress,No,Approved,136,1
+LA-2060,Visakhapatnam,Kakinada Rural,90.91,Agricultural,Irrigation Project,Land Identification,2023-10-27,66,No,No,Pending,No,Under Review,243,1
+LA-2061,Visakhapatnam,Tenali,1.89,Barren,Irrigation Project,Legal/Approval,2023-08-08,146,Yes,Yes,Completed,No,Approved,56,1
+LA-2062,East Godavari,Nandyal,98.19,Agricultural,Industrial Park,Compensation,2023-12-05,27,Yes,Yes,Completed,No,Approved,56,0
+LA-2063,Nellore,Gudur,64.73,Agricultural,Industrial Park,Legal/Approval,2023-07-20,165,Yes,Yes,Completed,No,Pending,86,1
+LA-2064,Visakhapatnam,Gudur,88.63,Agricultural,Industrial Park,Acquisition Completion,2023-07-31,154,Yes,Yes,In Progress,No,Approved,28,0
+LA-2065,East Godavari,Tirupati Rural,95.0,Agricultural,Highway Expansion,Compensation,2023-10-29,64,Yes,No,Completed,No,Under Review,95,0
+LA-2066,Nellore,Eluru,106.23,Residential,Urban Infrastructure,Compensation,2023-12-18,14,Yes,No,Completed,No,Under Review,79,0
+LA-2067,Kurnool,Nandyal,63.54,Agricultural,Irrigation Project,Land Identification,2023-12-12,20,Yes,Yes,Disputed,No,Under Review,212,1
+LA-2068,Krishna,Kakinada Rural,2.11,Agricultural,Solar Power Plant,Legal/Approval,2023-07-22,163,Yes,Yes,In Progress,No,Under Review,71,1
+LA-2069,West Godavari,Rajahmundry,15.18,Agricultural,Industrial Park,Owner Verification,2023-06-09,206,No,Yes,In Progress,No,Under Review,193,1
+LA-2070,Kurnool,Tirupati Rural,6.36,Agricultural,Highway Expansion,Compensation,2023-07-10,175,No,Yes,Pending,No,Approved,121,1
+LA-2071,Chittoor,Rajahmundry,75.32,Agricultural,Urban Infrastructure,Acquisition Completion,2023-11-16,46,Yes,Yes,Completed,No,Approved,5,0
+LA-2072,West Godavari,Anakapalle,40.76,Commercial,Irrigation Project,Land Identification,2023-10-02,91,No,Yes,Disputed,No,Under Review,255,1
+LA-2073,Nellore,Tirupati Rural,51.58,Agricultural,Highway Expansion,Document Verification,2023-11-22,40,No,No,Pending,No,Under Review,197,1
+LA-2074,Chittoor,Kakinada Rural,94.12,Barren,Irrigation Project,Land Valuation,2023-07-16,169,No,No,Disputed,No,Under Review,234,1
+LA-2075,Krishna,Rajahmundry,94.87,Agricultural,Solar Power Plant,Acquisition Completion,2023-10-23,70,Yes,Yes,Completed,No,Approved,5,0
+LA-2076,Guntur,Anakapalle,4.19,Agricultural,Irrigation Project,Compensation,2023-08-18,136,Yes,Yes,In Progress,No,Approved,61,0
+LA-2077,West Godavari,Anakapalle,78.41,Agricultural,Railway Corridor,Land Identification,2023-05-31,215,Yes,No,Pending,No,Pending,232,1
+LA-2078,Chittoor,Bhimavaram,69.06,Commercial,Railway Corridor,Legal/Approval,2023-07-14,171,No,Yes,Completed,No,Under Review,127,1
+LA-2079,Kurnool,Anakapalle,72.88,Agricultural,Urban Infrastructure,Land Identification,2023-10-01,92,No,Yes,Pending,No,Approved,207,1
+LA-2080,West Godavari,Eluru,75.41,Agricultural,Solar Power Plant,Document Verification,2023-08-02,152,No,Yes,Pending,No,Under Review,205,1
+LA-2081,East Godavari,Tirupati Rural,27.21,Residential,Urban Infrastructure,Legal/Approval,2023-09-25,98,Yes,No,In Progress,No,Under Review,85,0
+LA-2082,Nellore,Bhimavaram,53.77,Agricultural,Urban Infrastructure,Land Valuation,2023-06-15,200,Yes,No,In Progress,No,Under Review,142,1
+LA-2083,Kurnool,Gudur,75.62,Agricultural,Industrial Park,Legal/Approval,2023-09-24,99,Yes,Yes,In Progress,No,Approved,42,0
+LA-2084,Nellore,Kakinada Rural,50.71,Barren,Irrigation Project,Legal/Approval,2023-06-27,188,Yes,Yes,Disputed,No,Under Review,124,1
+LA-2085,Krishna,Eluru,94.07,Agricultural,Urban Infrastructure,Owner Verification,2023-08-14,140,Yes,Yes,In Progress,No,Under Review,139,1
+LA-2086,East Godavari,Anakapalle,77.7,Agricultural,Irrigation Project,Acquisition Completion,2023-09-25,98,Yes,Yes,Completed,Yes,Approved,79,1
+LA-2087,East Godavari,Gudur,91.19,Agricultural,Solar Power Plant,Legal/Approval,2023-10-04,89,Yes,Yes,Pending,No,Under Review,119,1
+LA-2088,Visakhapatnam,Tenali,116.76,Agricultural,Industrial Park,Land Identification,2023-06-27,188,Yes,Yes,Pending,No,Pending,220,1
+LA-2089,Chittoor,Anakapalle,84.17,Commercial,Urban Infrastructure,Owner Verification,2023-07-31,154,No,Yes,Disputed,Yes,Approved,328,1
+LA-2090,Kurnool,Tenali,9.74,Agricultural,Irrigation Project,Land Valuation,2023-11-10,52,No,Yes,In Progress,No,Under Review,123,1
+LA-2091,Guntur,Vijayawada North,75.47,Agricultural,Highway Expansion,Owner Verification,2023-11-27,35,Yes,Yes,Completed,No,Under Review,126,0
+LA-2092,Chittoor,Kakinada Rural,68.99,Barren,Railway Corridor,Legal/Approval,2023-08-05,149,Yes,Yes,Completed,No,Approved,71,1
+LA-2093,Kurnool,Bhimavaram,104.87,Agricultural,Industrial Park,Legal/Approval,2023-12-20,12,Yes,Yes,In Progress,No,Pending,69,0
+LA-2094,West Godavari,Eluru,82.74,Residential,Industrial Park,Compensation,2023-07-07,178,Yes,Yes,Completed,No,Under Review,99,1
+LA-2095,Kurnool,Tirupati Rural,96.84,Barren,Solar Power Plant,Land Valuation,2023-10-11,82,No,Yes,Completed,No,Under Review,117,1
+LA-2096,Nellore,Anakapalle,36.31,Agricultural,Solar Power Plant,Land Valuation,2023-08-07,147,Yes,Yes,In Progress,No,Under Review,112,1
+LA-2097,Chittoor,Tirupati Rural,7.76,Barren,Railway Corridor,Land Identification,2023-08-21,133,Yes,Yes,In Progress,No,Approved,175,1
+LA-2098,East Godavari,Vijayawada North,114.02,Agricultural,Highway Expansion,Compensation,2023-09-26,97,Yes,Yes,Completed,No,Under Review,74,0
+LA-2099,Chittoor,Anakapalle,5.31,Agricultural,Railway Corridor,Land Identification,2023-08-03,151,Yes,Yes,Pending,No,Under Review,231,1
+LA-2100,West Godavari,Gudur,96.71,Commercial,Highway Expansion,Acquisition Completion,2023-06-02,213,No,Yes,In Progress,No,Approved,59,0
+LA-2101,West Godavari,Eluru,10.04,Agricultural,Solar Power Plant,Compensation,2023-07-19,166,Yes,No,Pending,No,Approved,175,1
+LA-2102,Krishna,Tirupati Rural,53.19,Barren,Industrial Park,Legal/Approval,2023-10-06,87,Yes,No,Completed,No,Approved,64,0
+LA-2103,Chittoor,Anakapalle,85.32,Commercial,Railway Corridor,Land Valuation,2023-06-28,187,Yes,Yes,In Progress,Yes,Under Review,191,1
+LA-2104,Guntur,Rajahmundry,39.8,Barren,Railway Corridor,Document Verification,2023-06-15,200,No,Yes,Pending,No,Approved,179,1
+LA-2105,Krishna,Tenali,93.67,Barren,Industrial Park,Compensation,2023-09-11,112,No,Yes,Completed,No,Under Review,103,1
+LA-2106,Nellore,Tirupati Rural,25.2,Agricultural,Highway Expansion,Acquisition Completion,2023-12-12,20,No,Yes,In Progress,No,Under Review,58,0
+LA-2107,Krishna,Tirupati Rural,91.52,Agricultural,Irrigation Project,Compensation,2023-11-01,61,No,Yes,Completed,No,Approved,67,0
+LA-2108,Visakhapatnam,Rajahmundry,15.08,Agricultural,Solar Power Plant,Acquisition Completion,2023-06-14,201,No,Yes,In Progress,No,Approved,63,0
+LA-2109,Guntur,Nandyal,76.02,Commercial,Highway Expansion,Legal/Approval,2023-12-08,24,Yes,Yes,Completed,No,Under Review,52,0
+LA-2110,Nellore,Rajahmundry,107.73,Agricultural,Industrial Park,Legal/Approval,2023-11-23,39,Yes,Yes,Completed,No,Approved,34,0
+LA-2111,Krishna,Rajahmundry,106.42,Agricultural,Solar Power Plant,Owner Verification,2023-06-24,191,Yes,No,In Progress,No,Pending,163,1
+LA-2112,Krishna,Rajahmundry,72.45,Commercial,Railway Corridor,Compensation,2023-10-21,72,No,No,Completed,Yes,Pending,219,1
+LA-2113,Guntur,Nandyal,92.12,Commercial,Railway Corridor,Land Valuation,2023-06-08,207,Yes,Yes,Completed,No,Approved,88,1
+LA-2114,Visakhapatnam,Tenali,48.92,Agricultural,Highway Expansion,Land Identification,2023-09-04,119,Yes,Yes,In Progress,No,Approved,130,1
+LA-2115,Guntur,Tenali,81.42,Barren,Irrigation Project,Acquisition Completion,2023-12-05,27,No,Yes,In Progress,Yes,Approved,123,1
+LA-2116,Kurnool,Bhimavaram,8.02,Agricultural,Irrigation Project,Owner Verification,2023-09-22,101,Yes,Yes,Disputed,No,Under Review,158,1
+LA-2117,Krishna,Nandyal,56.56,Agricultural,Irrigation Project,Compensation,2023-10-17,76,Yes,No,In Progress,No,Pending,107,0
+LA-2118,East Godavari,Tenali,40.52,Barren,Solar Power Plant,Acquisition Completion,2023-08-03,151,Yes,No,Completed,No,Approved,81,1
+LA-2119,Visakhapatnam,Vijayawada North,109.51,Barren,Highway Expansion,Acquisition Completion,2023-06-02,213,Yes,Yes,In Progress,No,Approved,47,1
+LA-2120,West Godavari,Bhimavaram,42.0,Agricultural,Railway Corridor,Land Valuation,2023-07-13,172,No,No,In Progress,No,Pending,172,1
+LA-2121,Krishna,Nandyal,17.63,Agricultural,Highway Expansion,Compensation,2023-07-21,164,Yes,Yes,Completed,No,Under Review,77,1
+LA-2122,Kurnool,Rajahmundry,101.79,Commercial,Railway Corridor,Acquisition Completion,2023-09-22,101,Yes,Yes,Completed,Yes,Approved,91,1
+LA-2123,Kurnool,Gudur,19.13,Agricultural,Highway Expansion,Acquisition Completion,2023-07-31,154,No,No,In Progress,No,Approved,107,1
+LA-2124,Krishna,Vijayawada North,42.47,Agricultural,Railway Corridor,Land Valuation,2023-08-04,150,No,Yes,Pending,No,Approved,187,1
+LA-2125,West Godavari,Kakinada Rural,7.26,Residential,Industrial Park,Compensation,2023-06-29,186,Yes,Yes,In Progress,No,Approved,64,1
+LA-2126,Visakhapatnam,Kakinada Rural,64.1,Residential,Railway Corridor,Document Verification,2023-09-02,121,No,No,Pending,No,Under Review,224,1
+LA-2127,Guntur,Tenali,3.98,Agricultural,Irrigation Project,Acquisition Completion,2023-07-04,181,No,No,Completed,No,Approved,113,1
+LA-2128,Chittoor,Rajahmundry,60.08,Barren,Irrigation Project,Compensation,2023-06-13,202,Yes,No,Completed,No,Under Review,116,1
+LA-2129,West Godavari,Eluru,86.15,Agricultural,Solar Power Plant,Legal/Approval,2023-06-07,208,Yes,Yes,In Progress,No,Pending,93,1
+LA-2130,Guntur,Gudur,32.69,Agricultural,Railway Corridor,Legal/Approval,2023-10-12,81,No,Yes,In Progress,No,Pending,90,1
+LA-2131,East Godavari,Eluru,97.02,Barren,Industrial Park,Compensation,2023-11-08,54,Yes,Yes,In Progress,Yes,Pending,159,1
+LA-2132,Chittoor,Eluru,44.97,Commercial,Urban Infrastructure,Land Valuation,2023-11-07,55,Yes,Yes,Pending,No,Approved,102,1
+LA-2133,Guntur,Bhimavaram,81.37,Agricultural,Solar Power Plant,Compensation,2023-08-09,145,Yes,Yes,Completed,No,Approved,63,1
+LA-2134,Chittoor,Tenali,108.29,Barren,Industrial Park,Land Identification,2023-07-18,167,Yes,No,In Progress,Yes,Approved,268,1
+LA-2135,East Godavari,Tenali,3.49,Commercial,Highway Expansion,Legal/Approval,2023-06-24,191,Yes,Yes,Disputed,No,Under Review,123,1
+LA-2136,East Godavari,Eluru,49.48,Commercial,Highway Expansion,Legal/Approval,2023-11-25,37,Yes,Yes,Pending,No,Pending,66,0
+LA-2137,East Godavari,Gudur,16.41,Agricultural,Irrigation Project,Legal/Approval,2023-06-01,214,Yes,Yes,Pending,No,Approved,107,1
+LA-2138,Guntur,Bhimavaram,22.81,Agricultural,Highway Expansion,Compensation,2023-08-11,143,Yes,No,In Progress,No,Approved,74,0
+LA-2139,Kurnool,Gudur,30.95,Agricultural,Industrial Park,Acquisition Completion,2023-07-14,171,No,Yes,Pending,No,Approved,109,1
+LA-2140,Krishna,Eluru,61.17,Commercial,Highway Expansion,Compensation,2023-05-28,218,Yes,Yes,Pending,No,Under Review,140,1
+LA-2141,West Godavari,Anakapalle,21.39,Agricultural,Highway Expansion,Land Valuation,2023-12-16,16,Yes,No,Pending,No,Pending,182,1
+LA-2142,Nellore,Rajahmundry,42.92,Barren,Industrial Park,Legal/Approval,2023-12-18,14,Yes,Yes,In Progress,No,Approved,31,0
+LA-2143,Kurnool,Tenali,82.98,Residential,Irrigation Project,Owner Verification,2023-11-04,58,Yes,Yes,In Progress,No,Under Review,132,0
+LA-2144,Krishna,Vijayawada North,111.76,Commercial,Highway Expansion,Land Identification,2023-07-23,162,Yes,Yes,Disputed,No,Approved,208,1
+LA-2145,Visakhapatnam,Vijayawada North,110.5,Commercial,Urban Infrastructure,Land Valuation,2023-07-04,181,No,Yes,Completed,No,Approved,120,1
+LA-2146,Krishna,Kakinada Rural,25.01,Residential,Railway Corridor,Owner Verification,2023-06-30,185,Yes,Yes,Pending,Yes,Pending,270,1
+LA-2147,Chittoor,Rajahmundry,93.93,Agricultural,Highway Expansion,Land Valuation,2023-10-23,70,Yes,Yes,Pending,No,Approved,96,1
+LA-2148,Kurnool,Eluru,55.22,Agricultural,Industrial Park,Legal/Approval,2023-07-19,166,Yes,Yes,Completed,Yes,Pending,191,1
+LA-2149,Guntur,Anakapalle,43.05,Agricultural,Highway Expansion,Acquisition Completion,2023-08-01,153,Yes,No,Completed,No,Approved,54,1
+LA-2150,Chittoor,Tenali,104.75,Agricultural,Industrial Park,Legal/Approval,2023-06-02,213,Yes,Yes,In Progress,No,Approved,61,1
+LA-2151,Kurnool,Tirupati Rural,103.58,Commercial,Railway Corridor,Compensation,2023-09-30,93,No,Yes,Completed,Yes,Approved,144,1
+LA-2152,Kurnool,Bhimavaram,89.06,Agricultural,Urban Infrastructure,Legal/Approval,2023-10-21,72,Yes,Yes,Pending,Yes,Approved,162,1
+LA-2153,Nellore,Kakinada Rural,70.22,Agricultural,Irrigation Project,Document Verification,2023-09-17,106,Yes,No,Pending,Yes,Approved,248,1
+LA-2154,Nellore,Anakapalle,31.17,Commercial,Highway Expansion,Compensation,2023-06-29,186,Yes,Yes,Disputed,No,Pending,126,1
+LA-2155,East Godavari,Tirupati Rural,108.65,Commercial,Urban Infrastructure,Acquisition Completion,2023-06-13,202,No,Yes,In Progress,No,Approved,79,1
+LA-2156,Guntur,Anakapalle,87.47,Commercial,Highway Expansion,Document Verification,2023-09-12,111,Yes,Yes,Pending,No,Under Review,126,1
+LA-2157,East Godavari,Eluru,77.18,Residential,Urban Infrastructure,Land Identification,2023-09-11,112,Yes,Yes,Pending,No,Under Review,219,1
+LA-2158,West Godavari,Vijayawada North,17.23,Commercial,Railway Corridor,Land Identification,2023-06-20,195,Yes,Yes,Completed,No,Approved,166,1
+LA-2159,East Godavari,Eluru,58.75,Agricultural,Irrigation Project,Land Valuation,2023-09-27,96,Yes,Yes,In Progress,No,Approved,78,0
+LA-2160,Krishna,Vijayawada North,25.77,Commercial,Irrigation Project,Legal/Approval,2023-10-17,76,Yes,Yes,Completed,No,Under Review,66,0
+LA-2161,Visakhapatnam,Tenali,80.51,Agricultural,Industrial Park,Acquisition Completion,2023-11-08,54,Yes,Yes,Pending,No,Approved,99,1
+LA-2162,Visakhapatnam,Nandyal,8.8,Agricultural,Irrigation Project,Legal/Approval,2023-09-28,95,No,Yes,Pending,Yes,Approved,199,1
+LA-2163,Visakhapatnam,Vijayawada North,53.2,Agricultural,Highway Expansion,Land Valuation,2023-07-14,171,No,Yes,Pending,No,Under Review,201,1
+LA-2164,Kurnool,Tenali,48.73,Agricultural,Solar Power Plant,Document Verification,2023-12-21,11,No,No,Pending,No,Under Review,196,1
+LA-2165,Chittoor,Rajahmundry,45.14,Agricultural,Highway Expansion,Acquisition Completion,2023-07-06,179,No,Yes,In Progress,No,Approved,46,1
+LA-2166,Nellore,Rajahmundry,15.52,Agricultural,Industrial Park,Compensation,2023-10-16,77,No,Yes,Completed,No,Under Review,83,1
+LA-2167,West Godavari,Tirupati Rural,10.64,Agricultural,Urban Infrastructure,Acquisition Completion,2023-11-17,45,Yes,Yes,Completed,No,Approved,15,0
+LA-2168,East Godavari,Anakapalle,117.51,Agricultural,Solar Power Plant,Document Verification,2023-12-01,31,No,No,Pending,No,Approved,168,1
+LA-2169,West Godavari,Tirupati Rural,49.2,Agricultural,Irrigation Project,Compensation,2023-09-09,114,No,No,Completed,Yes,Pending,274,1
+LA-2170,Chittoor,Vijayawada North,32.08,Residential,Irrigation Project,Legal/Approval,2023-06-05,210,No,No,Completed,Yes,Approved,221,1
+LA-2171,Chittoor,Anakapalle,63.25,Commercial,Irrigation Project,Document Verification,2023-12-15,17,Yes,Yes,Pending,No,Approved,144,1
+LA-2172,East Godavari,Tirupati Rural,23.11,Residential,Railway Corridor,Land Identification,2023-09-07,116,Yes,Yes,Pending,No,Under Review,203,1
+LA-2173,West Godavari,Rajahmundry,94.07,Agricultural,Highway Expansion,Owner Verification,2023-12-20,12,Yes,Yes,Pending,No,Pending,195,1
+LA-2174,Kurnool,Eluru,47.81,Barren,Industrial Park,Legal/Approval,2023-09-16,107,Yes,Yes,Completed,No,Approved,43,0
+LA-2175,West Godavari,Tenali,112.37,Residential,Industrial Park,Document Verification,2023-08-06,148,Yes,Yes,Pending,No,Under Review,196,1
+LA-2176,Krishna,Kakinada Rural,83.12,Agricultural,Irrigation Project,Land Valuation,2023-11-24,38,Yes,No,In Progress,No,Approved,82,0
+LA-2177,East Godavari,Bhimavaram,46.13,Commercial,Urban Infrastructure,Land Valuation,2023-06-20,195,No,Yes,Disputed,No,Approved,166,1
+LA-2178,East Godavari,Kakinada Rural,46.02,Agricultural,Irrigation Project,Acquisition Completion,2023-09-01,122,No,Yes,Pending,No,Approved,88,1
+LA-2179,Krishna,Bhimavaram,33.6,Agricultural,Highway Expansion,Land Identification,2023-06-25,190,Yes,Yes,Pending,No,Approved,196,1
+LA-2180,Nellore,Eluru,47.54,Agricultural,Industrial Park,Owner Verification,2023-08-03,151,No,Yes,In Progress,No,Under Review,182,1
+LA-2181,Kurnool,Nandyal,77.48,Barren,Solar Power Plant,Legal/Approval,2023-11-15,47,Yes,No,Completed,No,Pending,78,0
+LA-2182,Kurnool,Anakapalle,48.5,Agricultural,Railway Corridor,Legal/Approval,2023-10-05,88,No,Yes,Completed,No,Pending,94,1
+LA-2183,Visakhapatnam,Bhimavaram,85.02,Barren,Highway Expansion,Document Verification,2023-08-11,143,Yes,Yes,In Progress,No,Pending,108,1
+LA-2184,Chittoor,Vijayawada North,51.59,Agricultural,Highway Expansion,Compensation,2023-08-14,140,Yes,Yes,Completed,No,Approved,76,1
+LA-2185,West Godavari,Tirupati Rural,102.7,Agricultural,Solar Power Plant,Document Verification,2023-08-10,144,Yes,No,In Progress,No,Under Review,146,1
+LA-2186,Kurnool,Anakapalle,75.35,Agricultural,Irrigation Project,Land Valuation,2023-10-25,68,Yes,Yes,Pending,No,Under Review,114,1
+LA-2187,Chittoor,Bhimavaram,104.17,Agricultural,Industrial Park,Land Valuation,2023-06-27,188,No,Yes,Pending,Yes,Under Review,279,1
+LA-2188,West Godavari,Vijayawada North,43.39,Commercial,Railway Corridor,Land Identification,2023-06-20,195,Yes,Yes,In Progress,No,Approved,150,1
+LA-2189,Krishna,Gudur,98.19,Agricultural,Highway Expansion,Acquisition Completion,2023-12-10,22,Yes,No,In Progress,No,Under Review,60,0
+LA-2190,West Godavari,Nandyal,22.51,Barren,Solar Power Plant,Land Valuation,2023-10-25,68,Yes,Yes,Completed,No,Approved,58,0
+LA-2191,Kurnool,Rajahmundry,1.36,Agricultural,Irrigation Project,Owner Verification,2023-10-21,72,No,Yes,Pending,No,Under Review,204,1
+LA-2192,Guntur,Kakinada Rural,28.56,Agricultural,Industrial Park,Legal/Approval,2023-09-20,103,Yes,No,In Progress,No,Under Review,91,0
+LA-2193,East Godavari,Kakinada Rural,10.84,Agricultural,Highway Expansion,Acquisition Completion,2023-11-17,45,Yes,No,Pending,No,Approved,67,0
+LA-2194,West Godavari,Anakapalle,118.14,Barren,Irrigation Project,Land Identification,2023-12-03,29,Yes,Yes,Disputed,No,Under Review,197,1
+LA-2195,Kurnool,Gudur,36.35,Agricultural,Irrigation Project,Acquisition Completion,2023-11-18,44,Yes,No,In Progress,No,Approved,16,0
+LA-2196,Visakhapatnam,Kakinada Rural,51.57,Residential,Industrial Park,Compensation,2023-12-06,26,No,No,Pending,No,Approved,162,1
+LA-2197,Kurnool,Eluru,62.04,Agricultural,Industrial Park,Legal/Approval,2023-10-23,70,No,Yes,Pending,No,Under Review,115,1
+LA-2198,Krishna,Rajahmundry,113.1,Agricultural,Urban Infrastructure,Owner Verification,2023-09-25,98,No,No,Pending,No,Approved,206,1
+LA-2199,Visakhapatnam,Rajahmundry,73.42,Residential,Urban Infrastructure,Land Identification,2023-08-15,139,Yes,Yes,In Progress,No,Under Review,188,1
+LA-2200,West Godavari,Bhimavaram,57.5,Barren,Highway Expansion,Owner Verification,2023-09-12,111,Yes,No,In Progress,No,Under Review,151,1

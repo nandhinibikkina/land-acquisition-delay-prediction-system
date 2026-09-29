@@ -1,0 +1,110 @@
+{% extends "base.html" %}
+
+{% block title %}Officer Sign In - LADIS Portal{% endblock %}
+
+{% block guest_content %}
+<div class="login-split-wrapper w-100">
+    <!-- Left Hero Section -->
+    <div class="login-left-hero d-none d-lg-flex">
+        <div>
+            <div class="d-flex align-items-center gap-3 mb-4">
+                <div class="sidebar-brand-icon" style="width: 48px; height: 48px; font-size: 1.5rem;">
+                    <i class="bi bi-shield-check"></i>
+                </div>
+                <div>
+                    <h3 class="fw-bold text-white mb-0">LADIS Portal</h3>
+                    <span class="badge bg-primary-subtle text-primary border border-primary-subtle px-2 py-1 small">SIH26017 Prototype</span>
+                </div>
+            </div>
+
+            <div class="my-5">
+                <h1 class="display-5 fw-bold text-white mb-3" style="line-height: 1.25;">
+                    Predict acquisition delays before they become critical.
+                </h1>
+                <p class="text-slate-400 fs-5 font-normal max-w-lg">
+                    AI-powered decision-support and early-warning analytics for Indian land acquisition project monitoring.
+                </p>
+            </div>
+        </div>
+
+        <!-- Lightweight Visual Feature Badges -->
+        <div>
+            <div class="row g-3 mb-4">
+                <div class="col-6">
+                    <div class="p-3 rounded-3 bg-white bg-opacity-10 border border-white border-opacity-10">
+                        <i class="bi bi-cpu text-info fs-4 mb-2 d-block"></i>
+                        <h6 class="fw-bold text-white mb-1">Random Forest ML</h6>
+                        <p class="text-slate-400 extra-small mb-0">Scikit-learn regressor & classifier models</p>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="p-3 rounded-3 bg-white bg-opacity-10 border border-white border-opacity-10">
+                        <i class="bi bi-bell-fill text-warning fs-4 mb-2 d-block"></i>
+                        <h6 class="fw-bold text-white mb-1">Early Warnings</h6>
+                        <p class="text-slate-400 extra-small mb-0">Proactive high-risk bottleneck alerts</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-slate-500 small">
+                <i class="bi bi-info-circle me-1"></i> Designed for District Collectorates & Revenue Officers.
+            </div>
+        </div>
+    </div>
+
+    <!-- Right Login Form Section -->
+    <div class="login-right-form">
+        <div class="w-100" style="max-width: 420px;">
+            <div class="text-center text-lg-start mb-4">
+                <h3 class="fw-bold text-navy-900 mb-1">Officer Sign In</h3>
+                <p class="text-slate-500 small">Enter prototype credentials to access the intelligence platform</p>
+            </div>
+
+            {% with messages = get_flashed_messages(with_categories=true) %}
+                {% if messages %}
+                    {% for category, message in messages %}
+                        <div class="alert alert-{{ category if category != 'error' else 'danger' }} small py-2 border-0 mb-3">
+                            <i class="bi bi-exclamation-triangle-fill me-1"></i> {{ message }}
+                        </div>
+                    {% endfor %}
+                {% endif %}
+            {% endwith %}
+
+            <form action="{{ url_for('login') }}" method="POST">
+                <div class="mb-3">
+                    <label class="form-label small fw-semibold text-dark">Username</label>
+                    <div class="input-group">
+                        <span class="input-group-text bg-light border-end-0 text-muted"><i class="bi bi-person"></i></span>
+                        <input type="text" name="username" class="form-control border-start-0 ps-0" placeholder="admin" value="admin" required autofocus>
+                    </div>
+                </div>
+
+                <div class="mb-4">
+                    <label class="form-label small fw-semibold text-dark">Password</label>
+                    <div class="input-group">
+                        <span class="input-group-text bg-light border-end-0 text-muted"><i class="bi bi-lock"></i></span>
+                        <input type="password" id="passwordInput" name="password" class="form-control border-start-0 border-end-0 ps-0" placeholder="admin123" value="admin123" required>
+                        <button class="btn btn-outline-secondary border-start-0" type="button" id="togglePassword">
+                            <i class="bi bi-eye"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <button type="submit" class="btn btn-primary w-100 py-2.5 fw-bold shadow-sm rounded-2">
+                    <i class="bi bi-box-arrow-in-right me-2"></i> Access Intelligence Dashboard
+                </button>
+            </form>
+
+            <div class="alert alert-info border-0 bg-info-subtle text-info-emphasis mt-4 p-3 rounded-2 small mb-0">
+                <div class="fw-bold mb-1"><i class="bi bi-key-fill me-1"></i> Prototype Credentials</div>
+                <div>Username: <code>admin</code></div>
+                <div>Password: <code>admin123</code></div>
+            </div>
+
+            <div class="text-center mt-4 text-muted extra-small">
+                <i class="bi bi-shield-lock me-1"></i> Prototype Demonstration • SIH26017
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,235 @@
+{% extends "base.html" %}
+
+{% block title %}Executive Intelligence Dashboard - LADIS Portal{% endblock %}
+
+{% block content %}
+<!-- Dashboard Header -->
+<div class="d-flex flex-column flex-md-row justify-content-between align-items-md-center mb-4 gap-3">
+    <div>
+        <div class="d-flex align-items-center gap-2 mb-1">
+            <h3 class="fw-bold text-navy-900 m-0">Land Acquisition Intelligence Dashboard</h3>
+            <span class="badge bg-secondary-subtle text-dark border px-2.5 py-1">Predictive Analytics • Prototype</span>
+        </div>
+        <p class="text-slate-500 small m-0">Monitor acquisition progress, identify potential delays early, and prioritize cases for timely review.</p>
+    </div>
+    <div class="d-flex gap-2">
+        <a href="{{ url_for('add_case_page') }}" class="btn btn-primary btn-sm shadow-sm font-medium rounded-2">
+            <i class="bi bi-plus-lg me-1"></i> Register Case
+        </a>
+        <a href="{{ url_for('alerts') }}" class="btn btn-outline-danger btn-sm shadow-sm font-medium rounded-2">
+            <i class="bi bi-bell-fill me-1"></i> High Risk Alerts
+        </a>
+    </div>
+</div>
+
+<!-- 5 Metric Cards -->
+<div class="row g-3 mb-4">
+    <div class="col-12 col-sm-6 col-md-4 col-xl">
+        <div class="kpi-card border-0">
+            <div class="d-flex justify-content-between align-items-start">
+                <div>
+                    <div class="kpi-title">Total Cases</div>
+                    <div class="kpi-value text-navy-900">{{ stats.total_cases }}</div>
+                    <div class="text-slate-500 extra-small mt-1">Active monitored cases</div>
+                </div>
+                <div class="kpi-icon-box bg-primary-subtle text-primary">
+                    <i class="bi bi-folder2-open"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-12 col-sm-6 col-md-4 col-xl">
+        <div class="kpi-card border-0">
+            <div class="d-flex justify-content-between align-items-start">
+                <div>
+                    <div class="kpi-title">High Risk</div>
+                    <div class="kpi-value text-danger">{{ stats.high_risk }}</div>
+                    <div class="text-slate-500 extra-small mt-1">Severe delay risk flagged</div>
+                </div>
+                <div class="kpi-icon-box bg-danger-subtle text-danger">
+                    <i class="bi bi-exclamation-octagon"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-12 col-sm-6 col-md-4 col-xl">
+        <div class="kpi-card border-0">
+            <div class="d-flex justify-content-between align-items-start">
+                <div>
+                    <div class="kpi-title">Medium Risk</div>
+                    <div class="kpi-value text-warning-emphasis">{{ stats.medium_risk }}</div>
+                    <div class="text-slate-500 extra-small mt-1">Moderate attention required</div>
+                </div>
+                <div class="kpi-icon-box bg-warning-subtle text-warning-emphasis">
+                    <i class="bi bi-exclamation-triangle"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-12 col-sm-6 col-md-4 col-xl">
+        <div class="kpi-card border-0">
+            <div class="d-flex justify-content-between align-items-start">
+                <div>
+                    <div class="kpi-title">Low Risk</div>
+                    <div class="kpi-value text-success">{{ stats.low_risk }}</div>
+                    <div class="text-slate-500 extra-small mt-1">Operating within timeline</div>
+                </div>
+                <div class="kpi-icon-box bg-success-subtle text-success">
+                    <i class="bi bi-check-circle"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-12 col-sm-6 col-md-4 col-xl">
+        <div class="kpi-card border-0">
+            <div class="d-flex justify-content-between align-items-start">
+                <div>
+                    <div class="kpi-title">Avg Pending</div>
+                    <div class="kpi-value text-navy-900">{{ stats.avg_pending_days }} <span class="fs-6 text-muted font-normal">days</span></div>
+                    <div class="text-slate-500 extra-small mt-1">Current workflow duration</div>
+                </div>
+                <div class="kpi-icon-box bg-info-subtle text-info-emphasis">
+                    <i class="bi bi-hourglass-split"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Priority Review Queue Widget (New Feature 1) -->
+<div class="card border-0 shadow-sm rounded-3 mb-4">
+    <div class="card-header bg-white border-bottom py-3 d-flex justify-content-between align-items-center">
+        <div>
+            <h6 class="m-0 fw-bold text-navy-900"><i class="bi bi-list-task me-2 text-primary"></i>Priority Review Queue (Decision-Support Prioritization)</h6>
+            <span class="text-slate-500 extra-small">Cases ranked automatically by risk level, delay probability, and pending duration</span>
+        </div>
+        <a href="{{ url_for('view_cases') }}" class="btn btn-outline-secondary btn-sm rounded-2">View All Cases</a>
+    </div>
+    <div class="card-body p-0">
+        <div class="table-responsive">
+            <table class="table table-hover align-middle mb-0">
+                <thead class="bg-light">
+                    <tr>
+                        <th class="ps-3">Priority</th>
+                        <th>Case ID</th>
+                        <th>District</th>
+                        <th>Current Stage</th>
+                        <th>Days Pending</th>
+                        <th>Predicted Risk</th>
+                        <th>Probability</th>
+                        <th>Recommended Review Action</th>
+                        <th class="text-end pe-3">Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% if priority_queue %}
+                        {% for case in priority_queue %}
+                        <tr>
+                            <td class="ps-3">
+                                <span class="badge badge-priority-{{ case.priority_badge|lower }} rounded-1 px-2.5 py-1">
+                                    {{ case.priority_rank }}
+                                </span>
+                            </td>
+                            <td class="fw-bold text-primary">{{ case.case_id }}</td>
+                            <td>{{ case.district }}</td>
+                            <td><span class="badge bg-light text-dark border">{{ case.current_stage }}</span></td>
+                            <td>
+                                <span class="fw-semibold {% if case.days_pending > 90 %}text-danger{% else %}text-dark{% endif %}">
+                                    {{ case.days_pending }} days
+                                </span>
+                            </td>
+                            <td>
+                                {% if case.risk_level == 'HIGH' %}
+                                    <span class="badge badge-risk-high">HIGH</span>
+                                {% elif case.risk_level == 'MEDIUM' %}
+                                    <span class="badge badge-risk-medium">MEDIUM</span>
+                                {% else %}
+                                    <span class="badge badge-risk-low">LOW</span>
+                                {% endif %}
+                            </td>
+                            <td><strong class="small">{{ case.risk_probability }}%</strong></td>
+                            <td class="small text-slate-600 max-w-xs">{{ case.recommended_review }}</td>
+                            <td class="text-end pe-3">
+                                <a href="{{ url_for('case_details', case_id=case.case_id) }}" class="btn btn-sm btn-light border rounded-2 fw-medium">
+                                    View Case
+                                </a>
+                            </td>
+                        </tr>
+                        {% endfor %}
+                    {% else %}
+                        <tr>
+                            <td colspan="9" class="text-center py-4 text-muted">No cases in review queue.</td>
+                        </tr>
+                    {% endif %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<!-- Charts Grid -->
+<div class="row g-4 mb-4">
+    <!-- Chart 1: Risk Distribution -->
+    <div class="col-12 col-lg-6 col-xl-4">
+        <div class="card border-0 shadow-sm rounded-3 h-100">
+            <div class="card-header bg-white py-3">
+                <h6 class="m-0 fw-bold text-navy-900"><i class="bi bi-pie-chart-fill me-2 text-primary"></i>Risk Level Distribution</h6>
+            </div>
+            <div class="card-body d-flex align-items-center justify-content-center p-3">
+                <canvas id="riskDistributionChart" style="max-height: 250px;"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <!-- Chart 2: Cases by Stage -->
+    <div class="col-12 col-lg-6 col-xl-4">
+        <div class="card border-0 shadow-sm rounded-3 h-100">
+            <div class="card-header bg-white py-3">
+                <h6 class="m-0 fw-bold text-navy-900"><i class="bi bi-bar-chart-fill me-2 text-primary"></i>Cases by Acquisition Stage</h6>
+            </div>
+            <div class="card-body p-3">
+                <canvas id="stageChart" style="max-height: 250px;"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <!-- Chart 3: District Risk Stacked Bar -->
+    <div class="col-12 col-lg-12 col-xl-4">
+        <div class="card border-0 shadow-sm rounded-3 h-100">
+            <div class="card-header bg-white py-3">
+                <h6 class="m-0 fw-bold text-navy-900"><i class="bi bi-geo-alt-fill me-2 text-primary"></i>District-wise Risk Overview</h6>
+            </div>
+            <div class="card-body p-3">
+                <canvas id="districtRiskChart" style="max-height: 250px;"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <!-- Chart 4: Average Pending Duration Bottleneck Analysis -->
+    <div class="col-12">
+        <div class="card border-0 shadow-sm rounded-3">
+            <div class="card-header bg-white py-3 d-flex justify-content-between align-items-center">
+                <div>
+                    <h6 class="m-0 fw-bold text-navy-900"><i class="bi bi-hourglass-bottom me-2 text-warning-emphasis"></i>Process Bottleneck Analysis (Average Pending Days by Stage)</h6>
+                    <span class="text-slate-500 extra-small">Stages with higher observed average pending duration indicate potential administrative workflow bottlenecks.</span>
+                </div>
+            </div>
+            <div class="card-body p-3">
+                <canvas id="avgPendingChart" style="max-height: 240px;"></canvas>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+    window.dashboardStats = {{ stats | tojson }};
+    window.districtAnalytics = {{ district_analytics | tojson }};
+</script>
+<script src="{{ url_for('static', filename='js/dashboard.js') }}"></script>
+{% endblock %}
